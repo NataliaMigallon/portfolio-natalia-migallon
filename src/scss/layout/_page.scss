@@ -1,0 +1,32 @@
+// body {
+//   padding: 2rem;
+//   height: 100vh;
+//   background-image: url('../images/bg-adalab.png');
+//   background-color: $color-bg;
+//   font-family: $font-main;
+// }
+
+body {
+  //background-image: linear-gradient(rgb(21, 218, 158), rgb(240, 156, 77));
+  background-image: linear-gradient(rgb(21, 218, 208), rgb(226, 175, 128));
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100%;
+  min-height: 100vh;
+}
+.eye {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  &__left {
+    font-size: 150px;
+    color: white;
+    -webkit-transform: rotate(90deg);
+  }
+  &__right {
+    font-size: 150px;
+    color: white;
+    -webkit-transform: rotate(90deg);
+  }
+}
