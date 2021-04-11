@@ -8,7 +8,7 @@
 
 body {
   //background-image: linear-gradient(rgb(21, 218, 158), rgb(240, 156, 77));
-  background-image: linear-gradient(rgb(21, 218, 208), rgb(226, 175, 128));
+  background-image: linear-gradient(rgb(21, 218, 208), rgb(226, 175, 128) 60%);
   background-repeat: no-repeat;
   width: 100vw;
   height: 100%;
@@ -19,14 +19,37 @@ body {
   flex-direction: row;
   justify-content: space-evenly;
   text-align: center;
+  //margin-left: 20px;
   &__left {
-    font-size: 150px;
+    font-size: 100px;
     color: white;
     -webkit-transform: rotate(90deg);
   }
   &__right {
-    font-size: 150px;
+    font-size: 100px;
     color: white;
     -webkit-transform: rotate(90deg);
   }
+}
+.nose {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: white;
+  margin-right: 20px;
+  margin-top: -18px;
+  -webkit-transform: rotate(90deg);
+}
+.mouth {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  color: white;
+  //margin-right: 10px;
+  margin-top: 18px;
+  -webkit-transform: rotate(90deg);
 }
