@@ -90,16 +90,20 @@
   transform: translate3d(0px, 0px, 0px);
 }
 .header__nav {
-  background-image: linear-gradient(rgb(21, 218, 208), rgb(226, 175, 128) 60%);
-  background-repeat: no-repeat;
+  // background-image: linear-gradient(
+  //   45deg,
+  //   rgb(21, 218, 208),
+  //   rgb(226, 175, 128) 60%
+  // );
+  //background-repeat: no-repeat;
   //bottom: 0;
   //height: 100%; //esconde por arriba
   left: 13px;
   //overflow-y: scroll;
   position: fixed;
-  //position: absolute;
-  top: 40px;
-  transform: translate3d(0px, -150%, 0px); //esconde por arriba
+  //position: relative;
+  top: 60px;
+  transform: translate3d(0px, -180%, 0px); //esconde por arriba
   transition: transform 0.35s cubic-bezier(0.05, 1.04, 0.72, 0.98) 0s;
   width: 100%; //alinea a la izquierda
   z-index: 1001;
