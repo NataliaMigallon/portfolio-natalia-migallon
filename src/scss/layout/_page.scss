@@ -18,19 +18,24 @@ body {
   text-align: center;
   .eye {
     position: relative;
+    &__down:active {
+      transform: scale(1.5, 1.5);
+    }
     &__down {
       font-size: 100px;
       color: white;
       -webkit-transform: rotate(90deg);
       cursor: pointer;
+      transition-property: font-size;
+      transition-duration: 1s;
+    }
+    &__down:active {
+      font-size: 80px;
+      -webkit-transform: rotate(90deg);
     }
     &__up {
       position: absolute;
       top: -60px;
-      // top: 260px;
-      // bottom: 560px;
-      // left: 0;
-      // right: -5px;
       font-size: 100px;
       color: white;
       -webkit-transform: rotate(90deg);
@@ -39,7 +44,7 @@ body {
     &__text {
       position: absolute;
       top: 15px;
-      right: 50px;
+      right: -5px;
       font-size: 18px;
       color: white;
       width: 68px;
