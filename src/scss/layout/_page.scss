@@ -1,4 +1,4 @@
-body {
+.page-home {
   //background-image: linear-gradient(rgb(21, 218, 158), rgb(240, 156, 77));
   background-image: linear-gradient(rgb(21, 218, 208), rgb(226, 175, 128) 60%);
   background-repeat: no-repeat;
@@ -30,7 +30,7 @@ body {
       -webkit-transform: rotate(90deg);
       cursor: pointer;
       transition-property: font-size;
-      transition-duration: 1s;
+      transition-duration: 1ms;
       @media all and (min-width: 768px) {
         font-size: 130px;
       }
@@ -39,7 +39,7 @@ body {
       }
     }
     &__down:active {
-      font-size: 80px;
+      font-size: 97px;
       -webkit-transform: rotate(90deg);
     }
     &__up {
