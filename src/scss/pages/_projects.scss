@@ -1,0 +1,27 @@
+.page-projects {
+  // background-image: linear-gradient(rgb(253, 253, 253), rgb(21, 218, 208));
+  // background-repeat: no-repeat;
+  background-color: white;
+  width: 100vw;
+  height: 100%;
+  min-height: 100vh;
+}
+.projects {
+  &__line {
+    border-left: thick solid rgb(21, 218, 208);
+    height: 168px;
+    margin-left: 40px;
+    //padding-bottom: 400px;
+  }
+  &__title {
+    font-family: "Kiwi Maru", serif;
+    color: rgb(21, 218, 208);
+    text-transform: lowercase;
+    padding: 155px 25px 25px 55px;
+  }
+  &__text {
+    font-family: "Kiwi Maru", serif;
+    color: grey;
+    padding: 0 25px 0 10px;
+  }
+}

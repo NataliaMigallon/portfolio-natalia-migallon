@@ -10,8 +10,19 @@
     font-family: "Kiwi Maru", serif;
   }
 }
-
 .page-about .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  padding: 1rem;
+  color: black;
+  text-align: center;
+  &__copy {
+    font-family: "Kiwi Maru", serif;
+  }
+}
+.page-projects .footer {
   position: fixed;
   left: 0;
   bottom: 0;
