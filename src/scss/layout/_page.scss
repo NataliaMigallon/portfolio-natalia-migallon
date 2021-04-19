@@ -16,7 +16,12 @@
     padding-top: 300px;
   }
 }
-
+.main__title {
+  font-family: "Kiwi Maru", serif;
+  font-weight: 300;
+  color: white;
+  padding-bottom: 30px;
+}
 .eye-wrapper {
   display: flex;
   flex-direction: row;
@@ -61,8 +66,9 @@
     &__text {
       position: absolute;
       top: 15px;
-      right: -5px;
-      font-size: 18px;
+      right: -7px;
+      font-family: "Kiwi Maru", serif;
+      font-size: 13px;
       color: white;
       width: 68px;
       @media all and (min-width: 768px) {

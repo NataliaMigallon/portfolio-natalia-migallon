@@ -7,13 +7,21 @@
   min-height: 100vh;
 }
 .about {
+  &__line {
+    border-left: thick solid rgb(21, 218, 208);
+    height: 168px;
+    margin-left: 40px;
+    //padding-bottom: 400px;
+  }
   &__title {
     font-family: "Kiwi Maru", serif;
     color: rgb(21, 218, 208);
+    text-transform: lowercase;
     padding: 155px 25px 25px 55px;
   }
   &__text {
     font-family: "Kiwi Maru", serif;
-    padding: 10px 25px 25px 55px;
+    color: grey;
+    padding: 0 25px 0 10px;
   }
 }
