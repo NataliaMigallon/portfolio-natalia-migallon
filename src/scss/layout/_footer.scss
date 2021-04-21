@@ -11,11 +11,12 @@
   }
 }
 .page-about .footer {
+  background-color: white;
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100vw;
-  padding: 1rem;
+  padding: 10px;
   color: black;
   text-align: center;
   &__copy {
@@ -23,6 +24,7 @@
   }
 }
 .page-projects .footer {
+  background-color: white;
   position: fixed;
   left: 0;
   bottom: 0;

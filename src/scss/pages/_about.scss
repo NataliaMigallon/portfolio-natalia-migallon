@@ -1,19 +1,40 @@
 .page-about {
   // background-image: linear-gradient(rgb(253, 253, 253), rgb(21, 218, 208));
   // background-repeat: no-repeat;
-  background-color: white;
-  width: 100vw;
-  height: 100%;
-  min-height: 100vh;
+  //background-color: white;
+  // background-image: url(/assets/images/nat-about.png);
+  // background-position: 50%;
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // height: 500px;
+  // opacity: 0.87;
+  background-color: rgb(83, 78, 78);
+  //width: 100%;
+  // height: 100%;
+  // min-height: 100vh;
 }
 .about {
+  &__photo {
+    width: 100vw;
+    margin-top: -48px;
+    opacity: 0.65;
+  }
   &__line {
-    border-left: thick solid rgb(21, 218, 208);
-    height: 168px;
+    //border-left: thick solid rgb(21, 218, 208);
+    border-width: 3px;
+    border-style: solid;
+    border-right: 0;
+    border-image: linear-gradient(
+        to bottom,
+        rgb(21, 218, 208),
+        rgba(0, 0, 0, 0)
+      )
+      1 100%;
+    // height: 100%;
     margin-left: 40px;
-    //padding-bottom: 400px;
   }
   &__title {
+    transform: matrix(1, 0, 0, 1, 0, 0);
     font-family: "Kiwi Maru", serif;
     color: rgb(21, 218, 208);
     text-transform: lowercase;
@@ -22,6 +43,6 @@
   &__text {
     font-family: "Kiwi Maru", serif;
     color: grey;
-    padding: 0 25px 0 10px;
+    padding: 0 25px 42px 15px;
   }
 }
