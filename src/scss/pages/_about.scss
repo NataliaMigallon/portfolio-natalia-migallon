@@ -19,6 +19,53 @@
     margin-top: -48px;
     opacity: 0.65;
   }
+  &__title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-right: 32px;
+    &--h1 {
+      //transform: matrix(1, 0, 0, 1, 0, 0);
+      font-family: "Kiwi Maru", serif;
+      font-size: 40px;
+      color: rgb(21, 218, 208);
+      text-transform: lowercase;
+      padding: 0 5px 19px 0;
+      //padding: 0 25px 25px 55px;
+    }
+    &--icon {
+      font-family: "Kiwi Maru", serif;
+      font-size: 40px;
+      font-weight: 800;
+      color: rgb(21, 218, 208);
+      -webkit-transform: rotate(90deg);
+      padding: 0 7px 7px 0;
+      //margin: 0 0 -11px 30px;
+    }
+  }
+  &__cv {
+    width: 150px;
+    height: 38px;
+    background-color: rgb(226, 175, 128);
+    opacity: 0.87;
+    border-radius: 8px;
+    border-style: none;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.32);
+    font-family: "Kiwi Maru", serif;
+    font-size: 17px;
+    color: rgb(83, 78, 78);
+    padding: 0 0 3px 0;
+    margin: 0 25px 18px 15px;
+  }
+  &__cv2 {
+    font-family: "Kiwi Maru", serif;
+    font-size: 22px;
+    font-weight: 300;
+    color: rgb(226, 175, 128);
+    text-decoration: underline 2px;
+    padding: 0 0 20px 15px;
+  }
   &__line {
     border-width: 3px;
     border-style: solid;
@@ -29,18 +76,11 @@
         rgba(0, 0, 0, 0)
       )
       1 100%;
-    // height: 100%;
     margin-left: 40px;
-  }
-  &__title {
-    transform: matrix(1, 0, 0, 1, 0, 0);
-    font-family: "Kiwi Maru", serif;
-    color: rgb(21, 218, 208);
-    text-transform: lowercase;
-    padding: 155px 25px 25px 55px;
   }
   &__text {
     font-family: "Kiwi Maru", serif;
+    font-size: 20px;
     color: grey;
     padding: 0 25px 42px 15px;
   }
