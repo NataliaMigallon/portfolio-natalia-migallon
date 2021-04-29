@@ -3,7 +3,7 @@
   // background-repeat: no-repeat;
   //background-color: rgb(83, 78, 78);
   background-color: #fff;
-  background-image: linear-gradient(#eee 0.1em, transparent 0.1em);
+  background-image: linear-gradient(#f6f6f6 0.1em, transparent 0.1em);
   background-size: 100% 1.2em;
 }
 .projects {
@@ -44,20 +44,52 @@
     margin-left: 20px;
   }
   &__text {
-    font-family: "Kiwi Maru", serif;
-    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
     color: grey;
-    padding: 0 25px 42px 15px;
+    padding: 0 25px 10px 15px;
   }
   &__image {
     width: 200px;
-    padding: 0 25px 42px 15px;
+    padding: 0 25px 0 15px;
   }
-  &__tools {
+  &__title-works {
     font-family: "Kiwi Maru", serif;
     font-size: 20px;
-    font-weight: 300;
+    color: rgb(21, 218, 208);
+    padding: 0 25px 0 15px;
+  }
+  &__tools {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
     color: rgb(226, 175, 128);
-    padding: 0 25px 42px 15px;
+    padding: 0 25px 0 15px;
+  }
+  &__btn-web {
+    width: 50px;
+    height: 28px;
+    background-color: grey;
+    opacity: 0.87;
+    border-radius: 5px;
+    border-style: none;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+    margin: 0 2px 45px 15px;
+  }
+  &__btn-code {
+    width: 80px;
+    height: 28px;
+    background-color: grey;
+    opacity: 0.87;
+    border-radius: 5px;
+    border-style: none;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+    margin: 0 5px 55px 5px;
   }
 }

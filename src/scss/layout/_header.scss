@@ -30,7 +30,6 @@
 }
 .hamburger {
   position: fixed;
-  //background-color: transparent;
   left: 0;
   top: 15px;
   height: 30px;
@@ -60,16 +59,6 @@
   -webkit-transition: all 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
   transition: all 0.4s cubic-bezier(0.05, 1.04, 0.72, 0.98);
 }
-// .hamburger:hover .-top {
-//   -webkit-transform: translateY(-100%);
-//   -ms-transform: translateY(-100%);
-//   transform: translateY(-100%);
-// }
-// .hamburger:hover .-bottom {
-//   -webkit-transform: translateY(100%);
-//   -ms-transform: translateY(100%);
-//   transform: translateY(100%);
-// }
 .hamburger.is-active .-top {
   -webkit-transform: translateY(290%) rotate(45deg) !important;
   -ms-transform: translateY(290%) rotate(45deg) !important;
@@ -85,47 +74,48 @@
 }
 .header__nav.is_active {
   transform: translate3d(0px, 0px, 0px);
-  //visibility: visible;
-  // transition-duration: 1s;
-  // -webkit-transition-duration: 1s;
 }
 .header__nav {
-  // display: inline-block;
-  // background-image: radial-gradient(
-  //   ellipse,
-  //   rgb(255, 255, 255),
-  //   (transparent) 60%
-  // );
-  // background-repeat: no-repeat;
-  //bottom: 0;
-  //height: 100%; //esconde por arriba
-  //overflow-y: scroll;
   position: fixed;
   top: 60px;
   left: 20px;
-  transform: translate3d(0px, -180%, 0px); //esconde por arriba
-  //transition: transform 0.35s cubic-bezier(0.05, 1.04, 0.72, 0.98) 0s;
-  //width: 100%; //alinea a la izquierda
+  transform: translate3d(0px, -180%, 0px);
   z-index: 1001;
-  // transition-duration: 1s;
-  // -webkit-transition-duration: 1s;
-  // &.is_active {
-  //   visibility: visible;
-  //   transition-duration: 1s;
-  //   -webkit-transition-duration: 1s;
-  // }
 }
-// .header__nav ul {
-//   margin-top: 20px;
-//   margin-left: 13px;
-// }
+
 .header__nav ul li a {
   font-family: "Kiwi Maru", serif;
   font-size: 25px;
   color: rgb(226, 175, 128);
   line-height: 50px;
+  // animation-name: showMenuText;
+  // animation-duration: 2s;
+  // animation-iteration-count: 2s;
+  // animation-timing-function: linear;
+  // @keyframes showMenuText {
+  //   0% {
+  //     color: rgb(226, 175, 128);
+  //     opacity: 0;
+  //   }
+  //   15% {
+  //     color: rgb(226, 175, 128);
+  //     opacity: 0.15;
+  //   }
+  //   25% {
+  //     color: rgb(226, 175, 128);
+  //     opacity: 0.3;
+  //   }
+  //   50% {
+  //     color: rgb(226, 175, 128);
+  //     opacity: 0.5;
+  //   }
+  //   75% {
+  //     color: rgb(226, 175, 128);
+  //     opacity: 0.85;
+  //   }
+  //   100% {
+  //     color: rgb(226, 175, 128);
+  //     opacity: 1;
+  //   }
+  // }
 }
-// .background-hamb {
-//   background-color: rgb(83, 78, 78);
-//   opacity: 0.67;
-// }

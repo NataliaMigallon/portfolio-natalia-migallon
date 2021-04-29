@@ -9,9 +9,9 @@
 }
 .page__main {
   text-align: center;
-  padding-top: 200px;
+  padding-top: 180px;
   @media all and (min-width: 768px) {
-    padding-top: 200px;
+    padding-top: 300px;
   }
   @media all and (min-width: 1200px) {
     padding-top: 300px;
@@ -22,9 +22,9 @@
   font-size: 30px;
   font-weight: 300;
   color: white;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
   @media all and (min-width: 768px) {
-    font-size: 75px;
+    font-size: 60px;
   }
   @media all and (min-width: 1200px) {
     padding-top: 300px;
@@ -41,66 +41,84 @@
       font-size: 100px;
       color: white;
       -webkit-transform: rotate(90deg);
+      -moz-transform: rotate(90deg);
       cursor: pointer;
-      // transition-property: font-size;
-      // transition-duration: 1ms;
-      animation-name: demo;
+      animation-name: borderEyes;
       animation-duration: 4s;
       animation-iteration-count: infinite;
-      animation-timing-function: ease-in-out;
-      @keyframes demo {
+      animation-timing-function: linear;
+      @keyframes borderEyes {
         0% {
-          -webkit-text-stroke: 2px rgb(171, 235, 231);
-          //font-size: 100px;
+          -webkit-text-stroke: 2px rgb(255, 255, 255);
         }
         15% {
           -webkit-text-stroke: 2px rgb(174, 240, 236);
-          //font-size: 110px;
-          //transform: scale(1, 1);
         }
         25% {
           -webkit-text-stroke: 2px rgb(128, 226, 221);
-          //font-size: 110px;
-          //transform: scale(1, 1);
         }
         50% {
           -webkit-text-stroke: 2px rgb(21, 218, 208);
-          //font-size: 110px;
-          //transform: scale(1, 1);
         }
         75% {
           -webkit-text-stroke: 2px rgb(128, 226, 221);
-          //font-size: 110px;
-          //transform: scale(1, 1);
         }
         88% {
           -webkit-text-stroke: 2px rgb(174, 240, 236);
-          //font-size: 110px;
-          //transform: scale(1, 1);
         }
         100% {
           -webkit-text-stroke: 2px rgb(255, 255, 255);
-          //font-size: 100px;
         }
       }
       @media all and (min-width: 768px) {
-        font-size: 250px;
+        font-size: 200px;
       }
       @media all and (min-width: 1200px) {
         font-size: 160px;
       }
     }
-    &__down:active {
-      font-size: 97px;
-      -webkit-transform: rotate(90deg);
-    }
+    // &__down:active {
+    //   font-size: 97px;
+    //   -webkit-transform: rotate(90deg);
+    // }
     &__up {
       position: absolute;
       top: -60px;
       font-size: 100px;
       color: white;
       -webkit-transform: rotate(90deg);
+      -moz-transform: rotate(90deg);
       cursor: pointer;
+      animation-name: textSize;
+      animation-duration: 2s;
+      animation-iteration-count: 2s;
+      animation-timing-function: linear;
+      @keyframes textSize {
+        0% {
+          color: white;
+          opacity: 0;
+        }
+        15% {
+          color: white;
+          opacity: 0.15;
+        }
+        25% {
+          color: white;
+          opacity: 0.3;
+        }
+        50% {
+          color: white;
+          opacity: 0.5;
+        }
+        75% {
+          color: white;
+          opacity: 0.85;
+        }
+        100% {
+          color: white;
+          opacity: 1;
+        }
+      }
       @media all and (min-width: 768px) {
         top: -84px;
         font-size: 130px;
@@ -113,11 +131,44 @@
     &__text {
       position: absolute;
       top: 15px;
-      right: -7px;
+      //right: 5px;
+      right: -9px;
       font-family: "Kiwi Maru", serif;
-      font-size: 13px;
+      font-size: 15px;
       color: white;
-      width: 68px;
+      text-transform: uppercase;
+      // width: 68px;
+      width: 77px;
+      animation-name: showText;
+      animation-duration: 2s;
+      animation-iteration-count: 2s;
+      animation-timing-function: linear;
+      @keyframes showText {
+        0% {
+          color: white;
+          opacity: 0;
+        }
+        15% {
+          color: white;
+          opacity: 0.15;
+        }
+        25% {
+          color: white;
+          opacity: 0.3;
+        }
+        50% {
+          color: white;
+          opacity: 0.5;
+        }
+        75% {
+          color: white;
+          opacity: 0.85;
+        }
+        100% {
+          color: white;
+          opacity: 1;
+        }
+      }
       @media all and (min-width: 768px) {
         right: 8px;
         font-size: 20px;
@@ -148,8 +199,9 @@
   margin-right: 20px;
   margin-top: -18px;
   -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
   @media all and (min-width: 768px) {
-    font-size: 75px;
+    font-size: 60px;
   }
   @media all and (min-width: 1200px) {
     font-size: 70px;
@@ -159,9 +211,10 @@
   font-size: 100px;
   color: white;
   -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
   display: inline-block;
   @media all and (min-width: 768px) {
-    font-size: 250px;
+    font-size: 200px;
     margin-left: 7px;
   }
   @media all and (min-width: 1200px) {

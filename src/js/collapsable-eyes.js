@@ -16,3 +16,10 @@ function handleCollap() {
 //     const parentEye = clickedEye.parentNode;
 //     parentEye.classList.toggle("js-collapsed");
 // }
+// const jaja = eyesDown.animate(
+//   [{ animation: "color(white)" }, { animation: "color(red)" }],
+//   500
+// );
+// jaja.addEventListener("click", function () {
+//   eyesDown.style.animation = color("red");
+// });
