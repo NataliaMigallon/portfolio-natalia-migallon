@@ -19,9 +19,16 @@
 }
 .main__title {
   font-family: "Kiwi Maru", serif;
+  font-size: 30px;
   font-weight: 300;
   color: white;
   padding-bottom: 30px;
+  @media all and (min-width: 768px) {
+    font-size: 75px;
+  }
+  @media all and (min-width: 1200px) {
+    padding-top: 300px;
+  }
 }
 .eye-wrapper {
   display: flex;
@@ -35,10 +42,49 @@
       color: white;
       -webkit-transform: rotate(90deg);
       cursor: pointer;
-      transition-property: font-size;
-      transition-duration: 1ms;
+      // transition-property: font-size;
+      // transition-duration: 1ms;
+      animation-name: demo;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+      @keyframes demo {
+        0% {
+          -webkit-text-stroke: 2px rgb(171, 235, 231);
+          //font-size: 100px;
+        }
+        15% {
+          -webkit-text-stroke: 2px rgb(174, 240, 236);
+          //font-size: 110px;
+          //transform: scale(1, 1);
+        }
+        25% {
+          -webkit-text-stroke: 2px rgb(128, 226, 221);
+          //font-size: 110px;
+          //transform: scale(1, 1);
+        }
+        50% {
+          -webkit-text-stroke: 2px rgb(21, 218, 208);
+          //font-size: 110px;
+          //transform: scale(1, 1);
+        }
+        75% {
+          -webkit-text-stroke: 2px rgb(128, 226, 221);
+          //font-size: 110px;
+          //transform: scale(1, 1);
+        }
+        88% {
+          -webkit-text-stroke: 2px rgb(174, 240, 236);
+          //font-size: 110px;
+          //transform: scale(1, 1);
+        }
+        100% {
+          -webkit-text-stroke: 2px rgb(255, 255, 255);
+          //font-size: 100px;
+        }
+      }
       @media all and (min-width: 768px) {
-        font-size: 130px;
+        font-size: 250px;
       }
       @media all and (min-width: 1200px) {
         font-size: 160px;
@@ -103,7 +149,7 @@
   margin-top: -18px;
   -webkit-transform: rotate(90deg);
   @media all and (min-width: 768px) {
-    font-size: 50px;
+    font-size: 75px;
   }
   @media all and (min-width: 1200px) {
     font-size: 70px;
@@ -115,7 +161,7 @@
   -webkit-transform: rotate(90deg);
   display: inline-block;
   @media all and (min-width: 768px) {
-    font-size: 150px;
+    font-size: 250px;
     margin-left: 7px;
   }
   @media all and (min-width: 1200px) {
