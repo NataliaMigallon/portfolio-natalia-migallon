@@ -1,9 +1,11 @@
 "use strict";
 
 const eyesDown = document.querySelectorAll(".js-down");
+const mouth = document.querySelectorAll(".js-mouth");
 
 for (let index = 0; index < eyesDown.length; index++) {
   eyesDown[index].addEventListener("click", handleCollap);
+  mouth[index].addEventListener("click", handleCollap);
 }
 
 function handleCollap() {
