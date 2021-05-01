@@ -53,6 +53,9 @@
   }
 }
 .page-about .footer {
+  position: absolute;
+  z-index: 999;
+  margin-top: -60px;
   background-color: rgb(21, 218, 208);
   opacity: 0.68;
   display: flex;

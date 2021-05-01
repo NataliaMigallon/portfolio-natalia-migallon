@@ -11,6 +11,9 @@
     opacity: 0.65;
   }
   &__title {
+    position: absolute;
+    z-index: 999;
+    margin-top: -132px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -37,7 +40,7 @@
     width: 150px;
     height: 38px;
     background-color: rgb(226, 175, 128);
-    opacity: 0.87;
+    //opacity: 0.87;
     border-radius: 8px;
     border-style: none;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.32);
@@ -57,6 +60,9 @@
   //   padding: 0 0 20px 15px;
   // }
   &__line {
+    position: absolute;
+    z-index: 999;
+    margin-top: -60px;
     border-width: 3px;
     border-style: solid;
     border-right: 0;
