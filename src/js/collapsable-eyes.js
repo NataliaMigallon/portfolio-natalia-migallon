@@ -11,22 +11,20 @@ function handleCollap() {
   const parentEye = this.parentNode;
   parentEye.classList.toggle("js-collapsed");
 }
-// for (let index = 0; index < mouth.length; index++) {
-//   mouth[index].addEventListener("click", handleCollap2);
-// }
-// function handleCollap2(event) {
-//   const jaja = event.currentTarget;
-//   jaja.classList.toggle("js-collapsed");
-// }
+eyesDown.addEventListener("click", handleCollap);
+
 // function handleCollap(event) {
 //     const clickedEye = event.currentTarget;
 //     const parentEye = clickedEye.parentNode;
 //     parentEye.classList.toggle("js-collapsed");
 // }
-// const jaja = eyesDown.animate(
-//   [{ animation: "color(white)" }, { animation: "color(red)" }],
-//   500
-// );
-// jaja.addEventListener("click", function () {
-//   eyesDown.style.animation = color("red");
-// });
+
+// for (let index = 0; index < mouth.length; index++) {
+//   mouth[index].addEventListener("click", handleCollap2);
+// }
+
+function handleCollap2(event) {
+  event.currentTarget.value === mouth.classList.toggle("mouth__text");
+  //mouth.classList.toggle("mouth__text") === event.currentTarget.value;
+}
+mouth.addEventListener("click", handleCollap2);
