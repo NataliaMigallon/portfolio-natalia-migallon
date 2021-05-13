@@ -9,7 +9,7 @@
 }
 .page__main {
   text-align: center;
-  padding-top: 180px;
+  padding-top: 120px;
   @media all and (min-width: 768px) {
     padding-top: 300px;
   }
@@ -44,33 +44,6 @@
       -webkit-transform: rotate(90deg);
       -moz-transform: rotate(90deg);
       cursor: pointer;
-      animation-name: borderEyes;
-      animation-duration: 4s;
-      animation-iteration-count: infinite;
-      animation-timing-function: linear;
-      @keyframes borderEyes {
-        0% {
-          -webkit-text-stroke: 2px rgb(255, 255, 255);
-        }
-        15% {
-          -webkit-text-stroke: 2px rgb(174, 240, 236);
-        }
-        25% {
-          -webkit-text-stroke: 2px rgb(128, 226, 221);
-        }
-        50% {
-          -webkit-text-stroke: 2px rgb(21, 218, 208);
-        }
-        75% {
-          -webkit-text-stroke: 2px rgb(128, 226, 221);
-        }
-        88% {
-          -webkit-text-stroke: 2px rgb(174, 240, 236);
-        }
-        100% {
-          -webkit-text-stroke: 2px rgb(255, 255, 255);
-        }
-      }
       @media all and (min-width: 768px) {
         font-size: 200px;
       }
@@ -181,21 +154,44 @@
       }
     }
     &.js-collapsed {
-      .eye__up {
-        display: none;
-      }
-      .eye__text {
-        display: none;
+      .eye__down {
+        animation-name: borderEyes;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        @keyframes borderEyes {
+          0% {
+            -webkit-text-stroke: 2px rgb(255, 255, 255);
+          }
+          15% {
+            -webkit-text-stroke: 2px rgb(174, 240, 236);
+          }
+          25% {
+            -webkit-text-stroke: 2px rgb(128, 226, 221);
+          }
+          50% {
+            -webkit-text-stroke: 2px rgb(21, 218, 208);
+          }
+          75% {
+            -webkit-text-stroke: 2px rgb(128, 226, 221);
+          }
+          88% {
+            -webkit-text-stroke: 2px rgb(174, 240, 236);
+          }
+          100% {
+            -webkit-text-stroke: 2px rgb(255, 255, 255);
+          }
+        }
       }
     }
   }
 }
-
+.js-collapsed {
+  > :not(.js-toggle) {
+    display: none !important;
+  }
+}
 .nose {
-  // display: flex;
-  // flex-direction: column;
-  // justify-content: center;
-  // align-items: center;
   font-family: "Kiwi Maru", serif;
   display: inline-block;
   font-size: 30px;
@@ -233,7 +229,6 @@
     font-size: 18px;
     color: white;
     &.js-mouth__text {
-      display: none;
       font-family: "OpenSans", sans-serif;
       font-size: 18px;
       color: white;

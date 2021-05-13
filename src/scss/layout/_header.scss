@@ -29,7 +29,7 @@
   // }
 }
 .hamburger {
-  position: fixed;
+  position: absolute;
   left: 0;
   top: 15px;
   height: 30px;
@@ -76,7 +76,7 @@
   transform: translate3d(0px, 0px, 0px);
 }
 .header__nav {
-  position: fixed;
+  position: absolute;
   top: 60px;
   left: 20px;
   transform: translate3d(0px, -180%, 0px);

@@ -1,16 +1,15 @@
 "use strict";
 
-const menu = document.querySelector(".hamburger");
-const menu2 = document.querySelector(".header__nav");
+(function () {
+  const menu = document.querySelector(".hamburger");
+  const nav = document.querySelector(".header__nav");
 
-// function toggleMenu() {
-//   this.classList.toggle("is-active");
-//   document.querySelector(".header__nav").classList.toggle("is_active");
-// }
-// menu.addEventListener("click", toggleMenu, false);
-
-function toggleMenu() {
-  this.classList.toggle("is-active");
-  menu2.classList.toggle("is_active");
-}
-menu.addEventListener("click", toggleMenu);
+  function toggleMenu() {
+    this.classList.toggle("is-active");
+    nav.classList.toggle("is_active");
+    // document.querySelector(".header__nav").classList.toggle("is_active");
+  }
+  if (menu) {
+    menu.addEventListener("click", toggleMenu);
+  }
+})();
