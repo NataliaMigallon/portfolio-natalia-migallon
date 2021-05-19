@@ -22,12 +22,18 @@
   font-size: 30px;
   font-weight: 500;
   color: white;
-  padding-bottom: 50px;
   @media all and (min-width: 768px) {
     font-size: 60px;
   }
   @media all and (min-width: 1200px) {
     padding-top: 300px;
+  }
+  &--sub {
+    font-family: "Kiwi Maru", serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(153, 151, 149);
+    padding-bottom: 50px;
   }
 }
 .eye-wrapper {
@@ -37,8 +43,8 @@
   text-align: center;
   .eye {
     position: relative;
+    text-align: center;
     &__down {
-      //font-family: "Kiwi Maru", serif;
       font-size: 100px;
       color: white;
       -webkit-transform: rotate(90deg);
@@ -58,7 +64,6 @@
     &__up {
       position: absolute;
       top: -60px;
-      //font-family: "Kiwi Maru", serif;
       font-size: 100px;
       color: white;
       -webkit-transform: rotate(90deg);
@@ -105,14 +110,14 @@
     }
     &__text {
       position: absolute;
+      text-align: center;
+      width: 100%;
       top: 15px;
-      //right: 5px;
       right: -9px;
       font-family: "Kiwi Maru", serif;
       font-size: 15px;
       color: white;
       text-transform: uppercase;
-      // width: 68px;
       width: 77px;
       animation-name: showText;
       animation-duration: 2s;
@@ -209,9 +214,11 @@
 }
 
 .mouth {
-  //font-family: "Merryweather", sans-serif;
+  position: relative;
+  text-align: center;
   font-size: 100px;
   color: white;
+  top: 20px;
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
   display: inline-block;
@@ -225,21 +232,74 @@
     margin-left: 10px;
   }
   &__text {
-    font-family: "OpenSans", sans-serif;
-    font-size: 18px;
+    font-family: "Kiwi Maru", serif;
+    font-size: 15px;
     color: white;
-    &.js-mouth__text {
-      font-family: "OpenSans", sans-serif;
-      font-size: 18px;
-      color: white;
+    text-transform: uppercase;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    right: 9px;
+    animation-name: showText;
+    animation-duration: 2s;
+    animation-iteration-count: 2s;
+    animation-timing-function: linear;
+    @keyframes showText {
+      0% {
+        color: white;
+        opacity: 0;
+      }
+      15% {
+        color: white;
+        opacity: 0.15;
+      }
+      25% {
+        color: white;
+        opacity: 0.3;
+      }
+      50% {
+        color: white;
+        opacity: 0.5;
+      }
+      75% {
+        color: white;
+        opacity: 0.85;
+      }
+      100% {
+        color: white;
+        opacity: 1;
+      }
     }
   }
+  // &.js-collapsed {
+  //   .mouth {
+  //     animation-name: borderEyes;
+  //     animation-duration: 4s;
+  //     animation-iteration-count: infinite;
+  //     animation-timing-function: linear;
+  //     @keyframes borderEyes {
+  //       0% {
+  //         -webkit-text-stroke: 2px rgb(255, 255, 255);
+  //       }
+  //       15% {
+  //         -webkit-text-stroke: 2px rgb(233, 210, 190);
+  //       }
+  //       25% {
+  //         -webkit-text-stroke: 2px rgb(230, 192, 157);
+  //       }
+  //       50% {
+  //         -webkit-text-stroke: 2px rgb(226, 175, 128);
+  //       }
+  //       75% {
+  //         -webkit-text-stroke: 2px rgb(230, 192, 157);
+  //       }
+  //       88% {
+  //         -webkit-text-stroke: 2px rgb(233, 210, 190);
+  //       }
+  //       100% {
+  //         -webkit-text-stroke: 2px rgb(255, 255, 255);
+  //       }
+  //     }
+  //   }
+  // }
 }
-
-// .js-collapsed2 {
-//   .mouth__text {
-//     // font-family: "OpenSans", sans-serif;
-//     color: white;
-//     display: none;
-//   }
-// }
