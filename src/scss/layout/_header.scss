@@ -47,7 +47,31 @@
   -ms-user-select: none;
   user-select: none;
 }
-._layer {
+.page-projects ._layer {
+  background: rgb(21, 218, 208);
+  margin-bottom: 4px;
+  border-radius: 2px;
+  width: 38px;
+  height: 2px;
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transition: all 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+  transition: all 0.4s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+}
+.page-contact ._layer {
+  background: rgb(255, 255, 255);
+  margin-bottom: 4px;
+  border-radius: 2px;
+  width: 38px;
+  height: 2px;
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transition: all 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+  transition: all 0.4s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+}
+.page-about ._layer {
   background: rgb(21, 218, 208);
   margin-bottom: 4px;
   border-radius: 2px;
