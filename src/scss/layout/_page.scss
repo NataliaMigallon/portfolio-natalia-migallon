@@ -23,7 +23,7 @@
   font-weight: 500;
   color: white;
   @media all and (min-width: 768px) {
-    font-size: 60px;
+    font-size: 70px;
   }
   @media all and (min-width: 1200px) {
     padding-top: 300px;
@@ -34,6 +34,13 @@
     font-weight: 500;
     color: rgb(153, 151, 149);
     padding-bottom: 50px;
+    @media all and (min-width: 768px) {
+      font-size: 58px;
+      margin-bottom: 70px;
+    }
+    @media all and (min-width: 1200px) {
+      padding-top: 300px;
+    }
   }
 }
 .eye-wrapper {
@@ -96,8 +103,8 @@
         }
       }
       @media all and (min-width: 768px) {
-        top: -84px;
-        font-size: 130px;
+        top: -142px;
+        font-size: 200px;
       }
       @media all and (min-width: 1200px) {
         top: -122px;
@@ -146,8 +153,8 @@
         }
       }
       @media all and (min-width: 768px) {
-        right: 8px;
-        font-size: 20px;
+        right: 60px;
+        font-size: 30px;
       }
       @media all and (min-width: 1200px) {
         right: 32px;
@@ -231,7 +238,7 @@
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
   @media all and (min-width: 768px) {
-    font-size: 60px;
+    font-size: 80px;
   }
   @media all and (min-width: 1200px) {
     font-size: 70px;
@@ -295,6 +302,12 @@
           color: white;
           opacity: 1;
         }
+      }
+      @media all and (min-width: 768px) {
+        font-size: 30px;
+      }
+      @media all and (min-width: 1200px) {
+        padding-top: 300px;
       }
     }
   }
