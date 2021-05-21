@@ -105,12 +105,23 @@
   left: 20px;
   transform: translate3d(0px, -180%, 0px);
   z-index: 1001;
+  background-color: white;
+  //background-image: radial-gradient(ellipse closest-side, white, transparent);
+  //background-image: linear-gradient(white 70%, transparent);
+  //background-color: white;
+  opacity: 0.8;
+  width: 180px;
+  height: 218px;
+  padding: 5px 0 0 10px;
+  border-radius: 5px;
+  border: solid 2px rgb(180, 180, 180);
+  margin-top: 20px;
 }
 
 .header__nav ul li a {
   font-family: "Kiwi Maru", serif;
   font-size: 25px;
-  color: rgb(235, 193, 154);
+  color: rgb(226, 175, 128);
   line-height: 50px;
   // animation-name: showMenuText;
   // animation-duration: 2s;
