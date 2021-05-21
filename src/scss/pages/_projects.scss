@@ -1,14 +1,16 @@
 .page-projects {
-  // background-image: linear-gradient(rgb(226, 175, 128), rgb(83, 78, 78) 5%);
-  // background-repeat: no-repeat;
-  //background-color: rgb(83, 78, 78);
   background-color: #fff;
-  //background-image: linear-gradient(#f6f6f6 0.1em, transparent 0.1em);
   background-image: linear-gradient(#f6f6f6 0.1em, transparent 0.1em);
-  // background-size: 100% 1.2em;
   background-size: 100% 25px;
 }
 .projects {
+  margin-top: 100px;
+  border-width: 3px;
+  border-style: solid;
+  border-right: 0;
+  border-image: linear-gradient(to bottom, rgb(21, 218, 208), rgba(0, 0, 0, 0))
+    1 100%;
+  margin-left: 20px;
   &__photo {
     width: 100vw;
     margin-top: -48px;
@@ -19,10 +21,9 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    //padding: 250px 0 0 35px;
-    padding: 0 0 0 35px;
+    padding: 0 0 0 13px;
+    margin-top: -20px;
     &--h1 {
-      //transform: matrix(1, 0, 0, 1, 0, 0);
       font-family: "Kiwi Maru", serif;
       font-size: 40px;
       color: rgb(21, 218, 208);

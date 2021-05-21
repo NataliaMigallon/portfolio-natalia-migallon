@@ -9,7 +9,7 @@
   background-repeat: no-repeat;
 }
 .about {
-  margin-top: 418px;
+  margin-top: 400px;
   border-width: 3px;
   border-style: solid;
   border-right: 0;
@@ -22,8 +22,8 @@
     justify-content: flex-start;
     align-items: center;
     padding: 0 0 0 13px;
+    margin-top: -20px;
     &--h1 {
-      //transform: matrix(1, 0, 0, 1, 0, 0);
       font-family: "Kiwi Maru", serif;
       font-size: 40px;
       color: rgb(21, 218, 208);
@@ -49,7 +49,9 @@
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.32);
     font-family: "Open Sans", sans-serif;
     font-size: 17px;
-    color: rgb(83, 78, 78);
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: rgb(255, 255, 255);
     padding: 0 0 3px 0;
     margin: 0 25px 18px 15px;
     cursor: pointer;
