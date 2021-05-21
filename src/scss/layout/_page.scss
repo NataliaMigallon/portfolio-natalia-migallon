@@ -185,11 +185,11 @@
         }
       }
       .mouth {
-        animation-name: borderEyes;
+        animation-name: borderMouth;
         animation-duration: 4s;
         animation-iteration-count: infinite;
         animation-timing-function: linear;
-        @keyframes borderEyes {
+        @keyframes borderMouth {
           0% {
             -webkit-text-stroke: 2px rgb(255, 255, 255);
           }
@@ -238,9 +238,9 @@
   }
 }
 .mouth-section {
+  position: relative;
+  text-align: center;
   .mouth {
-    position: relative;
-    text-align: center;
     font-size: 100px;
     color: white;
     top: 20px;
@@ -265,6 +265,7 @@
       text-align: center;
       width: 100%;
       right: 9px;
+      top: 15px;
       animation-name: showText;
       animation-duration: 2s;
       animation-iteration-count: 2s;

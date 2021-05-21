@@ -9,13 +9,12 @@
   background-repeat: no-repeat;
 }
 .about {
-  margin-top: 400px;
+  margin: 400px 0 40px 20px;
   border-width: 3px;
   border-style: solid;
   border-right: 0;
   border-image: linear-gradient(to bottom, rgb(21, 218, 208), rgba(0, 0, 0, 0))
     1 100%;
-  margin-left: 20px;
   &__title {
     display: flex;
     flex-direction: row;
@@ -55,19 +54,19 @@
     padding: 0 0 3px 0;
     margin: 0 25px 18px 15px;
     cursor: pointer;
+    &:hover {
+      transform: scale(1.07);
+    }
   }
-  // &__cv2 {
-  //   font-family: "Kiwi Maru", serif;
-  //   font-size: 22px;
-  //   font-weight: 300;
-  //   color: rgb(226, 175, 128);
-  //   text-decoration: underline 2px;
-  //   padding: 0 0 20px 15px;
-  // }
   &__text {
     font-family: "Open Sans", sans-serif;
     font-size: 20px;
     color: grey;
-    padding: 0 25px 42px 15px;
+    padding: 0 25px 0 15px;
+    line-height: 30px;
+    &--adaLink {
+      color: rgb(21, 218, 208);
+      font-weight: 600;
+    }
   }
 }

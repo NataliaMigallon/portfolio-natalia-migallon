@@ -1,11 +1,12 @@
 .page-home .footer {
   background-color: transparent;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: center;
   text-align: center;
-  margin: 84px;
+  //margin: 64px;
   color: white;
+  padding: 20px;
   @media all and (min-width: 768px) {
     margin-top: 250px;
   }
