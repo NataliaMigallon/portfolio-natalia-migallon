@@ -61,6 +61,12 @@
   justify-content: center;
   text-align: center;
   padding: 20px;
+  @media all and (min-width: 768px) {
+    padding: 30px;
+  }
+  @media all and (min-width: 1200px) {
+    padding-top: 300px;
+  }
   &__contact {
     font-family: "Kiwi Maru", serif;
     font-size: 20px;

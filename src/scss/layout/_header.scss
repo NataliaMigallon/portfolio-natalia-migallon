@@ -46,6 +46,13 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  @media all and (min-width: 768px) {
+    left: unset;
+    right: 85px;
+  }
+  @media all and (min-width: 1200px) {
+    padding-top: 300px;
+  }
 }
 .page-projects ._layer {
   background: rgb(21, 218, 208);
@@ -82,6 +89,15 @@
   transform: translate3d(0, 0, 0);
   -webkit-transition: all 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
   transition: all 0.4s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+  @media all and (min-width: 768px) {
+    margin-bottom: 8px;
+    border-radius: 2px;
+    width: 68px;
+    height: 4px;
+  }
+  @media all and (min-width: 1200px) {
+    padding-top: 300px;
+  }
 }
 .hamburger.is-active .-top {
   -webkit-transform: translateY(290%) rotate(45deg) !important;
@@ -113,6 +129,16 @@
   border-radius: 5px;
   border: solid 2px rgb(180, 180, 180);
   margin-top: 20px;
+  @media all and (min-width: 768px) {
+    background-color: transparent;
+    border: none;
+    left: unset;
+    right: 85px;
+    width: 200px;
+  }
+  @media all and (min-width: 1200px) {
+    padding-top: 300px;
+  }
 }
 // .page-about.header__nav {
 //   position: absolute;
@@ -164,4 +190,11 @@
   font-size: 25px;
   color: rgb(226, 175, 128);
   line-height: 50px;
+  @media all and (min-width: 768px) {
+    font-size: 40px;
+    line-height: 60px;
+  }
+  @media all and (min-width: 1200px) {
+    padding-top: 300px;
+  }
 }
