@@ -4,18 +4,24 @@
   background-size: 100% 25px;
 }
 .projects {
-  margin-top: 100px;
+  margin: 100px 0 40px 20px;
   border-width: 3px;
   border-style: solid;
   border-right: 0;
   border-image: linear-gradient(to bottom, rgb(21, 218, 208), rgba(0, 0, 0, 0))
     1 100%;
-  margin-left: 20px;
-  &__photo {
-    width: 100vw;
-    margin-top: -48px;
-    opacity: 0.65;
+  @media all and (min-width: 768px) {
+    margin: 200px 80px 80px 80px;
+    border-width: 5px;
   }
+  @media all and (min-width: 1200px) {
+    padding-top: 300px;
+  }
+  // &__photo {
+  //   width: 100vw;
+  //   margin-top: -48px;
+  //   opacity: 0.65;
+  // }
   &__title {
     display: flex;
     flex-direction: row;
@@ -23,6 +29,13 @@
     align-items: center;
     padding: 0 0 0 13px;
     margin-top: -20px;
+    @media all and (min-width: 768px) {
+      padding: 0 0 0 30px;
+      margin-top: -40px;
+    }
+    @media all and (min-width: 1200px) {
+      padding-top: 300px;
+    }
     &--h1 {
       font-family: "Kiwi Maru", serif;
       font-size: 40px;
@@ -30,6 +43,12 @@
       color: rgb(226, 175, 128);
       text-transform: lowercase;
       padding: 0 5px 19px 0;
+      @media all and (min-width: 768px) {
+        font-size: 52px;
+      }
+      @media all and (min-width: 1200px) {
+        padding-top: 300px;
+      }
     }
     &--icon {
       font-family: "Kiwi Maru", serif;
@@ -38,19 +57,13 @@
       color: rgb(226, 175, 128);
       -webkit-transform: rotate(90deg);
       padding: 0 7px 7px 0;
+      @media all and (min-width: 768px) {
+        font-size: 52px;
+      }
+      @media all and (min-width: 1200px) {
+        padding-top: 300px;
+      }
     }
-  }
-  &__line {
-    border-width: 3px;
-    border-style: solid;
-    border-right: 0;
-    border-image: linear-gradient(
-        to bottom,
-        rgb(21, 218, 208),
-        rgba(0, 0, 0, 0)
-      )
-      1 100%;
-    margin-left: 20px;
   }
   &__text {
     font-family: "Open Sans", sans-serif;
@@ -59,16 +72,40 @@
     color: grey;
     padding: 0 25px 10px 15px;
     margin-top: 7px;
+    @media all and (min-width: 768px) {
+      padding: 0 0 17px 30px;
+      font-size: 25px;
+      line-height: 40px;
+      text-align: justify;
+    }
+    @media all and (min-width: 1200px) {
+      padding-top: 300px;
+    }
   }
   &__image {
     width: 200px;
     padding: 0 25px 0 15px;
+    @media all and (min-width: 768px) {
+      width: 400px;
+      padding: 30px 25px 10px 30px;
+    }
+    @media all and (min-width: 1200px) {
+      padding-top: 300px;
+    }
   }
   &__title-works {
     font-family: "Kiwi Maru", serif;
     font-size: 20px;
     color: rgb(21, 218, 208);
-    padding: 0 25px 0 15px;
+    padding: 0 25px 0 30px;
+    @media all and (min-width: 768px) {
+      font-size: 40px;
+      line-height: 55px;
+      padding: 0 0 0 30px;
+    }
+    @media all and (min-width: 1200px) {
+      padding-top: 300px;
+    }
   }
   &__tools {
     font-family: "Open Sans", sans-serif;
@@ -77,6 +114,14 @@
     color: rgb(226, 175, 128);
     padding: 0 25px 0 15px;
     margin-top: 5px;
+    @media all and (min-width: 768px) {
+      font-size: 27px;
+      line-height: 55px;
+      padding: 0 0 0 30px;
+    }
+    @media all and (min-width: 1200px) {
+      padding-top: 300px;
+    }
   }
   &__btn-web {
     width: 50px;
@@ -90,6 +135,17 @@
     text-transform: uppercase;
     color: white;
     margin: 0 2px 45px 15px;
+    @media all and (min-width: 768px) {
+      border-radius: 9px;
+      width: 97px;
+      height: 57px;
+      font-size: 30px;
+      letter-spacing: 3px;
+      margin: 0 12px 45px 30px;
+    }
+    @media all and (min-width: 1200px) {
+      padding-top: 300px;
+    }
   }
   &__btn-code {
     width: 80px;
@@ -103,5 +159,15 @@
     text-transform: uppercase;
     color: white;
     margin: 0 5px 55px 5px;
+    @media all and (min-width: 768px) {
+      border-radius: 9px;
+      width: 155px;
+      height: 57px;
+      font-size: 30px;
+      letter-spacing: 1px;
+    }
+    @media all and (min-width: 1200px) {
+      padding-top: 300px;
+    }
   }
 }

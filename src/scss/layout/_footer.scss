@@ -46,7 +46,6 @@
     color: white;
     @media all and (min-width: 768px) {
       font-size: 20px;
-      padding-bottom: 50px;
     }
     @media all and (min-width: 1200px) {
       font-size: 70px;
@@ -62,7 +61,7 @@
   text-align: center;
   padding: 20px;
   @media all and (min-width: 768px) {
-    padding: 30px;
+    padding: 40px;
   }
   @media all and (min-width: 1200px) {
     padding-top: 300px;
@@ -82,12 +81,24 @@
       font-size: 30px;
       color: white;
       padding: 10px 17px;
+      @media all and (min-width: 768px) {
+        font-size: 45px;
+      }
+      @media all and (min-width: 1200px) {
+        font-size: 70px;
+      }
     }
   }
   &__copy {
     font-family: "Kiwi Maru", serif;
     font-size: 13px;
     color: white;
+    @media all and (min-width: 768px) {
+      font-size: 20px;
+    }
+    @media all and (min-width: 1200px) {
+      font-size: 70px;
+    }
   }
 }
 .page-projects .footer {
@@ -98,6 +109,12 @@
   justify-content: center;
   text-align: center;
   padding: 20px;
+  @media all and (min-width: 768px) {
+    padding: 40px;
+  }
+  @media all and (min-width: 1200px) {
+    padding-top: 300px;
+  }
   &__contact {
     font-family: "Kiwi Maru", serif;
     font-size: 20px;
@@ -113,12 +130,24 @@
       font-size: 30px;
       color: white;
       padding: 10px 17px;
+      @media all and (min-width: 768px) {
+        font-size: 45px;
+      }
+      @media all and (min-width: 1200px) {
+        font-size: 70px;
+      }
     }
   }
   &__copy {
     font-family: "Kiwi Maru", serif;
     font-size: 13px;
     color: white;
+    @media all and (min-width: 768px) {
+      font-size: 20px;
+    }
+    @media all and (min-width: 1200px) {
+      font-size: 70px;
+    }
   }
 }
 .page-contact .footer {
@@ -129,6 +158,12 @@
   justify-content: center;
   text-align: center;
   padding: 20px;
+  @media all and (min-width: 768px) {
+    padding: 40px;
+  }
+  @media all and (min-width: 1200px) {
+    padding-top: 300px;
+  }
   &__contact {
     font-family: "Kiwi Maru", serif;
     font-size: 20px;
@@ -144,11 +179,23 @@
       font-size: 30px;
       color: white;
       padding: 10px 17px;
+      @media all and (min-width: 768px) {
+        font-size: 45px;
+      }
+      @media all and (min-width: 1200px) {
+        font-size: 70px;
+      }
     }
   }
   &__copy {
     font-family: "Kiwi Maru", serif;
     font-size: 13px;
     color: white;
+    @media all and (min-width: 768px) {
+      font-size: 20px;
+    }
+    @media all and (min-width: 1200px) {
+      font-size: 70px;
+    }
   }
 }
