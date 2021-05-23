@@ -10,13 +10,19 @@
   justify-content: center;
 }
 .contact {
-  margin-top: 60px;
+  margin: 70px 0 40px 20px;
   border-width: 3px;
   border-style: solid;
   border-right: 0;
   border-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(0, 0, 0, 0))
     1 100%;
-  margin-left: 20px;
+  @media all and (min-width: 768px) {
+    margin: 200px 80px 80px 80px;
+    border-width: 5px;
+  }
+  @media all and (min-width: 1200px) {
+    padding-top: 300px;
+  }
   &__title {
     display: flex;
     flex-direction: row;
@@ -24,12 +30,25 @@
     align-items: center;
     padding: 0 0 0 20px;
     margin-top: -20px;
+    @media all and (min-width: 768px) {
+      padding: 0 0 0 30px;
+      margin-top: -40px;
+    }
+    @media all and (min-width: 1200px) {
+      padding-top: 300px;
+    }
     &--h1 {
       font-family: "Kiwi Maru", serif;
       font-size: 40px;
       color: rgb(255, 255, 255);
       text-transform: lowercase;
       padding: 0 5px 19px 0;
+      @media all and (min-width: 768px) {
+        font-size: 60px;
+      }
+      @media all and (min-width: 1200px) {
+        padding-top: 300px;
+      }
     }
     &--icon {
       font-family: "Kiwi Maru", serif;
@@ -38,6 +57,12 @@
       color: white;
       -webkit-transform: rotate(90deg);
       padding: 0 7px 7px 0;
+      @media all and (min-width: 768px) {
+        font-size: 60px;
+      }
+      @media all and (min-width: 1200px) {
+        padding-top: 300px;
+      }
     }
   }
   &__label {
@@ -47,18 +72,40 @@
     font-weight: 500;
     color: white;
     text-transform: uppercase;
-    margin: 13px 20px 10px 20px;
+    padding: 13px 20px 5px 20px;
+    @media all and (min-width: 768px) {
+      font-size: 40px;
+      padding: 17px 0 5px 30px;
+    }
+    @media all and (min-width: 1200px) {
+      padding-top: 300px;
+    }
   }
   &__input {
     display: block;
     border-style: none;
     border-radius: 3px;
     padding: 8px 10px 8px 10px;
-    margin: 6px 20px 10px 20px;
+    margin: 0 20px 10px 20px;
+    @media all and (min-width: 768px) {
+      width: 430px;
+      border-radius: 6px;
+      padding: 25px 20px 15px 20px;
+      margin: 0 0 0 30px;
+    }
+    @media all and (min-width: 1200px) {
+      padding-top: 300px;
+    }
   }
   &__input::placeholder {
     font-family: "Open Sans", sans-serif;
     color: rgb(100, 100, 100);
+    @media all and (min-width: 768px) {
+      font-size: 25px;
+    }
+    @media all and (min-width: 1200px) {
+      padding-top: 300px;
+    }
   }
   &__textarea {
     width: 300px;
@@ -66,17 +113,31 @@
     border-style: none;
     border-radius: 3px;
     padding: 5px 10px 5px 10px;
-    margin: 8px 20px 10px 20px;
+    margin: 0 20px 10px 20px;
+    @media all and (min-width: 768px) {
+      width: 600px;
+      height: 300px;
+      border-radius: 6px;
+      padding: 25px 20px 15px 20px;
+    }
+    @media all and (min-width: 1200px) {
+      padding-top: 300px;
+    }
   }
   &__textarea::placeholder {
     font-family: "Open Sans", sans-serif;
     color: rgb(100, 100, 100);
+    @media all and (min-width: 768px) {
+      font-size: 25px;
+    }
+    @media all and (min-width: 1200px) {
+      padding-top: 300px;
+    }
   }
   &__btn {
     width: 140px;
     height: 38px;
     background-color: rgb(21, 218, 208);
-    //opacity: 0.87;
     border-radius: 8px;
     border-style: none;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.32);
@@ -88,6 +149,15 @@
     padding: 0 0 3px 0;
     margin: 8px 20px 25px 20px;
     cursor: pointer;
+    @media all and (min-width: 768px) {
+      width: 155px;
+      height: 57px;
+      font-size: 30px;
+      //padding: 0 0 0 30px;
+    }
+    @media all and (min-width: 1200px) {
+      margin: 0 0 0 30px;
+    }
     &:hover {
       transform: scale(1.07);
     }
@@ -97,13 +167,24 @@
 .icons__wrapper {
   display: flex;
   flex-direction: row;
-  //justify-content: center;
   align-items: center;
-  margin: 0 0 20px 14px;
-  //margin-left: 14px;
+  margin: 0 0 20px 20px;
+  @media all and (min-width: 768px) {
+    margin: 0 0 20px 30px;
+  }
+  @media all and (min-width: 1200px) {
+    padding-top: 300px;
+  }
   .icons {
     font-size: 30px;
     color: white;
-    padding: 10px 8px;
+    padding-right: 20px;
+    @media all and (min-width: 768px) {
+      font-size: 50px;
+      padding: 20px 30px 8px 0;
+    }
+    @media all and (min-width: 1200px) {
+      padding-top: 300px;
+    }
   }
 }

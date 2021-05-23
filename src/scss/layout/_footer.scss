@@ -1,14 +1,14 @@
 .page-home .footer {
   background-color: transparent;
-  // display: flex;
-  // flex-direction: column;
-  // justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
-  //margin: 64px;
   color: white;
-  padding: 20px;
+  padding: 12px;
   @media all and (min-width: 768px) {
     margin-top: 250px;
+    padding: 22px;
   }
   @media all and (min-width: 1200px) {
     font-size: 70px;
@@ -31,9 +31,10 @@
     .icons {
       font-size: 30px;
       color: white;
-      padding: 10px 17px;
+      padding: 0 10px 10px 10px;
       @media all and (min-width: 768px) {
         font-size: 45px;
+        padding: 0 17px 10px 17px;
       }
       @media all and (min-width: 1200px) {
         font-size: 70px;
@@ -54,14 +55,13 @@
 }
 .page-about .footer {
   background-color: rgb(21, 218, 208);
-  //opacity: 0.68;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  padding: 20px;
+  padding: 12px;
   @media all and (min-width: 768px) {
-    padding: 40px;
+    padding: 22px;
   }
   @media all and (min-width: 1200px) {
     padding-top: 300px;
@@ -80,9 +80,10 @@
     .icons {
       font-size: 30px;
       color: white;
-      padding: 10px 17px;
+      padding: 0 10px 10px 10px;
       @media all and (min-width: 768px) {
         font-size: 45px;
+        padding: 0 17px 10px 17px;
       }
       @media all and (min-width: 1200px) {
         font-size: 70px;
@@ -103,14 +104,13 @@
 }
 .page-projects .footer {
   background-color: rgb(21, 218, 208);
-  //opacity: 0.68;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  padding: 20px;
+  padding: 12px;
   @media all and (min-width: 768px) {
-    padding: 40px;
+    padding: 22px;
   }
   @media all and (min-width: 1200px) {
     padding-top: 300px;
@@ -129,9 +129,10 @@
     .icons {
       font-size: 30px;
       color: white;
-      padding: 10px 17px;
+      padding: 0 10px 10px 10px;
       @media all and (min-width: 768px) {
         font-size: 45px;
+        padding: 0 17px 10px 17px;
       }
       @media all and (min-width: 1200px) {
         font-size: 70px;
@@ -152,23 +153,22 @@
 }
 .page-contact .footer {
   background-color: rgb(21, 218, 208);
-  //opacity: 0.68;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  padding: 20px;
+  padding: 12px;
   @media all and (min-width: 768px) {
-    padding: 40px;
+    padding: 22px;
   }
   @media all and (min-width: 1200px) {
     padding-top: 300px;
   }
-  &__contact {
-    font-family: "Kiwi Maru", serif;
-    font-size: 20px;
-    color: white;
-  }
+  // &__contact {
+  //   font-family: "Kiwi Maru", serif;
+  //   font-size: 20px;
+  //   color: white;
+  // }
   &__wrapper {
     display: flex;
     flex-direction: row;
@@ -178,9 +178,10 @@
     .icons {
       font-size: 30px;
       color: white;
-      padding: 10px 17px;
+      padding: 0 10px 10px 10px;
       @media all and (min-width: 768px) {
         font-size: 45px;
+        padding: 0 17px 10px 17px;
       }
       @media all and (min-width: 1200px) {
         font-size: 70px;
