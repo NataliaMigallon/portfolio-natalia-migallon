@@ -15,7 +15,8 @@
     border-width: 5px;
   }
   @media all and (min-width: 1200px) {
-    padding-top: 300px;
+    margin: 120px 80px 140px 300px;
+    border-width: 5px;
   }
   // &__photo {
   //   width: 100vw;
@@ -34,7 +35,7 @@
       margin-top: -40px;
     }
     @media all and (min-width: 1200px) {
-      padding-top: 300px;
+      padding: 0 0 0 30px;
     }
     &--h1 {
       font-family: "Kiwi Maru", serif;
@@ -47,7 +48,7 @@
         font-size: 60px;
       }
       @media all and (min-width: 1200px) {
-        padding-top: 300px;
+        font-size: 50px;
       }
     }
     &--icon {
@@ -61,7 +62,7 @@
         font-size: 60px;
       }
       @media all and (min-width: 1200px) {
-        padding-top: 300px;
+        font-size: 50px;
       }
     }
   }
@@ -79,7 +80,10 @@
       text-align: justify;
     }
     @media all and (min-width: 1200px) {
-      padding-top: 300px;
+      font-size: 20px;
+      line-height: 40px;
+      text-align: justify;
+      padding: 0 400px 17px 30px;
     }
   }
   &__image {
@@ -90,21 +94,21 @@
       padding: 30px 25px 10px 30px;
     }
     @media all and (min-width: 1200px) {
-      padding-top: 300px;
+      width: 350px;
     }
   }
   &__title-works {
     font-family: "Kiwi Maru", serif;
     font-size: 20px;
     color: rgb(21, 218, 208);
-    padding: 0 25px 0 30px;
+    padding: 0 25px 0 15px;
     @media all and (min-width: 768px) {
       font-size: 40px;
       line-height: 55px;
       padding: 0 0 0 30px;
     }
     @media all and (min-width: 1200px) {
-      padding-top: 300px;
+      font-size: 35px;
     }
   }
   &__tools {
@@ -120,7 +124,7 @@
       padding: 0 0 0 30px;
     }
     @media all and (min-width: 1200px) {
-      padding-top: 300px;
+      font-size: 23px;
     }
   }
   &__btn-web {
@@ -144,7 +148,11 @@
       margin: 0 12px 45px 30px;
     }
     @media all and (min-width: 1200px) {
-      padding-top: 300px;
+      border-radius: 7px;
+      width: 67px;
+      height: 37px;
+      font-size: 20px;
+      letter-spacing: 2px;
     }
   }
   &__btn-code {
@@ -167,7 +175,11 @@
       letter-spacing: 1px;
     }
     @media all and (min-width: 1200px) {
-      padding-top: 300px;
+      border-radius: 7px;
+      width: 110px;
+      height: 37px;
+      font-size: 20px;
+      letter-spacing: 2px;
     }
   }
 }

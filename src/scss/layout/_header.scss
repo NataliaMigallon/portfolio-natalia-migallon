@@ -1,8 +1,7 @@
 .header {
-  // display: flex;
-  // flex-direction: column;
-  // justify-content: center;
-  //margin-bottom: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   @media all and (min-width: 768px) {
   }
   @media all and (min-width: 1200px) {
@@ -11,38 +10,63 @@
     justify-content: flex-end;
     background-color: transparent;
   }
-  &__nav2 {
+  &__logo {
+    position: absolute;
+    top: 28px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    @media all and (min-width: 768px) {
+    }
+    @media all and (min-width: 1200px) {
+      top: 24px;
+      left: 200px;
+    }
+  }
+  &__title {
     display: none;
     @media all and (min-width: 768px) {
     }
     @media all and (min-width: 1200px) {
+      position: absolute;
+      left: 250px;
+      top: 18px;
       display: inline-block;
-      // position: relative;
-      // z-index: 1001;
       font-family: "Kiwi Maru", serif;
+      font-weight: 500;
       font-size: 25px;
-      color: rgb(226, 175, 128);
-      //line-height: 50px;
+      color: rgb(21, 218, 208);
+      padding-right: 50px;
     }
   }
-  &__title {
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: center;
-    // align-items: center;
-    font-family: "Kiwi Maru", serif;
-    font-weight: 300;
-    font-size: 20px;
-    color: black;
-    // text-align: center;
-    // margin-top: 26px;
-    // &--sub {
-    //   font-family: "Open Sans", sans-serif;
-    //   font-weight: 300;
-    //   font-size: 12px;
-    //   color: black;
-    //   text-align: center;
-    // }
+  & .navbar {
+    @media all and (min-width: 768px) {
+    }
+    @media all and (min-width: 1200px) {
+    }
+    &__element {
+      display: none;
+      @media all and (min-width: 768px) {
+      }
+      @media all and (min-width: 1200px) {
+        display: inline-block;
+        position: relative;
+        margin: 0 8px;
+        top: 20px;
+        right: 200px;
+      }
+      &--text {
+        // display: none;
+        @media all and (min-width: 768px) {
+        }
+        @media all and (min-width: 1200px) {
+          padding: 8px 16px;
+          font-family: "Open Sans", sans-serif;
+          font-size: 25px;
+          color: rgb(226, 175, 128);
+        }
+      }
+    }
   }
 }
 .hamburger {
@@ -158,7 +182,8 @@
   }
 }
 .header__nav ul li a {
-  font-family: "Kiwi Maru", serif;
+  //font-family: "Kiwi Maru", serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 25px;
   color: rgb(226, 175, 128);
   line-height: 50px;

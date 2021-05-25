@@ -36,7 +36,6 @@
     font-weight: 500;
     color: rgb(153, 151, 149);
     padding-bottom: 50px;
-    text-transform: lowercase;
     @media all and (min-width: 768px) {
       font-size: 38px;
       margin-bottom: 70px;
@@ -125,16 +124,17 @@
       }
     }
     &__text {
+      display: inline-block;
+      vertical-align: middle;
       position: absolute;
       text-align: center;
-      width: 100%;
+      width: 95px;
       top: 15px;
-      right: -9px;
+      left: -40px;
       font-family: "Kiwi Maru", serif;
       font-size: 15px;
       color: white;
       text-transform: uppercase;
-      width: 77px;
       animation-name: showText;
       animation-duration: 2s;
       animation-iteration-count: 2s;
@@ -166,21 +166,22 @@
         }
       }
       @media all and (min-width: 768px) {
-        right: 60px;
+        left: -60px;
         font-size: 20px;
-        width: 100%;
+        width: 142px;
+        //text-overflow: ;
       }
       @media all and (min-width: 1200px) {
-        font-size: 18px;
         top: 0;
+        left: 29px;
       }
       &--link {
-        text-align: center;
+        // text-align: center;
         @media all and (min-width: 768px) {
-          margin: 0 0 5px 6px;
+          //margin: 0 0 5px 6px;
         }
         @media all and (min-width: 1200px) {
-          margin: 0 -7px 5px 90px;
+          font-size: 18px;
         }
       }
     }
@@ -294,7 +295,7 @@
       position: absolute;
       text-align: center;
       width: 100%;
-      right: 9px;
+      left: -9px;
       top: 15px;
       animation-name: showText;
       animation-duration: 2s;
@@ -331,6 +332,14 @@
       }
       @media all and (min-width: 1200px) {
         top: 0;
+      }
+      &--link {
+        @media all and (min-width: 768px) {
+          //font-size: 20px;
+        }
+        @media all and (min-width: 1200px) {
+          font-size: 18px;
+        }
       }
     }
   }
