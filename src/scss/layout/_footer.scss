@@ -10,20 +10,17 @@
   @media all and (min-width: 768px) {
     padding: 22px;
   }
-  @media all and (min-width: 1200px) {
-    // font-size: 70px;
-  }
-  &__contact {
-    font-family: "Kiwi Maru", serif;
-    font-size: 20px;
-    color: white;
-    @media all and (min-width: 768px) {
-      font-size: 30px;
-    }
-    @media all and (min-width: 1200px) {
-      font-size: 70px;
-    }
-  }
+  // &__contact {
+  //   font-family: "Kiwi Maru", serif;
+  //   font-size: 20px;
+  //   color: white;
+  //   @media all and (min-width: 768px) {
+  //     font-size: 30px;
+  //   }
+  //   @media all and (min-width: 1200px) {
+  //     font-size: 70px;
+  //   }
+  // }
   &__wrapper {
     display: flex;
     flex-direction: row;
@@ -37,7 +34,7 @@
         padding: 0 17px 10px 17px;
       }
       @media all and (min-width: 1200px) {
-        //font-size: 70px;
+        font-size: 33px;
       }
     }
   }
@@ -49,7 +46,7 @@
       font-size: 20px;
     }
     @media all and (min-width: 1200px) {
-      //font-size: 70px;
+      font-size: 16px;
     }
   }
 }
@@ -57,112 +54,15 @@
   background-color: rgb(21, 218, 208);
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   text-align: center;
   padding: 12px;
+  height: 20%;
   @media all and (min-width: 768px) {
     padding: 22px;
   }
   @media all and (min-width: 1200px) {
-    padding-top: 300px;
-  }
-  &__contact {
-    font-family: "Kiwi Maru", serif;
-    font-size: 20px;
-    color: white;
-  }
-  &__wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    .icons {
-      font-size: 30px;
-      color: white;
-      padding: 0 10px 10px 10px;
-      @media all and (min-width: 768px) {
-        font-size: 45px;
-        padding: 0 17px 10px 17px;
-      }
-      @media all and (min-width: 1200px) {
-        font-size: 70px;
-      }
-    }
-  }
-  &__copy {
-    font-family: "Kiwi Maru", serif;
-    font-size: 13px;
-    color: white;
-    @media all and (min-width: 768px) {
-      font-size: 20px;
-    }
-    @media all and (min-width: 1200px) {
-      font-size: 70px;
-    }
-  }
-}
-.page-projects .footer {
-  background-color: rgb(21, 218, 208);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  padding: 12px;
-  @media all and (min-width: 768px) {
-    padding: 22px;
-  }
-  @media all and (min-width: 1200px) {
-    padding-top: 300px;
-  }
-  &__contact {
-    font-family: "Kiwi Maru", serif;
-    font-size: 20px;
-    color: white;
-  }
-  &__wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    .icons {
-      font-size: 30px;
-      color: white;
-      padding: 0 10px 10px 10px;
-      @media all and (min-width: 768px) {
-        font-size: 45px;
-        padding: 0 17px 10px 17px;
-      }
-      @media all and (min-width: 1200px) {
-        font-size: 70px;
-      }
-    }
-  }
-  &__copy {
-    font-family: "Kiwi Maru", serif;
-    font-size: 13px;
-    color: white;
-    @media all and (min-width: 768px) {
-      font-size: 20px;
-    }
-    @media all and (min-width: 1200px) {
-      font-size: 70px;
-    }
-  }
-}
-.page-contact .footer {
-  background-color: rgb(21, 218, 208);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  padding: 12px;
-  @media all and (min-width: 768px) {
-    padding: 22px;
-  }
-  @media all and (min-width: 1200px) {
-    padding-top: 300px;
+    //padding-top: 300px;
   }
   // &__contact {
   //   font-family: "Kiwi Maru", serif;
@@ -184,7 +84,7 @@
         padding: 0 17px 10px 17px;
       }
       @media all and (min-width: 1200px) {
-        font-size: 70px;
+        font-size: 33px;
       }
     }
   }
@@ -196,7 +96,105 @@
       font-size: 20px;
     }
     @media all and (min-width: 1200px) {
-      font-size: 70px;
+      font-size: 16px;
+    }
+  }
+}
+.page-projects .footer {
+  background-color: rgb(21, 218, 208);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 12px;
+  @media all and (min-width: 768px) {
+    padding: 22px;
+  }
+  @media all and (min-width: 1200px) {
+    //padding-top: 300px;
+  }
+  // &__contact {
+  //   font-family: "Kiwi Maru", serif;
+  //   font-size: 20px;
+  //   color: white;
+  // }
+  &__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    .icons {
+      font-size: 30px;
+      color: white;
+      padding: 0 10px 10px 10px;
+      @media all and (min-width: 768px) {
+        font-size: 45px;
+        padding: 0 17px 10px 17px;
+      }
+      @media all and (min-width: 1200px) {
+        font-size: 33px;
+      }
+    }
+  }
+  &__copy {
+    font-family: "Kiwi Maru", serif;
+    font-size: 13px;
+    color: white;
+    @media all and (min-width: 768px) {
+      font-size: 20px;
+    }
+    @media all and (min-width: 1200px) {
+      font-size: 16px;
+    }
+  }
+}
+.page-contact .footer {
+  background-color: rgb(21, 218, 208);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 12px;
+  @media all and (min-width: 768px) {
+    padding: 22px;
+  }
+  @media all and (min-width: 1200px) {
+    //padding-top: 300px;
+  }
+  // &__contact {
+  //   font-family: "Kiwi Maru", serif;
+  //   font-size: 20px;
+  //   color: white;
+  // }
+  &__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    .icons {
+      font-size: 30px;
+      color: white;
+      padding: 0 10px 10px 10px;
+      @media all and (min-width: 768px) {
+        font-size: 45px;
+        padding: 0 17px 10px 17px;
+      }
+      @media all and (min-width: 1200px) {
+        font-size: 33px;
+      }
+    }
+  }
+  &__copy {
+    font-family: "Kiwi Maru", serif;
+    font-size: 13px;
+    color: white;
+    @media all and (min-width: 768px) {
+      font-size: 20px;
+    }
+    @media all and (min-width: 1200px) {
+      font-size: 16px;
     }
   }
 }
