@@ -6,7 +6,6 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  //align-items: center;
   justify-content: center;
 }
 .contact {
@@ -21,7 +20,8 @@
     border-width: 5px;
   }
   @media all and (min-width: 1200px) {
-    padding-top: 300px;
+    margin: 200px 80px 140px 200px;
+    border-width: 5px;
   }
   &__title {
     display: flex;
@@ -35,7 +35,7 @@
       margin-top: -40px;
     }
     @media all and (min-width: 1200px) {
-      padding-top: 300px;
+      padding: 0 0 0 30px;
     }
     &--h1 {
       font-family: "Kiwi Maru", serif;
@@ -47,7 +47,7 @@
         font-size: 60px;
       }
       @media all and (min-width: 1200px) {
-        padding-top: 300px;
+        font-size: 50px;
       }
     }
     &--icon {
@@ -61,7 +61,7 @@
         font-size: 60px;
       }
       @media all and (min-width: 1200px) {
-        padding-top: 300px;
+        font-size: 50px;
       }
     }
   }
@@ -78,7 +78,7 @@
       padding: 17px 0 5px 30px;
     }
     @media all and (min-width: 1200px) {
-      padding-top: 300px;
+      font-size: 18px;
     }
   }
   &__input {
@@ -94,7 +94,11 @@
       margin: 0 0 0 30px;
     }
     @media all and (min-width: 1200px) {
-      padding-top: 300px;
+      margin: 0 0 10px 30px;
+      width: 300px;
+      height: 20px;
+      border-radius: 5px;
+      padding: 20px 15px 15px 10px;
     }
   }
   &__input::placeholder {
@@ -104,7 +108,7 @@
       font-size: 25px;
     }
     @media all and (min-width: 1200px) {
-      padding-top: 300px;
+      font-size: 18px;
     }
   }
   &__textarea {
@@ -121,7 +125,7 @@
       padding: 25px 20px 15px 20px;
     }
     @media all and (min-width: 1200px) {
-      padding-top: 300px;
+      margin: 0 0 10px 30px;
     }
   }
   &__textarea::placeholder {
@@ -131,7 +135,7 @@
       font-size: 25px;
     }
     @media all and (min-width: 1200px) {
-      padding-top: 300px;
+      font-size: 18px;
     }
   }
   &__btn {
@@ -157,6 +161,9 @@
     }
     @media all and (min-width: 1200px) {
       margin: 0 0 0 30px;
+      width: 130px;
+      height: 47px;
+      font-size: 20px;
     }
     &:hover {
       transform: scale(1.07);
@@ -173,7 +180,6 @@
     margin: 0 0 20px 30px;
   }
   @media all and (min-width: 1200px) {
-    padding-top: 300px;
   }
   .icons {
     font-size: 30px;
@@ -184,7 +190,7 @@
       padding: 20px 30px 8px 0;
     }
     @media all and (min-width: 1200px) {
-      padding-top: 300px;
+      font-size: 30px;
     }
   }
 }
