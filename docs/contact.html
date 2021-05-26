@@ -18,8 +18,12 @@
   </head>
 
   <body class="page-contact">
-    <header class="header">
-      <img class="header__logo" src="./assets/images/favicon-nat-beige.png" alt="Logo Natalia Migallón">
+    <header class="header" id="arrow">
+      <img
+        class="header__logo"
+        src="./assets/images/favicon-nat-beige.png"
+        alt="Logo Natalia Migallón"
+      />
       <h1 class="header__title">Natalia Migallón</h1>
       <div class="hamburger">
         <div class="_layer -top"></div>
@@ -106,48 +110,54 @@
         ></a>
       </span>
       <form action="" method="post">
-        <label for="firstName" class="contact__label">Nombre</label>
-        <input
-          id="firstName"
-          type="text"
-          name="firstName"
-          placeholder="Ej. María"
-          class="contact__input"
-        />
-        <label for="lastName" class="contact__label">Apellidos</label>
-        <input
-          id="lastName"
-          type="text"
-          name="lastName"
-          placeholder="Ej. García"
-          class="contact__input"
-        />
-        <label for="email" class="contact__label">Email</label>
-        <input
-          id="email"
-          type="email"
-          name="email"
-          placeholder="Ej. ejemplo@gmail.com"
-          class="contact__input"
-        />
-        <label for="subject" class="contact__label">Asunto</label>
-        <input
-          id="subject"
-          type="text"
-          name="subject"
-          placeholder="Asunto del mensaje"
-          class="contact__input"
-        />
-        <label for="message" class="contact__label">Mensaje</label>
-        <textarea
-          id="message"
-          name="message"
-          rows="8"
-          cols="80"
-          placeholder="Mensaje"
-          class="contact__textarea"
-        ></textarea>
-        <input type="submit" value="Enviar" class="contact__btn" />
+        <div class="contact__wrapper">
+          <div>
+            <label for="firstName" class="contact__label">Nombre</label>
+            <input
+              id="firstName"
+              type="text"
+              name="firstName"
+              placeholder="Ej. María"
+              class="contact__input"
+            />
+            <label for="lastName" class="contact__label">Apellidos</label>
+            <input
+              id="lastName"
+              type="text"
+              name="lastName"
+              placeholder="Ej. García"
+              class="contact__input"
+            />
+            <label for="email" class="contact__label">Email</label>
+            <input
+              id="email"
+              type="email"
+              name="email"
+              placeholder="Ej. ejemplo@gmail.com"
+              class="contact__input"
+            />
+            <label for="subject" class="contact__label">Asunto</label>
+            <input
+              id="subject"
+              type="text"
+              name="subject"
+              placeholder="Asunto del mensaje"
+              class="contact__input"
+            />
+          </div>
+          <div class="contact__wrapper--textarea">
+            <label for="message" class="contact__textarea--label">Mensaje</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="8"
+              cols="80"
+              placeholder="Mensaje"
+              class="contact__textarea"
+            ></textarea>
+            <input type="submit" value="Enviar" class="contact__btn" />
+          </div>
+        </div>
       </form>
     </main>
     <footer id="contact" class="footer">
