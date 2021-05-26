@@ -138,6 +138,8 @@
     font-size: 15px;
     text-transform: uppercase;
     color: white;
+    text-decoration: none;
+    list-style-type: none;
     margin: 0 2px 45px 15px;
     @media all and (min-width: 768px) {
       border-radius: 9px;
@@ -166,6 +168,8 @@
     font-size: 15px;
     text-transform: uppercase;
     color: white;
+    text-decoration: none;
+    list-style-type: none;
     margin: 0 5px 55px 5px;
     @media all and (min-width: 768px) {
       border-radius: 9px;
@@ -189,6 +193,8 @@
     flex-direction: row;
     justify-content: flex-end;
     margin-right: 20px;
+    text-decoration: none;
+    list-style-type: none;
     @media all and (min-width: 768px) {
       font-size: 37px;
     }

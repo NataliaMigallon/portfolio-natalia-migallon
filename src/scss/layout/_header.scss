@@ -58,12 +58,16 @@
       &--text {
         // display: none;
         @media all and (min-width: 768px) {
+          text-decoration: none;
+          list-style-type: none;
         }
         @media all and (min-width: 1200px) {
           padding: 8px 16px;
           font-family: "Open Sans", sans-serif;
           font-size: 25px;
           color: rgb(226, 175, 128);
+          text-decoration: none;
+          list-style-type: none;
         }
       }
     }

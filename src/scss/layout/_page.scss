@@ -10,7 +10,8 @@
 }
 .page__main {
   text-align: center;
-  padding-top: 120px;
+  //padding-top: 120px;
+  padding-top: 80px;
   height: 80%;
   @media all and (min-width: 768px) {
     padding-top: 170px;
@@ -63,7 +64,7 @@
     position: relative;
     text-align: center;
     &__down {
-      font-family: 'Times New Roman', Times, serif;
+      font-family: "Times New Roman", Times, serif;
       font-size: 100px;
       color: white;
       -webkit-transform: rotate(90deg);
@@ -80,7 +81,7 @@
     &__up {
       position: absolute;
       top: -60px;
-      font-family: 'Times New Roman', Times, serif;
+      font-family: "Times New Roman", Times, serif;
       font-size: 100px;
       color: white;
       -webkit-transform: rotate(90deg);
@@ -137,6 +138,8 @@
       font-size: 15px;
       color: white;
       text-transform: uppercase;
+      text-decoration: none;
+      list-style-type: none;
       animation-name: showText;
       animation-duration: 2s;
       animation-iteration-count: 2s;
@@ -275,7 +278,7 @@
   position: relative;
   text-align: center;
   .mouth {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
     font-size: 100px;
     color: white;
     top: 20px;
@@ -300,6 +303,8 @@
       width: 100%;
       left: -9px;
       top: 15px;
+      text-decoration: none;
+      list-style-type: none;
       animation-name: showText;
       animation-duration: 2s;
       animation-iteration-count: 2s;
