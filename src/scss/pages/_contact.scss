@@ -4,9 +4,6 @@
   width: 100vw;
   height: 100%;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 .contact {
   margin: 70px 0 40px 20px;
@@ -20,7 +17,7 @@
     border-width: 5px;
   }
   @media all and (min-width: 1200px) {
-    margin: 200px 80px 140px 200px;
+    margin: 100px 80px 240px 500px;
     border-width: 5px;
   }
   &__title {
@@ -79,6 +76,7 @@
     }
     @media all and (min-width: 1200px) {
       font-size: 18px;
+      margin-top: -18px;
     }
   }
   &__input {
@@ -125,7 +123,26 @@
       padding: 25px 20px 15px 20px;
     }
     @media all and (min-width: 1200px) {
-      margin: 0 0 10px 30px;
+      height: 215px;
+      margin: 0 0 10px 50px;
+      padding: 20px 15px 15px 10px;
+    }
+    &--label {
+      display: block;
+      font-family: "Kiwi Maru", serif;
+      font-size: 20px;
+      font-weight: 500;
+      color: white;
+      text-transform: uppercase;
+      padding: 13px 20px 5px 20px;
+      @media all and (min-width: 768px) {
+        font-size: 40px;
+        padding: 17px 0 5px 30px;
+      }
+      @media all and (min-width: 1200px) {
+        font-size: 18px;
+        padding: 0 0 5px 50px;
+      }
     }
   }
   &__textarea::placeholder {
@@ -164,6 +181,7 @@
       width: 130px;
       height: 47px;
       font-size: 20px;
+      margin: 0 0 0 50px;
     }
     &:hover {
       transform: scale(1.07);
@@ -191,6 +209,21 @@
     }
     @media all and (min-width: 1200px) {
       font-size: 30px;
+    }
+  }
+}
+.contact__wrapper {
+  @media all and (min-width: 768px) {
+  }
+  @media all and (min-width: 1200px) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  &--textarea {
+    @media all and (min-width: 768px) {
+    }
+    @media all and (min-width: 1200px) {
     }
   }
 }
