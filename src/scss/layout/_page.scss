@@ -63,6 +63,7 @@
     position: relative;
     text-align: center;
     &__down {
+      font-family: 'Times New Roman', Times, serif;
       font-size: 100px;
       color: white;
       -webkit-transform: rotate(90deg);
@@ -79,6 +80,7 @@
     &__up {
       position: absolute;
       top: -60px;
+      font-family: 'Times New Roman', Times, serif;
       font-size: 100px;
       color: white;
       -webkit-transform: rotate(90deg);
@@ -273,6 +275,7 @@
   position: relative;
   text-align: center;
   .mouth {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 100px;
     color: white;
     top: 20px;
