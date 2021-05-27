@@ -6,7 +6,7 @@
   min-height: 100vh;
 }
 .contact {
-  margin: 70px 0 40px 20px;
+  margin: 40px 0 40px 20px;
   border-width: 3px;
   border-style: solid;
   border-right: 0;
@@ -17,7 +17,8 @@
     border-width: 5px;
   }
   @media all and (min-width: 1200px) {
-    margin: 100px 80px 240px 500px;
+    // margin: 100px 80px 240px 500px;
+    margin: 100px 80px 0 500px;
     border-width: 5px;
   }
   &__title {

@@ -1,7 +1,7 @@
 .page-about {
   background-image: linear-gradient(
-      rgba(255, 255, 255, 0.3),
-      rgba(255, 255, 255, 0.3)
+      rgba(255, 255, 255, 0.4),
+      rgba(255, 255, 255, 0.4)
     ),
     url("../images/nat-about.png");
   background-color: rgb(253, 250, 250);
@@ -122,7 +122,7 @@
   }
   &__text {
     font-family: "Open Sans", sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     color: grey;
     padding: 0 25px 0 13px;
     line-height: 30px;

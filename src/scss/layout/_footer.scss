@@ -1,4 +1,7 @@
 .page-home .footer {
+  position: absolute;
+  left: 0;
+  width: 100%;
   background-color: transparent;
   display: flex;
   flex-direction: column;
@@ -7,21 +10,13 @@
   text-align: center;
   color: white;
   padding: 12px;
-  height: 20%;
+  //height: 20%;
   @media all and (min-width: 768px) {
     padding: 22px;
   }
-  // &__contact {
-  //   font-family: "Kiwi Maru", serif;
-  //   font-size: 20px;
-  //   color: white;
-  //   @media all and (min-width: 768px) {
-  //     font-size: 30px;
-  //   }
-  //   @media all and (min-width: 1200px) {
-  //     font-size: 70px;
-  //   }
-  // }
+  @media all and (min-width: 1200px) {
+    bottom: 0;
+  }
   &__wrapper {
     display: flex;
     flex-direction: row;
@@ -53,6 +48,9 @@
   }
 }
 .page-about .footer {
+  position: absolute;
+  left: 0;
+  width: 100%;
   background-color: rgb(21, 218, 208);
   display: flex;
   flex-direction: column;
@@ -60,19 +58,12 @@
   align-items: center;
   text-align: center;
   padding: 12px;
-  height: 20%;
-  bottom: 0;
   @media all and (min-width: 768px) {
     padding: 22px;
   }
   @media all and (min-width: 1200px) {
     //padding-top: 300px;
   }
-  // &__contact {
-  //   font-family: "Kiwi Maru", serif;
-  //   font-size: 20px;
-  //   color: white;
-  // }
   &__wrapper {
     display: flex;
     flex-direction: row;
@@ -105,6 +96,9 @@
   }
 }
 .page-projects .footer {
+  position: absolute;
+  left: 0;
+  width: 100%;
   background-color: rgb(21, 218, 208);
   display: flex;
   flex-direction: column;
@@ -117,11 +111,6 @@
   @media all and (min-width: 1200px) {
     //padding-top: 300px;
   }
-  // &__contact {
-  //   font-family: "Kiwi Maru", serif;
-  //   font-size: 20px;
-  //   color: white;
-  // }
   &__wrapper {
     display: flex;
     flex-direction: row;
@@ -154,7 +143,10 @@
   }
 }
 .page-contact .footer {
-  background-color: rgb(21, 218, 208);
+  position: absolute;
+  left: 0;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -166,11 +158,6 @@
   @media all and (min-width: 1200px) {
     bottom: 0;
   }
-  // &__contact {
-  //   font-family: "Kiwi Maru", serif;
-  //   font-size: 20px;
-  //   color: white;
-  // }
   &__wrapper {
     display: flex;
     flex-direction: row;
@@ -179,7 +166,7 @@
     color: white;
     .icons {
       font-size: 30px;
-      color: white;
+      color: rgb(21, 218, 208);
       padding: 0 10px 10px 10px;
       @media all and (min-width: 768px) {
         font-size: 45px;
@@ -193,7 +180,7 @@
   &__copy {
     font-family: "Kiwi Maru", serif;
     font-size: 13px;
-    color: white;
+    color: rgb(226, 175, 128);
     @media all and (min-width: 768px) {
       font-size: 20px;
     }

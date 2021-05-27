@@ -73,17 +73,22 @@
     }
   }
 }
+// .page-contact .header__logo {
+//   display: none;
+// }
 .page-contact .header {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  background-color: white;
+  height: 80px;
   @media all and (min-width: 768px) {
   }
   @media all and (min-width: 1200px) {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    background-color: white;
+    //background-color: white;
     height: 75px;
   }
   &__logo {
@@ -184,7 +189,7 @@
   transition: all 0.4s cubic-bezier(0.05, 1.04, 0.72, 0.98);
 }
 .page-contact ._layer {
-  background: rgb(255, 255, 255);
+  background: rgb(21, 218, 208);
   margin-bottom: 4px;
   border-radius: 2px;
   width: 38px;
