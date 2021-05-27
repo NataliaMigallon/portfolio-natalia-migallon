@@ -1,7 +1,4 @@
 .page-home .footer {
-  position: absolute;
-  left: 0;
-  width: 100%;
   background-color: transparent;
   display: flex;
   flex-direction: column;
@@ -10,12 +7,13 @@
   text-align: center;
   color: white;
   padding: 12px;
-  //height: 20%;
   @media all and (min-width: 768px) {
     padding: 22px;
   }
-  @media all and (min-width: 1200px) {
+  @media all and (min-width: 1920px) {
+    position: absolute;
     bottom: 0;
+    width: 100%;
   }
   &__wrapper {
     display: flex;
@@ -26,6 +24,9 @@
       font-size: 30px;
       color: white;
       padding: 0 10px 10px 10px;
+      &:hover {
+        transform: scale(1.07);
+      }
       @media all and (min-width: 768px) {
         font-size: 45px;
         padding: 0 17px 10px 17px;
@@ -48,9 +49,6 @@
   }
 }
 .page-about .footer {
-  position: absolute;
-  left: 0;
-  width: 100%;
   background-color: rgb(21, 218, 208);
   display: flex;
   flex-direction: column;
@@ -61,8 +59,10 @@
   @media all and (min-width: 768px) {
     padding: 22px;
   }
-  @media all and (min-width: 1200px) {
-    //padding-top: 300px;
+  @media all and (min-width: 1920px) {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
   }
   &__wrapper {
     display: flex;
@@ -74,6 +74,9 @@
       font-size: 30px;
       color: white;
       padding: 0 10px 10px 10px;
+      &:hover {
+        transform: scale(1.07);
+      }
       @media all and (min-width: 768px) {
         font-size: 45px;
         padding: 0 17px 10px 17px;
@@ -96,9 +99,6 @@
   }
 }
 .page-projects .footer {
-  position: absolute;
-  left: 0;
-  width: 100%;
   background-color: rgb(21, 218, 208);
   display: flex;
   flex-direction: column;
@@ -121,6 +121,9 @@
       font-size: 30px;
       color: white;
       padding: 0 10px 10px 10px;
+      &:hover {
+        transform: scale(1.07);
+      }
       @media all and (min-width: 768px) {
         font-size: 45px;
         padding: 0 17px 10px 17px;
@@ -143,9 +146,6 @@
   }
 }
 .page-contact .footer {
-  position: absolute;
-  left: 0;
-  width: 100%;
   background-color: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
@@ -155,8 +155,10 @@
   @media all and (min-width: 768px) {
     padding: 22px;
   }
-  @media all and (min-width: 1200px) {
+  @media all and (min-width: 1920px) {
+    position: absolute;
     bottom: 0;
+    width: 100%;
   }
   &__wrapper {
     display: flex;
@@ -168,6 +170,9 @@
       font-size: 30px;
       color: rgb(21, 218, 208);
       padding: 0 10px 10px 10px;
+      &:hover {
+        transform: scale(1.07);
+      }
       @media all and (min-width: 768px) {
         font-size: 45px;
         padding: 0 17px 10px 17px;

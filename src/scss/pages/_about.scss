@@ -37,13 +37,12 @@
     margin: 650px 80px 80px 80px;
     border-width: 5px;
   }
-  @media all and (min-width: 1024px) {
-    margin: 320px 80px 140px 400px;
-    border-width: 5px;
+  @media all and (min-width: 1366px) {
+    // margin: 100px 80px 240px 500px;
+    margin: 120px 80px 60px 450px;
   }
-  @media all and (min-width: 1200px) {
-    margin: 320px 80px 140px 600px;
-    border-width: 5px;
+  @media all and (min-width: 1920px) {
+    margin: 180px 260px 0 600px;
   }
   &__title {
     display: flex;
@@ -56,7 +55,10 @@
       padding: 0 0 0 30px;
       margin-top: -40px;
     }
-    @media all and (min-width: 1200px) {
+    @media all and (min-width: 1366px) {
+      margin-top: -25px;
+    }
+    @media all and (min-width: 1920px) {
       padding: 0 0 0 30px;
     }
     &--h1 {
@@ -68,8 +70,10 @@
       @media all and (min-width: 768px) {
         font-size: 60px;
       }
-      @media all and (min-width: 1200px) {
-        font-size: 50px;
+      @media all and (min-width: 1366px) {
+        font-size: 40px;
+      }
+      @media all and (min-width: 1920px) {
       }
     }
     &--icon {
@@ -82,8 +86,10 @@
       @media all and (min-width: 768px) {
         font-size: 60px;
       }
-      @media all and (min-width: 1200px) {
-        font-size: 50px;
+      @media all and (min-width: 1366px) {
+        font-size: 40px;
+      }
+      @media all and (min-width: 1920px) {
       }
     }
   }
@@ -124,7 +130,7 @@
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
     color: grey;
-    padding: 0 25px 0 13px;
+    padding: 0 45px 0 13px;
     line-height: 30px;
     &--adaLink {
       color: rgb(21, 218, 208);
@@ -133,14 +139,41 @@
     @media all and (min-width: 768px) {
       font-size: 25px;
       line-height: 40px;
-      text-align: justify;
+      //text-align: justify;
       padding: 0 0 0 30px;
     }
-    @media all and (min-width: 1200px) {
-      font-size: 20px;
-      line-height: 40px;
-      text-align: justify;
-      padding: 0 300px 0 30px;
+    @media all and (min-width: 1366px) {
+      font-size: 18px;
+      line-height: 35px;
+      //text-align: justify;
+      padding: 0 150px 0 30px;
+    }
+    @media all and (min-width: 1920px) {
+    }
+  }
+  &__arrow {
+    position: fixed;
+    z-index: 1002;
+    bottom: 120px;
+    right: -8px;
+    font-size: 30px;
+    color: rgb(21, 218, 208);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 20px;
+    text-decoration: none;
+    list-style-type: none;
+    @media all and (min-width: 768px) {
+      font-size: 37px;
+    }
+    @media all and (min-width: 1366px) {
+      font-size: 50px;
+      margin-right: 180px;
+      bottom: 180px;
+    }
+    @media all and (min-width: 1920px) {
+      display: none;
     }
   }
 }

@@ -57,6 +57,9 @@
       }
       &--text {
         // display: none;
+        &:hover {
+          text-decoration: underline;
+        }
         @media all and (min-width: 768px) {
           text-decoration: none;
           list-style-type: none;
@@ -66,8 +69,8 @@
           font-family: "Open Sans", sans-serif;
           font-size: 25px;
           color: rgb(226, 175, 128);
-          text-decoration: none;
-          list-style-type: none;
+          // text-decoration: none;
+          // list-style-type: none;
         }
       }
     }
@@ -244,10 +247,9 @@
   transform: translate3d(0px, -180%, 0px);
   z-index: 1001;
   background-color: white;
-  //opacity: 0.8;
   width: 180px;
   height: 218px;
-  padding: 5px 0 0 10px;
+  padding: 5px 0 0 15px;
   border-radius: 5px;
   border: solid 2px rgb(180, 180, 180);
   margin-top: 20px;
@@ -265,7 +267,7 @@
 .header__nav ul li a {
   //font-family: "Kiwi Maru", serif;
   font-family: "Open Sans", sans-serif;
-  font-size: 25px;
+  font-size: 20px;
   color: rgb(226, 175, 128);
   line-height: 50px;
   @media all and (min-width: 768px) {

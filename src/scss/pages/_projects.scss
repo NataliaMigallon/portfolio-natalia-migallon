@@ -17,10 +17,19 @@ html {
     margin: 200px 80px 80px 80px;
     border-width: 5px;
   }
-  @media all and (min-width: 1200px) {
-    margin: 120px 80px 140px 300px;
-    border-width: 5px;
+  @media all and (min-width: 1366px) {
+    margin: 120px 80px 60px 310px;
   }
+  @media all and (min-width: 1920px) {
+    margin: 120px 80px 60px 550px;
+  }
+  // @media all and (min-width: 1920px) {
+  //   margin: 150px 80px 0 500px;
+  // }
+  // @media all and (min-width: 1200px) {
+  //   margin: 120px 80px 140px 300px;
+  //   border-width: 5px;
+  // }
   // &__photo {
   //   width: 100vw;
   //   margin-top: -48px;
@@ -37,9 +46,15 @@ html {
       padding: 0 0 0 30px;
       margin-top: -40px;
     }
-    @media all and (min-width: 1200px) {
-      padding: 0 0 0 30px;
+    @media all and (min-width: 1366px) {
+      margin-top: -25px;
     }
+    @media all and (min-width: 1920px) {
+      //margin: 150px 80px 0 500px;
+    }
+    // @media all and (min-width: 1200px) {
+    //   padding: 0 0 0 30px;
+    // }
     &--h1 {
       font-family: "Kiwi Maru", serif;
       font-size: 40px;
@@ -47,11 +62,10 @@ html {
       color: rgb(226, 175, 128);
       text-transform: lowercase;
       padding: 0 5px 19px 0;
-      @media all and (min-width: 768px) {
-        font-size: 60px;
+      @media all and (min-width: 1366px) {
+        font-size: 40px;
       }
-      @media all and (min-width: 1200px) {
-        font-size: 50px;
+      @media all and (min-width: 1920px) {
       }
     }
     &--icon {
@@ -61,11 +75,10 @@ html {
       color: rgb(226, 175, 128);
       -webkit-transform: rotate(90deg);
       padding: 0 7px 7px 0;
-      @media all and (min-width: 768px) {
-        font-size: 60px;
+      @media all and (min-width: 1366px) {
+        font-size: 40px;
       }
-      @media all and (min-width: 1200px) {
-        font-size: 50px;
+      @media all and (min-width: 1920px) {
       }
     }
   }
@@ -74,7 +87,7 @@ html {
     font-size: 18px;
     line-height: 27px;
     color: grey;
-    padding: 0 25px 10px 15px;
+    padding: 0 45px 10px 15px;
     margin-top: 7px;
     @media all and (min-width: 768px) {
       padding: 0 0 17px 30px;
@@ -82,8 +95,8 @@ html {
       line-height: 40px;
       text-align: justify;
     }
-    @media all and (min-width: 1200px) {
-      font-size: 20px;
+    @media all and (min-width: 1366px) {
+      font-size: 18px;
       line-height: 40px;
       text-align: justify;
       padding: 0 400px 17px 30px;
@@ -92,11 +105,12 @@ html {
   &__image {
     width: 200px;
     padding: 0 25px 0 15px;
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
     @media all and (min-width: 768px) {
       width: 400px;
       padding: 30px 25px 10px 30px;
     }
-    @media all and (min-width: 1200px) {
+    @media all and (min-width: 1366px) {
       width: 350px;
     }
   }
@@ -110,7 +124,7 @@ html {
       line-height: 55px;
       padding: 0 0 0 30px;
     }
-    @media all and (min-width: 1200px) {
+    @media all and (min-width: 1366px) {
       font-size: 35px;
     }
   }
@@ -119,15 +133,16 @@ html {
     font-size: 15px;
     font-weight: 700;
     color: rgb(226, 175, 128);
-    padding: 0 25px 0 15px;
+    padding: 0 40px 0 15px;
     margin-top: 5px;
     @media all and (min-width: 768px) {
       font-size: 27px;
       line-height: 55px;
       padding: 0 0 0 30px;
     }
-    @media all and (min-width: 1200px) {
+    @media all and (min-width: 1366px) {
       font-size: 23px;
+      padding: 0 250px 0 30px;
     }
   }
   &__btn-web {
@@ -137,6 +152,7 @@ html {
     opacity: 0.87;
     border-radius: 5px;
     border-style: none;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.32);
     font-family: "Open Sans", sans-serif;
     font-size: 15px;
     text-transform: uppercase;
@@ -144,6 +160,9 @@ html {
     text-decoration: none;
     list-style-type: none;
     margin: 0 2px 45px 15px;
+    &:hover {
+      transform: scale(1.07);
+    }
     @media all and (min-width: 768px) {
       border-radius: 9px;
       width: 97px;
@@ -152,7 +171,7 @@ html {
       letter-spacing: 3px;
       margin: 0 12px 45px 30px;
     }
-    @media all and (min-width: 1200px) {
+    @media all and (min-width: 1366px) {
       border-radius: 7px;
       width: 67px;
       height: 37px;
@@ -167,6 +186,7 @@ html {
     opacity: 0.87;
     border-radius: 5px;
     border-style: none;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.32);
     font-family: "Open Sans", sans-serif;
     font-size: 15px;
     text-transform: uppercase;
@@ -174,6 +194,9 @@ html {
     text-decoration: none;
     list-style-type: none;
     margin: 0 5px 55px 5px;
+    &:hover {
+      transform: scale(1.07);
+    }
     @media all and (min-width: 768px) {
       border-radius: 9px;
       width: 155px;
@@ -181,7 +204,7 @@ html {
       font-size: 30px;
       letter-spacing: 1px;
     }
-    @media all and (min-width: 1200px) {
+    @media all and (min-width: 1366px) {
       border-radius: 7px;
       width: 110px;
       height: 37px;
@@ -190,6 +213,10 @@ html {
     }
   }
   &__arrow {
+    position: fixed;
+    z-index: 1002;
+    bottom: 120px;
+    right: -8px;
     font-size: 30px;
     color: rgb(21, 218, 208);
     display: flex;
@@ -201,9 +228,14 @@ html {
     @media all and (min-width: 768px) {
       font-size: 37px;
     }
-    @media all and (min-width: 1200px) {
+    @media all and (min-width: 1366px) {
       font-size: 50px;
-      margin-right: 200px;
+      margin-right: 260px;
+      bottom: 180px;
+    }
+    @media all and (min-width: 1920px) {
+      margin-right: 330px;
+      bottom: 160px;
     }
   }
 }

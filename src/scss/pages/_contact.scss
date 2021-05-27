@@ -16,10 +16,11 @@
     margin: 200px 80px 80px 80px;
     border-width: 5px;
   }
-  @media all and (min-width: 1024px) {
-    // margin: 100px 80px 240px 500px;
-    margin: 100px 80px 0 500px;
-    border-width: 5px;
+  @media all and (min-width: 1366px) {
+    margin: 90px 80px 60px 200px;
+  }
+  @media all and (min-width: 1920px) {
+    margin: 150px 80px 0 500px;
   }
   &__title {
     display: flex;
@@ -32,8 +33,10 @@
       padding: 0 0 0 30px;
       margin-top: -40px;
     }
-    @media all and (min-width: 1024px) {
-      padding: 0 0 0 30px;
+    @media all and (min-width: 1366px) {
+      margin-top: -25px;
+    }
+    @media all and (min-width: 1920px) {
     }
     &--h1 {
       font-family: "Kiwi Maru", serif;
@@ -44,8 +47,10 @@
       @media all and (min-width: 768px) {
         font-size: 60px;
       }
-      @media all and (min-width: 1024px) {
-        font-size: 50px;
+      @media all and (min-width: 1366px) {
+        font-size: 40px;
+      }
+      @media all and (min-width: 1920px) {
       }
     }
     &--icon {
@@ -58,8 +63,10 @@
       @media all and (min-width: 768px) {
         font-size: 60px;
       }
-      @media all and (min-width: 1024px) {
-        font-size: 50px;
+      @media all and (min-width: 1366px) {
+        font-size: 40px;
+      }
+      @media all and (min-width: 1920px) {
       }
     }
   }
@@ -75,7 +82,11 @@
       font-size: 40px;
       padding: 17px 0 5px 30px;
     }
-    @media all and (min-width: 1024px) {
+    @media all and (min-width: 1366px) {
+      font-size: 20px;
+      padding: 14px 0 5px 30px;
+    }
+    @media all and (min-width: 1920px) {
       font-size: 18px;
       margin-top: -18px;
     }
@@ -92,7 +103,13 @@
       padding: 25px 20px 15px 20px;
       margin: 0 0 0 30px;
     }
-    @media all and (min-width: 1024px) {
+    @media all and (min-width: 1366px) {
+      width: 250px;
+      height: 25px;
+      border-radius: 5px;
+      padding: 20px 15px 15px 10px;
+    }
+    @media all and (min-width: 1920px) {
       margin: 0 0 10px 30px;
       width: 300px;
       height: 20px;
@@ -106,7 +123,10 @@
     @media all and (min-width: 768px) {
       font-size: 25px;
     }
-    @media all and (min-width: 1024px) {
+    @media all and (min-width: 1366px) {
+      font-size: 18px;
+    }
+    @media all and (min-width: 1920px) {
       font-size: 18px;
     }
   }
@@ -123,10 +143,15 @@
       border-radius: 6px;
       padding: 25px 20px 15px 20px;
     }
-    @media all and (min-width: 1024px) {
+    @media all and (min-width: 1366px) {
       height: 215px;
       margin: 0 0 10px 50px;
       padding: 20px 15px 15px 10px;
+    }
+    @media all and (min-width: 1920px) {
+      height: 215px;
+      margin: 0 0 10px 50px;
+      padding: 13px 15px 15px 13px;
     }
     &--label {
       display: block;
@@ -140,7 +165,11 @@
         font-size: 40px;
         padding: 17px 0 5px 30px;
       }
-      @media all and (min-width: 1024px) {
+      @media all and (min-width: 1366px) {
+        font-size: 20px;
+        padding: 12px 0 5px 50px;
+      }
+      @media all and (min-width: 1920px) {
         font-size: 18px;
         padding: 0 0 5px 50px;
       }
@@ -152,7 +181,10 @@
     @media all and (min-width: 768px) {
       font-size: 25px;
     }
-    @media all and (min-width: 1024px) {
+    @media all and (min-width: 1366px) {
+      font-size: 18px;
+    }
+    @media all and (min-width: 1920px) {
       font-size: 18px;
     }
   }
@@ -177,7 +209,14 @@
       font-size: 30px;
       //padding: 0 0 0 30px;
     }
-    @media all and (min-width: 1024px) {
+    @media all and (min-width: 1366px) {
+      margin: 0 0 0 30px;
+      width: 130px;
+      height: 47px;
+      font-size: 20px;
+      margin: 17px 0 0 50px;
+    }
+    @media all and (min-width: 1920px) {
       margin: 0 0 0 30px;
       width: 130px;
       height: 47px;
@@ -198,17 +237,26 @@
   @media all and (min-width: 768px) {
     margin: 0 0 20px 30px;
   }
-  @media all and (min-width: 1024px) {
+  @media all and (min-width: 1366px) {
+  }
+  @media all and (min-width: 1920px) {
   }
   .icons {
     font-size: 30px;
     color: white;
     padding-right: 20px;
+    &:hover {
+      transform: scale(1.07);
+    }
     @media all and (min-width: 768px) {
       font-size: 50px;
+      padding: 20px 20px 5px 0;
+    }
+    @media all and (min-width: 1366px) {
+      font-size: 25px;
       padding: 20px 30px 8px 0;
     }
-    @media all and (min-width: 1024px) {
+    @media all and (min-width: 1920px) {
       font-size: 30px;
     }
   }
@@ -216,7 +264,12 @@
 .contact__wrapper {
   @media all and (min-width: 768px) {
   }
-  @media all and (min-width: 1024px) {
+  @media all and (min-width: 1366px) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  @media all and (min-width: 1920px) {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -224,7 +277,249 @@
   &--textarea {
     @media all and (min-width: 768px) {
     }
-    @media all and (min-width: 1024px) {
+    @media all and (min-width: 1920px) {
     }
   }
 }
+
+// .page-contact {
+//   background-image: linear-gradient(rgb(21, 218, 208), rgb(226, 175, 128) 60%);
+//   background-repeat: no-repeat;
+//   width: 100vw;
+//   height: 100%;
+//   min-height: 100vh;
+// }
+// .contact {
+//   margin: 40px 0 40px 20px;
+//   border-width: 3px;
+//   border-style: solid;
+//   border-right: 0;
+//   border-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(0, 0, 0, 0))
+//     1 100%;
+//   @media all and (min-width: 768px) {
+//     margin: 200px 80px 80px 80px;
+//     border-width: 5px;
+//   }
+//   @media all and (min-width: 1366px) {
+//     // margin: 100px 80px 240px 500px;
+//     margin: 100px 80px 0 200px;
+//     border-width: 5px;
+//   }
+//   // @media all and (min-width: 1200px) {
+//   //   // margin: 100px 80px 240px 500px;
+//   //   margin: 100px 80px 0 500px;
+//   //   border-width: 5px;
+//   // }
+//   &__title {
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: flex-start;
+//     align-items: center;
+//     padding: 0 0 0 20px;
+//     margin-top: -20px;
+//     @media all and (min-width: 768px) {
+//       padding: 0 0 0 30px;
+//       margin-top: -40px;
+//     }
+//     @media all and (min-width: 1200px) {
+//       padding: 0 0 0 30px;
+//     }
+//     &--h1 {
+//       font-family: "Kiwi Maru", serif;
+//       font-size: 40px;
+//       color: rgb(255, 255, 255);
+//       text-transform: lowercase;
+//       padding: 0 5px 19px 0;
+//       @media all and (min-width: 768px) {
+//         font-size: 60px;
+//       }
+//       @media all and (min-width: 1366px) {
+//         font-size: 40px;
+//       }
+//       // @media all and (min-width: 1200px) {
+//       //   font-size: 50px;
+//       // }
+//     }
+//     &--icon {
+//       font-family: "Kiwi Maru", serif;
+//       font-size: 40px;
+//       font-weight: 800;
+//       color: white;
+//       -webkit-transform: rotate(90deg);
+//       padding: 0 7px 7px 0;
+//       @media all and (min-width: 768px) {
+//         font-size: 60px;
+//       }
+//       @media all and (min-width: 1366px) {
+//         font-size: 20px;
+//       }
+//       @media all and (min-width: 1200px) {
+//         font-size: 50px;
+//       }
+//     }
+//   }
+//   &__label {
+//     display: block;
+//     font-family: "Kiwi Maru", serif;
+//     font-size: 20px;
+//     font-weight: 500;
+//     color: white;
+//     text-transform: uppercase;
+//     padding: 13px 20px 5px 20px;
+//     @media all and (min-width: 768px) {
+//       font-size: 40px;
+//       padding: 17px 0 5px 30px;
+//     }
+//     @media all and (min-width: 1200px) {
+//       font-size: 18px;
+//       margin-top: -18px;
+//     }
+//   }
+//   &__input {
+//     display: block;
+//     border-style: none;
+//     border-radius: 3px;
+//     padding: 8px 10px 8px 10px;
+//     margin: 0 20px 10px 20px;
+//     @media all and (min-width: 768px) {
+//       width: 430px;
+//       border-radius: 6px;
+//       padding: 25px 20px 15px 20px;
+//       margin: 0 0 0 30px;
+//     }
+//     @media all and (min-width: 1200px) {
+//       margin: 0 0 10px 30px;
+//       width: 300px;
+//       height: 20px;
+//       border-radius: 5px;
+//       padding: 20px 15px 15px 10px;
+//     }
+//   }
+//   &__input::placeholder {
+//     font-family: "Open Sans", sans-serif;
+//     color: rgb(100, 100, 100);
+//     @media all and (min-width: 768px) {
+//       font-size: 25px;
+//     }
+//     @media all and (min-width: 1200px) {
+//       font-size: 18px;
+//     }
+//   }
+//   &__textarea {
+//     width: 300px;
+//     display: block;
+//     border-style: none;
+//     border-radius: 3px;
+//     padding: 5px 10px 5px 10px;
+//     margin: 0 20px 10px 20px;
+//     @media all and (min-width: 768px) {
+//       width: 600px;
+//       height: 300px;
+//       border-radius: 6px;
+//       padding: 25px 20px 15px 20px;
+//     }
+//     @media all and (min-width: 1200px) {
+//       height: 215px;
+//       margin: 0 0 10px 50px;
+//       padding: 20px 15px 15px 10px;
+//     }
+//     &--label {
+//       display: block;
+//       font-family: "Kiwi Maru", serif;
+//       font-size: 20px;
+//       font-weight: 500;
+//       color: white;
+//       text-transform: uppercase;
+//       padding: 13px 20px 5px 20px;
+//       @media all and (min-width: 768px) {
+//         font-size: 40px;
+//         padding: 17px 0 5px 30px;
+//       }
+//       @media all and (min-width: 1200px) {
+//         font-size: 18px;
+//         padding: 0 0 5px 50px;
+//       }
+//     }
+//   }
+//   &__textarea::placeholder {
+//     font-family: "Open Sans", sans-serif;
+//     color: rgb(100, 100, 100);
+//     @media all and (min-width: 768px) {
+//       font-size: 25px;
+//     }
+//     @media all and (min-width: 1200px) {
+//       font-size: 18px;
+//     }
+//   }
+//   &__btn {
+//     width: 140px;
+//     height: 38px;
+//     background-color: rgb(21, 218, 208);
+//     border-radius: 8px;
+//     border-style: none;
+//     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.32);
+//     font-family: "Open Sans", sans-serif;
+//     font-size: 17px;
+//     font-weight: 600;
+//     letter-spacing: 2px;
+//     color: rgb(255, 255, 255);
+//     padding: 0 0 3px 0;
+//     margin: 8px 20px 25px 20px;
+//     cursor: pointer;
+//     @media all and (min-width: 768px) {
+//       width: 155px;
+//       height: 57px;
+//       font-size: 30px;
+//       //padding: 0 0 0 30px;
+//     }
+//     @media all and (min-width: 1200px) {
+//       margin: 0 0 0 30px;
+//       width: 130px;
+//       height: 47px;
+//       font-size: 20px;
+//       margin: 0 0 0 50px;
+//     }
+//     &:hover {
+//       transform: scale(1.07);
+//     }
+//   }
+// }
+
+// .icons__wrapper {
+//   display: flex;
+//   flex-direction: row;
+//   align-items: center;
+//   margin: 0 0 20px 20px;
+//   @media all and (min-width: 768px) {
+//     margin: 0 0 20px 30px;
+//   }
+//   @media all and (min-width: 1200px) {
+//   }
+//   .icons {
+//     font-size: 30px;
+//     color: white;
+//     padding-right: 20px;
+//     @media all and (min-width: 768px) {
+//       font-size: 50px;
+//       padding: 20px 30px 8px 0;
+//     }
+//     @media all and (min-width: 1200px) {
+//       font-size: 30px;
+//     }
+//   }
+// }
+// .contact__wrapper {
+//   @media all and (min-width: 768px) {
+//   }
+//   @media all and (min-width: 1200px) {
+//     display: flex;
+//     flex-direction: row;
+//     align-items: center;
+//   }
+//   &--textarea {
+//     @media all and (min-width: 768px) {
+//     }
+//     @media all and (min-width: 1200px) {
+//     }
+//   }
+// }
