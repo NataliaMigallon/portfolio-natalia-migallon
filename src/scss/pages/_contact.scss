@@ -16,7 +16,7 @@
     margin: 200px 80px 80px 80px;
     border-width: 5px;
   }
-  @media all and (min-width: 1200px) {
+  @media all and (min-width: 1024px) {
     // margin: 100px 80px 240px 500px;
     margin: 100px 80px 0 500px;
     border-width: 5px;
@@ -32,7 +32,7 @@
       padding: 0 0 0 30px;
       margin-top: -40px;
     }
-    @media all and (min-width: 1200px) {
+    @media all and (min-width: 1024px) {
       padding: 0 0 0 30px;
     }
     &--h1 {
@@ -44,7 +44,7 @@
       @media all and (min-width: 768px) {
         font-size: 60px;
       }
-      @media all and (min-width: 1200px) {
+      @media all and (min-width: 1024px) {
         font-size: 50px;
       }
     }
@@ -58,7 +58,7 @@
       @media all and (min-width: 768px) {
         font-size: 60px;
       }
-      @media all and (min-width: 1200px) {
+      @media all and (min-width: 1024px) {
         font-size: 50px;
       }
     }
@@ -75,7 +75,7 @@
       font-size: 40px;
       padding: 17px 0 5px 30px;
     }
-    @media all and (min-width: 1200px) {
+    @media all and (min-width: 1024px) {
       font-size: 18px;
       margin-top: -18px;
     }
@@ -92,7 +92,7 @@
       padding: 25px 20px 15px 20px;
       margin: 0 0 0 30px;
     }
-    @media all and (min-width: 1200px) {
+    @media all and (min-width: 1024px) {
       margin: 0 0 10px 30px;
       width: 300px;
       height: 20px;
@@ -106,7 +106,7 @@
     @media all and (min-width: 768px) {
       font-size: 25px;
     }
-    @media all and (min-width: 1200px) {
+    @media all and (min-width: 1024px) {
       font-size: 18px;
     }
   }
@@ -123,7 +123,7 @@
       border-radius: 6px;
       padding: 25px 20px 15px 20px;
     }
-    @media all and (min-width: 1200px) {
+    @media all and (min-width: 1024px) {
       height: 215px;
       margin: 0 0 10px 50px;
       padding: 20px 15px 15px 10px;
@@ -140,7 +140,7 @@
         font-size: 40px;
         padding: 17px 0 5px 30px;
       }
-      @media all and (min-width: 1200px) {
+      @media all and (min-width: 1024px) {
         font-size: 18px;
         padding: 0 0 5px 50px;
       }
@@ -152,7 +152,7 @@
     @media all and (min-width: 768px) {
       font-size: 25px;
     }
-    @media all and (min-width: 1200px) {
+    @media all and (min-width: 1024px) {
       font-size: 18px;
     }
   }
@@ -177,7 +177,7 @@
       font-size: 30px;
       //padding: 0 0 0 30px;
     }
-    @media all and (min-width: 1200px) {
+    @media all and (min-width: 1024px) {
       margin: 0 0 0 30px;
       width: 130px;
       height: 47px;
@@ -198,7 +198,7 @@
   @media all and (min-width: 768px) {
     margin: 0 0 20px 30px;
   }
-  @media all and (min-width: 1200px) {
+  @media all and (min-width: 1024px) {
   }
   .icons {
     font-size: 30px;
@@ -208,7 +208,7 @@
       font-size: 50px;
       padding: 20px 30px 8px 0;
     }
-    @media all and (min-width: 1200px) {
+    @media all and (min-width: 1024px) {
       font-size: 30px;
     }
   }
@@ -216,7 +216,7 @@
 .contact__wrapper {
   @media all and (min-width: 768px) {
   }
-  @media all and (min-width: 1200px) {
+  @media all and (min-width: 1024px) {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -224,7 +224,7 @@
   &--textarea {
     @media all and (min-width: 768px) {
     }
-    @media all and (min-width: 1200px) {
+    @media all and (min-width: 1024px) {
     }
   }
 }
