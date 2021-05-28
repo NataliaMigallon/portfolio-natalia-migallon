@@ -34,7 +34,7 @@
   border-image: linear-gradient(to bottom, rgb(21, 218, 208), rgba(0, 0, 0, 0))
     1 100%;
   @media all and (min-width: 768px) {
-    margin: 650px 80px 80px 80px;
+    margin: 550px 80px 80px 80px;
     border-width: 5px;
   }
   @media all and (min-width: 1366px) {
@@ -68,7 +68,7 @@
       text-transform: lowercase;
       padding: 0 5px 19px 0;
       @media all and (min-width: 768px) {
-        font-size: 60px;
+        font-size: 45px;
       }
       @media all and (min-width: 1366px) {
         font-size: 40px;
@@ -84,7 +84,7 @@
       -webkit-transform: rotate(90deg);
       padding: 0 7px 7px 0;
       @media all and (min-width: 768px) {
-        font-size: 60px;
+        font-size: 45px;
       }
       @media all and (min-width: 1366px) {
         font-size: 40px;
@@ -94,7 +94,7 @@
     }
   }
   &__cv {
-    width: 150px;
+    width: 100px;
     height: 38px;
     background-color: rgb(226, 175, 128);
     border-radius: 8px;
@@ -114,13 +114,13 @@
       transform: scale(1.07);
     }
     @media all and (min-width: 768px) {
-      width: 210px;
+      width: 130px;
       height: 50px;
-      font-size: 25px;
-      margin: 0 0 0 30px;
+      font-size: 23px;
+      margin: 0 0 15px 30px;
     }
-    @media all and (min-width: 1200px) {
-      width: 160px;
+    @media all and (min-width: 1366px) {
+      width: 110px;
       height: 35px;
       font-size: 17px;
       margin: 0 0 10px 30px;
@@ -165,10 +165,11 @@
     text-decoration: none;
     list-style-type: none;
     @media all and (min-width: 768px) {
-      font-size: 37px;
+      font-size: 40px;
+      margin-right: 35px;
+      bottom: 165px;
     }
     @media all and (min-width: 1366px) {
-      font-size: 50px;
       margin-right: 180px;
       bottom: 180px;
     }

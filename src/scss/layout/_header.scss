@@ -4,7 +4,7 @@
   justify-content: center;
   @media all and (min-width: 768px) {
   }
-  @media all and (min-width: 1200px) {
+  @media all and (min-width: 1366px) {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -17,17 +17,22 @@
     width: 30px;
     height: 30px;
     @media all and (min-width: 768px) {
+      top: 23px;
+      right: 33px;
     }
-    @media all and (min-width: 1200px) {
+    @media all and (min-width: 1366px) {
       top: 24px;
       left: 200px;
+    }
+    @media all and (min-width: 1920px) {
+      left: 298px;
     }
   }
   &__title {
     display: none;
     @media all and (min-width: 768px) {
     }
-    @media all and (min-width: 1200px) {
+    @media all and (min-width: 1366px) {
       position: absolute;
       left: 250px;
       top: 18px;
@@ -38,22 +43,33 @@
       color: rgb(21, 218, 208);
       padding-right: 50px;
     }
+    @media all and (min-width: 1920px) {
+      left: 340px;
+    }
   }
   & .navbar {
     @media all and (min-width: 768px) {
     }
-    @media all and (min-width: 1200px) {
+    @media all and (min-width: 1366px) {
     }
     &__element {
       display: none;
       @media all and (min-width: 768px) {
+        display: inline-block;
+        position: relative;
+        margin: 0 8px;
+        top: 20px;
+        right: 20px;
       }
-      @media all and (min-width: 1200px) {
+      @media all and (min-width: 1366px) {
         display: inline-block;
         position: relative;
         margin: 0 8px;
         top: 20px;
         right: 200px;
+      }
+      @media all and (min-width: 1920px) {
+        right: 298px;
       }
       &--text {
         // display: none;
@@ -61,14 +77,18 @@
           text-decoration: underline;
         }
         @media all and (min-width: 768px) {
-          text-decoration: none;
-          list-style-type: none;
-        }
-        @media all and (min-width: 1200px) {
           padding: 8px 16px;
           font-family: "Open Sans", sans-serif;
           font-size: 25px;
           color: rgb(226, 175, 128);
+          text-decoration: none;
+          list-style-type: none;
+        }
+        @media all and (min-width: 1366px) {
+          padding: 8px 16px;
+          // font-family: "Open Sans", sans-serif;
+          // font-size: 25px;
+          // color: rgb(226, 175, 128);
           // text-decoration: none;
           // list-style-type: none;
         }
@@ -87,7 +107,7 @@
   height: 80px;
   @media all and (min-width: 768px) {
   }
-  @media all and (min-width: 1200px) {
+  @media all and (min-width: 1366px) {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -101,17 +121,22 @@
     width: 30px;
     height: 30px;
     @media all and (min-width: 768px) {
+      top: 23px;
+      right: 33px;
     }
-    @media all and (min-width: 1200px) {
+    @media all and (min-width: 1366px) {
       top: 24px;
       left: 200px;
+    }
+    @media all and (min-width: 1920px) {
+      left: 298px;
     }
   }
   &__title {
     display: none;
     @media all and (min-width: 768px) {
     }
-    @media all and (min-width: 1200px) {
+    @media all and (min-width: 1366px) {
       position: absolute;
       left: 250px;
       top: 18px;
@@ -122,28 +147,39 @@
       color: rgb(21, 218, 208);
       padding-right: 50px;
     }
+    @media all and (min-width: 1920px) {
+      left: 340px;
+    }
   }
   & .navbar {
     @media all and (min-width: 768px) {
     }
-    @media all and (min-width: 1200px) {
+    @media all and (min-width: 1366px) {
     }
     &__element {
       display: none;
       @media all and (min-width: 768px) {
-      }
-      @media all and (min-width: 1200px) {
         display: inline-block;
         position: relative;
         margin: 0 8px;
         top: 20px;
+        right: 20px;
+      }
+      @media all and (min-width: 1366px) {
+        // display: inline-block;
+        // position: relative;
+        // margin: 0 8px;
+        // top: 20px;
         right: 200px;
+      }
+      @media all and (min-width: 1920px) {
+        right: 298px;
       }
       &--text {
         // display: none;
         @media all and (min-width: 768px) {
         }
-        @media all and (min-width: 1200px) {
+        @media all and (min-width: 1366px) {
           padding: 8px 16px;
           font-family: "Open Sans", sans-serif;
           font-size: 25px;
@@ -172,10 +208,11 @@
   -ms-user-select: none;
   user-select: none;
   @media all and (min-width: 768px) {
-    left: unset;
-    right: 85px;
+    // left: unset;
+    // right: 85px;
+    display: none;
   }
-  @media all and (min-width: 1200px) {
+  @media all and (min-width: 1366px) {
     display: none;
   }
 }
@@ -220,7 +257,7 @@
     width: 68px;
     height: 4px;
   }
-  @media all and (min-width: 1200px) {
+  @media all and (min-width: 1366px) {
     //padding-top: 300px;
   }
 }
@@ -260,7 +297,7 @@
     right: 85px;
     width: 200px;
   }
-  @media all and (min-width: 1200px) {
+  @media all and (min-width: 1366px) {
     //padding-top: 300px;
   }
 }
@@ -271,9 +308,9 @@
   color: rgb(226, 175, 128);
   line-height: 50px;
   @media all and (min-width: 768px) {
-    font-size: 40px;
+    font-size: 33px;
     line-height: 60px;
   }
-  @media all and (min-width: 1200px) {
+  @media all and (min-width: 1366px) {
   }
 }

@@ -13,7 +13,7 @@
   border-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(0, 0, 0, 0))
     1 100%;
   @media all and (min-width: 768px) {
-    margin: 200px 80px 80px 80px;
+    margin: 100px 80px 80px 80px;
     border-width: 5px;
   }
   @media all and (min-width: 1366px) {
@@ -31,10 +31,10 @@
     margin-top: -20px;
     @media all and (min-width: 768px) {
       padding: 0 0 0 30px;
-      margin-top: -40px;
+      margin-top: -25px;
     }
     @media all and (min-width: 1366px) {
-      margin-top: -25px;
+      //margin-top: -25px;
     }
     @media all and (min-width: 1920px) {
     }
@@ -45,7 +45,7 @@
       text-transform: lowercase;
       padding: 0 5px 19px 0;
       @media all and (min-width: 768px) {
-        font-size: 60px;
+        font-size: 45px;
       }
       @media all and (min-width: 1366px) {
         font-size: 40px;
@@ -61,7 +61,7 @@
       -webkit-transform: rotate(90deg);
       padding: 0 7px 7px 0;
       @media all and (min-width: 768px) {
-        font-size: 60px;
+        font-size: 45px;
       }
       @media all and (min-width: 1366px) {
         font-size: 40px;
@@ -79,7 +79,7 @@
     text-transform: uppercase;
     padding: 13px 20px 5px 20px;
     @media all and (min-width: 768px) {
-      font-size: 40px;
+      font-size: 25px;
       padding: 17px 0 5px 30px;
     }
     @media all and (min-width: 1366px) {
@@ -121,7 +121,7 @@
     font-family: "Open Sans", sans-serif;
     color: rgb(100, 100, 100);
     @media all and (min-width: 768px) {
-      font-size: 25px;
+      font-size: 20px;
     }
     @media all and (min-width: 1366px) {
       font-size: 18px;
@@ -141,7 +141,8 @@
       width: 600px;
       height: 300px;
       border-radius: 6px;
-      padding: 25px 20px 15px 20px;
+      padding: 20px 20px 15px 20px;
+      margin: 0 20px 10px 30px;
     }
     @media all and (min-width: 1366px) {
       height: 215px;
@@ -162,7 +163,7 @@
       text-transform: uppercase;
       padding: 13px 20px 5px 20px;
       @media all and (min-width: 768px) {
-        font-size: 40px;
+        font-size: 25px;
         padding: 17px 0 5px 30px;
       }
       @media all and (min-width: 1366px) {
@@ -179,7 +180,7 @@
     font-family: "Open Sans", sans-serif;
     color: rgb(100, 100, 100);
     @media all and (min-width: 768px) {
-      font-size: 25px;
+      font-size: 20px;
     }
     @media all and (min-width: 1366px) {
       font-size: 18px;
@@ -204,10 +205,10 @@
     margin: 8px 20px 25px 20px;
     cursor: pointer;
     @media all and (min-width: 768px) {
-      width: 155px;
-      height: 57px;
-      font-size: 30px;
-      //padding: 0 0 0 30px;
+      width: 147px;
+      height: 50px;
+      font-size: 25px;
+      margin: 8px 20px 25px 30px;
     }
     @media all and (min-width: 1366px) {
       margin: 0 0 0 30px;
@@ -249,7 +250,7 @@
       transform: scale(1.07);
     }
     @media all and (min-width: 768px) {
-      font-size: 50px;
+      font-size: 40px;
       padding: 20px 20px 5px 0;
     }
     @media all and (min-width: 1366px) {

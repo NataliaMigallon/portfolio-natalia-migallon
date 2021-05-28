@@ -9,17 +9,20 @@
   padding: 12px;
   @media all and (min-width: 768px) {
     padding: 22px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
   }
   @media all and (min-width: 1366px) {
     padding: 18px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+    // position: absolute;
+    // bottom: 0;
+    // width: 100%;
   }
   @media all and (min-width: 1920px) {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+    // position: absolute;
+    // bottom: 0;
+    // width: 100%;
   }
   &__wrapper {
     display: flex;
@@ -34,7 +37,7 @@
         transform: scale(1.07);
       }
       @media all and (min-width: 768px) {
-        font-size: 45px;
+        font-size: 40px;
         padding: 0 17px 10px 17px;
       }
       @media all and (min-width: 1366px) {
@@ -92,10 +95,10 @@
         transform: scale(1.07);
       }
       @media all and (min-width: 768px) {
-        font-size: 45px;
+        font-size: 40px;
         padding: 0 17px 10px 17px;
       }
-      @media all and (min-width: 1200px) {
+      @media all and (min-width: 1366px) {
         font-size: 33px;
       }
     }
@@ -107,7 +110,7 @@
     @media all and (min-width: 768px) {
       font-size: 20px;
     }
-    @media all and (min-width: 1200px) {
+    @media all and (min-width: 1366px) {
       font-size: 16px;
     }
   }
@@ -122,7 +125,7 @@
   @media all and (min-width: 768px) {
     padding: 22px;
   }
-  @media all and (min-width: 1200px) {
+  @media all and (min-width: 1366px) {
     //padding-top: 300px;
   }
   &__wrapper {
@@ -139,10 +142,10 @@
         transform: scale(1.07);
       }
       @media all and (min-width: 768px) {
-        font-size: 45px;
+        font-size: 40px;
         padding: 0 17px 10px 17px;
       }
-      @media all and (min-width: 1200px) {
+      @media all and (min-width: 1366px) {
         font-size: 33px;
       }
     }
@@ -154,7 +157,7 @@
     @media all and (min-width: 768px) {
       font-size: 20px;
     }
-    @media all and (min-width: 1200px) {
+    @media all and (min-width: 1366px) {
       font-size: 16px;
     }
   }
@@ -188,10 +191,10 @@
         transform: scale(1.07);
       }
       @media all and (min-width: 768px) {
-        font-size: 45px;
+        font-size: 40px;
         padding: 0 17px 10px 17px;
       }
-      @media all and (min-width: 1200px) {
+      @media all and (min-width: 1366px) {
         font-size: 33px;
       }
     }
@@ -203,7 +206,7 @@
     @media all and (min-width: 768px) {
       font-size: 20px;
     }
-    @media all and (min-width: 1200px) {
+    @media all and (min-width: 1366px) {
       font-size: 16px;
     }
   }

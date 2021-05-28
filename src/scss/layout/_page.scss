@@ -20,7 +20,7 @@
     padding-top: 80px;
   }
   @media all and (min-width: 1920px) {
-    padding-top: 100px;
+    padding-top: 130px;
   }
 }
 .main__title {
@@ -132,7 +132,7 @@
         }
       }
       @media all and (min-width: 768px) {
-        top: -100px;
+        top: -107px;
         font-size: 150px;
       }
       @media all and (min-width: 1366px) {
@@ -194,7 +194,6 @@
         left: -60px;
         font-size: 20px;
         width: 142px;
-        //text-overflow: ;
       }
       @media all and (min-width: 1366px) {
         top: -5px;
@@ -369,7 +368,7 @@
         }
       }
       @media all and (min-width: 768px) {
-        //font-size: 20px;
+         //top: 20px;
       }
       @media all and (min-width: 1366px) {
         //top: -10px;
@@ -379,7 +378,7 @@
       }
       &--link {
         @media all and (min-width: 768px) {
-          //font-size: 20px;
+          font-size: 20px;
         }
         @media all and (min-width: 1366px) {
           font-size: 14px;
