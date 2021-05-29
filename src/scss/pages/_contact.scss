@@ -12,8 +12,12 @@
   border-right: 0;
   border-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(0, 0, 0, 0))
     1 100%;
+  @media all and (min-width: 600px) {
+    margin: 80px 70px 80px 130px;
+    border-width: 5px;
+  }
   @media all and (min-width: 768px) {
-    margin: 100px 80px 80px 80px;
+    margin: 100px 80px 80px 70px;
     border-width: 5px;
   }
   @media all and (min-width: 1366px) {
@@ -44,13 +48,8 @@
       color: rgb(255, 255, 255);
       text-transform: lowercase;
       padding: 0 5px 19px 0;
-      @media all and (min-width: 768px) {
-        font-size: 45px;
-      }
       @media all and (min-width: 1366px) {
         font-size: 40px;
-      }
-      @media all and (min-width: 1920px) {
       }
     }
     &--icon {
@@ -60,13 +59,8 @@
       color: white;
       -webkit-transform: rotate(90deg);
       padding: 0 7px 7px 0;
-      @media all and (min-width: 768px) {
-        font-size: 45px;
-      }
       @media all and (min-width: 1366px) {
         font-size: 40px;
-      }
-      @media all and (min-width: 1920px) {
       }
     }
   }

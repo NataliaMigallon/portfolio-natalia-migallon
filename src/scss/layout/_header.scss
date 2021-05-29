@@ -2,8 +2,6 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  @media all and (min-width: 768px) {
-  }
   @media all and (min-width: 1366px) {
     display: flex;
     flex-direction: row;
@@ -30,8 +28,6 @@
   }
   &__title {
     display: none;
-    @media all and (min-width: 768px) {
-    }
     @media all and (min-width: 1366px) {
       position: absolute;
       left: 250px;
@@ -48,57 +44,43 @@
     }
   }
   & .navbar {
-    @media all and (min-width: 768px) {
-    }
-    @media all and (min-width: 1366px) {
-    }
     &__element {
       display: none;
-      @media all and (min-width: 768px) {
+      @media all and (min-width: 600px) {
         display: inline-block;
         position: relative;
         margin: 0 8px;
-        top: 20px;
+        top: 30px;
         right: 20px;
       }
-      @media all and (min-width: 1366px) {
-        display: inline-block;
-        position: relative;
-        margin: 0 8px;
+      @media all and (min-width: 768px) {
         top: 20px;
+      }
+      @media all and (min-width: 1366px) {
         right: 200px;
       }
       @media all and (min-width: 1920px) {
         right: 298px;
       }
       &--text {
-        // display: none;
         &:hover {
           text-decoration: underline;
         }
-        @media all and (min-width: 768px) {
+        @media all and (min-width: 600px) {
           padding: 8px 16px;
           font-family: "Open Sans", sans-serif;
-          font-size: 25px;
+          font-size: 20px;
           color: rgb(226, 175, 128);
           text-decoration: none;
           list-style-type: none;
         }
-        @media all and (min-width: 1366px) {
-          padding: 8px 16px;
-          // font-family: "Open Sans", sans-serif;
-          // font-size: 25px;
-          // color: rgb(226, 175, 128);
-          // text-decoration: none;
-          // list-style-type: none;
+        @media all and (min-width: 768px) {
+          font-size: 25px;
         }
       }
     }
   }
 }
-// .page-contact .header__logo {
-//   display: none;
-// }
 .page-contact .header {
   display: flex;
   flex-direction: row;
@@ -111,7 +93,6 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    //background-color: white;
     height: 75px;
   }
   &__logo {
@@ -134,8 +115,6 @@
   }
   &__title {
     display: none;
-    @media all and (min-width: 768px) {
-    }
     @media all and (min-width: 1366px) {
       position: absolute;
       left: 250px;
@@ -152,13 +131,9 @@
     }
   }
   & .navbar {
-    @media all and (min-width: 768px) {
-    }
-    @media all and (min-width: 1366px) {
-    }
     &__element {
       display: none;
-      @media all and (min-width: 768px) {
+      @media all and (min-width: 600px) {
         display: inline-block;
         position: relative;
         margin: 0 8px;
@@ -166,19 +141,12 @@
         right: 20px;
       }
       @media all and (min-width: 1366px) {
-        // display: inline-block;
-        // position: relative;
-        // margin: 0 8px;
-        // top: 20px;
         right: 200px;
       }
       @media all and (min-width: 1920px) {
         right: 298px;
       }
       &--text {
-        // display: none;
-        @media all and (min-width: 768px) {
-        }
         @media all and (min-width: 1366px) {
           padding: 8px 16px;
           font-family: "Open Sans", sans-serif;
@@ -207,12 +175,7 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  @media all and (min-width: 768px) {
-    // left: unset;
-    // right: 85px;
-    display: none;
-  }
-  @media all and (min-width: 1366px) {
+  @media all and (min-width: 600px) {
     display: none;
   }
 }
@@ -251,15 +214,6 @@
   transform: translate3d(0, 0, 0);
   -webkit-transition: all 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
   transition: all 0.4s cubic-bezier(0.05, 1.04, 0.72, 0.98);
-  @media all and (min-width: 768px) {
-    margin-bottom: 8px;
-    border-radius: 2px;
-    width: 68px;
-    height: 4px;
-  }
-  @media all and (min-width: 1366px) {
-    //padding-top: 300px;
-  }
 }
 .hamburger.is-active .-top {
   -webkit-transform: translateY(290%) rotate(45deg) !important;
@@ -290,27 +244,10 @@
   border-radius: 5px;
   border: solid 2px rgb(180, 180, 180);
   margin-top: 20px;
-  @media all and (min-width: 768px) {
-    background-color: transparent;
-    border: none;
-    left: unset;
-    right: 85px;
-    width: 200px;
-  }
-  @media all and (min-width: 1366px) {
-    //padding-top: 300px;
-  }
 }
 .header__nav ul li a {
-  //font-family: "Kiwi Maru", serif;
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
   color: rgb(226, 175, 128);
   line-height: 50px;
-  @media all and (min-width: 768px) {
-    font-size: 33px;
-    line-height: 60px;
-  }
-  @media all and (min-width: 1366px) {
-  }
 }

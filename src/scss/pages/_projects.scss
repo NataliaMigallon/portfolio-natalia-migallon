@@ -13,6 +13,10 @@ html {
   border-right: 0;
   border-image: linear-gradient(to bottom, rgb(21, 218, 208), rgba(0, 0, 0, 0))
     1 100%;
+  @media all and (min-width: 600px) {
+    margin: 80px 70px 80px 50px;
+    border-width: 5px;
+  }
   @media all and (min-width: 768px) {
     margin: 170px 80px 80px 80px;
     border-width: 5px;
@@ -37,12 +41,6 @@ html {
     @media all and (min-width: 1366px) {
       margin-top: -25px;
     }
-    @media all and (min-width: 1920px) {
-      //margin: 150px 80px 0 500px;
-    }
-    // @media all and (min-width: 1200px) {
-    //   padding: 0 0 0 30px;
-    // }
     &--h1 {
       font-family: "Kiwi Maru", serif;
       font-size: 40px;
@@ -50,13 +48,8 @@ html {
       color: rgb(226, 175, 128);
       text-transform: lowercase;
       padding: 0 5px 19px 0;
-      @media all and (min-width: 768px) {
-        font-size: 45px;
-      }
       @media all and (min-width: 1366px) {
-        font-size: 40px;
-      }
-      @media all and (min-width: 1920px) {
+        font-size: 50px;
       }
     }
     &--icon {
@@ -66,13 +59,8 @@ html {
       color: rgb(226, 175, 128);
       -webkit-transform: rotate(90deg);
       padding: 0 7px 7px 0;
-      @media all and (min-width: 768px) {
-        font-size: 45px;
-      }
       @media all and (min-width: 1366px) {
-        font-size: 40px;
-      }
-      @media all and (min-width: 1920px) {
+        font-size: 50px;
       }
     }
   }
@@ -83,11 +71,15 @@ html {
     color: grey;
     padding: 0 45px 10px 15px;
     margin-top: 7px;
+    @media all and (min-width: 600px) {
+      padding: 0 0 17px 30px;
+      font-size: 22px;
+      line-height: 40px;
+    }
     @media all and (min-width: 768px) {
       padding: 0 0 17px 30px;
       font-size: 25px;
       line-height: 40px;
-      //text-align: justify;
     }
     @media all and (min-width: 1366px) {
       font-size: 18px;
@@ -100,6 +92,10 @@ html {
     width: 200px;
     padding: 0 25px 0 15px;
     filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+    @media all and (min-width: 600px) {
+      width: 320px;
+      padding: 30px 25px 10px 30px;
+    }
     @media all and (min-width: 768px) {
       width: 350px;
       padding: 30px 25px 10px 30px;
@@ -113,7 +109,7 @@ html {
     font-size: 20px;
     color: rgb(21, 218, 208);
     padding: 0 25px 0 15px;
-    @media all and (min-width: 768px) {
+    @media all and (min-width: 600px) {
       font-size: 35px;
       line-height: 55px;
       padding: 0 0 0 30px;
@@ -129,13 +125,12 @@ html {
     color: rgb(226, 175, 128);
     padding: 0 40px 0 15px;
     margin-top: 5px;
-    @media all and (min-width: 768px) {
+    @media all and (min-width: 600px) {
       font-size: 23px;
       line-height: 55px;
       padding: 0 0 0 30px;
     }
     @media all and (min-width: 1366px) {
-      //font-size: 23px;
       padding: 0 250px 0 30px;
     }
   }
@@ -157,7 +152,7 @@ html {
     &:hover {
       transform: scale(1.07);
     }
-    @media all and (min-width: 768px) {
+    @media all and (min-width: 600px) {
       border-radius: 7px;
       width: 77px;
       height: 47px;
@@ -189,7 +184,7 @@ html {
     &:hover {
       transform: scale(1.07);
     }
-    @media all and (min-width: 768px) {
+    @media all and (min-width: 600px) {
       border-radius: 7px;
       width: 120px;
       height: 47px;
