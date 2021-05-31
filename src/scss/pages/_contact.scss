@@ -49,7 +49,7 @@
       text-transform: lowercase;
       padding: 0 5px 19px 0;
       @media all and (min-width: 1366px) {
-        font-size: 40px;
+        font-size: 50px;
       }
     }
     &--icon {
@@ -60,7 +60,7 @@
       -webkit-transform: rotate(90deg);
       padding: 0 7px 7px 0;
       @media all and (min-width: 1366px) {
-        font-size: 40px;
+        font-size: 50px;
       }
     }
   }
@@ -91,6 +91,7 @@
     border-radius: 3px;
     padding: 8px 10px 8px 10px;
     margin: 0 20px 10px 20px;
+    caret-color: rgb(21, 218, 208);
     @media all and (min-width: 768px) {
       width: 430px;
       border-radius: 6px;
@@ -131,6 +132,7 @@
     border-radius: 3px;
     padding: 5px 10px 5px 10px;
     margin: 0 20px 10px 20px;
+    caret-color: rgb(21, 218, 208);
     @media all and (min-width: 768px) {
       width: 600px;
       height: 300px;
