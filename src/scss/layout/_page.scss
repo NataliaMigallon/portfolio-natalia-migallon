@@ -239,24 +239,31 @@
         @keyframes borderEyes {
           0% {
             -webkit-text-stroke: 2px rgb(255, 255, 255);
+            -moz-text-stroke: 2px rgb(255, 255, 255);
           }
           15% {
             -webkit-text-stroke: 2px rgb(174, 240, 236);
+            -moz-text-stroke: 2px rgb(174, 240, 236);
           }
           25% {
             -webkit-text-stroke: 2px rgb(128, 226, 221);
+            -moz-text-stroke: 2px rgb(128, 226, 221);
           }
           50% {
             -webkit-text-stroke: 2px rgb(21, 218, 208);
+            -moz-text-stroke: 2px rgb(21, 218, 208);
           }
           75% {
             -webkit-text-stroke: 2px rgb(128, 226, 221);
+            -moz-text-stroke: 2px rgb(128, 226, 221);
           }
           88% {
             -webkit-text-stroke: 2px rgb(174, 240, 236);
+            -moz-text-stroke: 2px rgb(174, 240, 236);
           }
           100% {
             -webkit-text-stroke: 2px rgb(255, 255, 255);
+            -moz-text-stroke: 2px rgb(255, 255, 255);
           }
         }
       }
@@ -268,24 +275,31 @@
         @keyframes borderMouth {
           0% {
             -webkit-text-stroke: 2px rgb(255, 255, 255);
+            -moz-text-stroke: 2px rgb(255, 255, 255);
           }
           15% {
             -webkit-text-stroke: 2px rgb(174, 240, 236);
+            -moz-text-stroke: 2px rgb(174, 240, 236);
           }
           25% {
             -webkit-text-stroke: 2px rgb(128, 226, 221);
+            -moz-text-stroke: 2px rgb(128, 226, 221);
           }
           50% {
             -webkit-text-stroke: 2px rgb(21, 218, 208);
+            -moz-text-stroke: 2px rgb(21, 218, 208);
           }
           75% {
             -webkit-text-stroke: 2px rgb(128, 226, 221);
+            -moz-text-stroke: 2px rgb(128, 226, 221);
           }
           88% {
             -webkit-text-stroke: 2px rgb(174, 240, 236);
+            -moz-text-stroke: 2px rgb(174, 240, 236);
           }
           100% {
             -webkit-text-stroke: 2px rgb(255, 255, 255);
+            -moz-text-stroke: 2px rgb(255, 255, 255);
           }
         }
       }
@@ -424,24 +438,31 @@
       @keyframes borderEyes {
         0% {
           -webkit-text-stroke: 2px rgb(255, 255, 255);
+          -moz-text-stroke: 2px rgb(255, 255, 255);
         }
         15% {
           -webkit-text-stroke: 2px rgb(174, 240, 236);
+          -moz-text-stroke: 2px rgb(174, 240, 236);
         }
         25% {
           -webkit-text-stroke: 2px rgb(128, 226, 221);
+          -moz-text-stroke: 2px rgb(128, 226, 221);
         }
         50% {
           -webkit-text-stroke: 2px rgb(21, 218, 208);
+          -moz-text-stroke: 2px rgb(21, 218, 208);
         }
         75% {
           -webkit-text-stroke: 2px rgb(128, 226, 221);
+          -moz-text-stroke: 2px rgb(128, 226, 221);
         }
         88% {
           -webkit-text-stroke: 2px rgb(174, 240, 236);
+          -moz-text-stroke: 2px rgb(174, 240, 236);
         }
         100% {
           -webkit-text-stroke: 2px rgb(255, 255, 255);
+          -moz-text-stroke: 2px rgb(255, 255, 255);
         }
       }
     }
