@@ -34,6 +34,11 @@
     "dest": "public/assets/images/",
     "dist": "docs/assets/images/"
   },
+  "files": {
+    "src": "src/files/**/*.*",
+    "dest": "public/assets/files/",
+    "dist": "docs/assets/files/"
+  },
   "watch": {
     "html": "src/**/*.html"
   }
