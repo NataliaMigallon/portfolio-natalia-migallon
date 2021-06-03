@@ -164,30 +164,30 @@
     @media all and (min-width: 1920px) {
     }
   }
-  &__hard {
-    font-family: "Kiwi Maru", serif;
-    font-size: 20px;
-    color: rgb(226, 175, 128);
-    padding: 15px 5px 8px 13px;
-    @media all and (min-width: 600px) {
-      font-size: 22px;
-      padding: 20px 0 16px 18px;
-    }
-    @media all and (min-width: 768px) {
-      padding: 20px 0 16px 30px;
-    }
-    &--icons {
-      font-size: 60px;
-      padding: 0 20px 50px 13px;
-      align-content: center;
-      @media all and (min-width: 600px) {
-        padding: 0 0 16px 18px;
-      }
-      @media all and (min-width: 768px) {
-        padding: 0 0 16px 30px;
-      }
-    }
-  }
+  // &__hard {
+  //   font-family: "Kiwi Maru", serif;
+  //   font-size: 20px;
+  //   color: rgb(226, 175, 128);
+  //   padding: 15px 5px 8px 13px;
+  //   @media all and (min-width: 600px) {
+  //     font-size: 22px;
+  //     padding: 20px 0 16px 18px;
+  //   }
+  //   @media all and (min-width: 768px) {
+  //     padding: 20px 0 16px 30px;
+  //   }
+  // &--icons {
+  //   font-size: 60px;
+  //   padding: 0 20px 50px 13px;
+  //   align-content: center;
+  //   @media all and (min-width: 600px) {
+  //     padding: 0 0 16px 18px;
+  //   }
+  //   @media all and (min-width: 768px) {
+  //     padding: 0 0 16px 30px;
+  //   }
+  // }
+  // }
   &__soft {
     font-family: "Kiwi Maru", serif;
     font-size: 20px;
@@ -240,11 +240,8 @@
     }
   }
 }
-.about__stack {
-  display: grid;
-  grid-template-columns: 1fr, 1fr, 1fr;
-  grid-template-rows: 1fr, 1fr;
-  &--title {
+.stack {
+  &__title {
     font-family: "Kiwi Maru", serif;
     font-size: 20px;
     text-transform: uppercase;
@@ -257,22 +254,16 @@
     @media all and (min-width: 768px) {
       padding: 20px 0 16px 30px;
     }
-    // &--table{
-    //   text-align: center;
-    // }
-    // &--title {
-    //   padding: 10px 0 10px 0;
-    // }
-    &-grid {
-    }
-    &--text {
+  }
+  &__grid {
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-rows: 1fr, 1fr;
+    &--layout {
       font-family: "Open Sans", sans-serif;
       font-size: 15px;
       color: grey;
-      // padding: 0 45px 8px 13px;
-      // line-height: 20px;
-      // list-style-type: square;
-      // list-style-position: inside;
+      padding: 10px 0 5px 13px;
       @media all and (min-width: 600px) {
         font-size: 18px;
         // padding: 2px 0 16px 18px;
@@ -280,6 +271,18 @@
       @media all and (min-width: 768px) {
         font-size: 18px;
         // padding: 2px 0 16px 30px;
+      }
+    }
+    &--icons {
+      display: inline-block;
+      font-size: 50px;
+      padding: 0 20px 10px 13px;
+      align-content: center;
+      @media all and (min-width: 600px) {
+        padding: 0 0 16px 18px;
+      }
+      @media all and (min-width: 768px) {
+        padding: 0 0 16px 30px;
       }
     }
   }
