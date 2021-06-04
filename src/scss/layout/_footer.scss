@@ -7,6 +7,9 @@
   text-align: center;
   color: white;
   padding: 12px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   @media all and (min-width: 600px) {
     padding: 22px;
     position: absolute;
