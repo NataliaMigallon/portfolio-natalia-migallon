@@ -211,6 +211,10 @@ html {
     margin-right: 20px;
     text-decoration: none;
     list-style-type: none;
+    &:hover {
+      transform: scale(1.07);
+      color: rgb(226, 175, 128);
+    }
     @media all and (min-width: 768px) {
       font-size: 40px;
       margin-right: 35px;
