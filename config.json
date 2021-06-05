@@ -1,57 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> dev
-{
-  "env": {
-    "dev": {
-      "dest": "public"
-    },
-    "producction": {
-      "dest": "docs"
-    }
-  },
-  "api": {
-    "src": "src/api/*",
-    "dest": "public/api/",
-    "dist": "docs/api/"
-  },
-  "css": {
-    "src": "src/scss/**/*.scss",
-    "dest": "public/assets/css/",
-    "dist": "docs/assets/css/"
-  },
-  "html": {
-    "src": "src/html/**.html",
-    "dest": "public/",
-    "dist": "docs/"
-  },
-  "js": {
-    "src": [
-      "src/js/**/*.js"
-    ],
-    "dest": "public/assets/js/",
-    "dist": "docs/assets/js/"
-  },
-  "images": {
-    "src": "src/images/**/*.{gif,jpg,jpeg,JPG,JPEG,png,svg}",
-    "dest": "public/assets/images/",
-    "dist": "docs/assets/images/"
-  },
-<<<<<<< HEAD
-  "files": {
-    "src": "src/files/**/*.*",
-    "dest": "public/assets/files/",
-    "dist": "docs/assets/files/"
-  },
-  "watch": {
-    "html": "src/**/*.html"
-  }
-=======
-  "watch": {
-    "html": "src/**/*.html"
-  }
-=======
 {
   "env": {
     "dev": {
@@ -96,6 +42,4 @@
   "watch": {
     "html": "src/**/*.html"
   }
->>>>>>> home
->>>>>>> dev
 }
