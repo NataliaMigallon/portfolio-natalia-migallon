@@ -7,6 +7,9 @@
   text-align: center;
   color: white;
   padding: 12px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   @media all and (min-width: 600px) {
     padding: 22px;
     position: absolute;
@@ -48,7 +51,7 @@
     }
   }
   &__copy {
-    font-family: "Kiwi Maru", serif;
+    font-family: $font-footer;
     font-size: 13px;
     color: white;
     @media all and (min-width: 768px) {
@@ -97,7 +100,7 @@
     }
   }
   &__copy {
-    font-family: "Kiwi Maru", serif;
+    font-family: $font-footer;
     font-size: 13px;
     color: white;
     @media all and (min-width: 768px) {
@@ -141,7 +144,7 @@
     }
   }
   &__copy {
-    font-family: "Kiwi Maru", serif;
+    font-family: $font-footer;
     font-size: 13px;
     color: white;
     @media all and (min-width: 768px) {
@@ -190,7 +193,7 @@
     }
   }
   &__copy {
-    font-family: "Kiwi Maru", serif;
+    font-family: $font-footer;
     font-size: 13px;
     color: rgb(226, 175, 128);
     @media all and (min-width: 768px) {
