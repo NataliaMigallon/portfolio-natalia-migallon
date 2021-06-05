@@ -51,7 +51,7 @@
     }
   }
   &__copy {
-    font-family: "Kiwi Maru", serif;
+    font-family: $font-footer;
     font-size: 13px;
     color: white;
     @media all and (min-width: 768px) {
@@ -100,7 +100,7 @@
     }
   }
   &__copy {
-    font-family: "Kiwi Maru", serif;
+    font-family: $font-footer;
     font-size: 13px;
     color: white;
     @media all and (min-width: 768px) {
@@ -144,7 +144,7 @@
     }
   }
   &__copy {
-    font-family: "Kiwi Maru", serif;
+    font-family: $font-footer;
     font-size: 13px;
     color: white;
     @media all and (min-width: 768px) {
@@ -193,7 +193,7 @@
     }
   }
   &__copy {
-    font-family: "Kiwi Maru", serif;
+    font-family: $font-footer;
     font-size: 13px;
     color: rgb(226, 175, 128);
     @media all and (min-width: 768px) {

@@ -22,7 +22,7 @@
   }
 }
 .main__title {
-  font-family: "Kiwi Maru", serif;
+  font-family: $font-titles-home;
   font-size: 30px;
   font-weight: 500;
   color: white;
@@ -39,7 +39,7 @@
     font-size: 43px;
   }
   &--sub {
-    font-family: "Kiwi Maru", serif;
+    font-family: $font-titles-home;
     font-size: 25px;
     font-weight: 500;
     color: rgb(153, 151, 149);
