@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Natalia Migallón</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/d31a9c1094.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="icon" href="./assets/images/favicon-nat-beige.png" />
+  </head>
+
+  <body class="page-contact">
+    <header class="header" id="arrow">
+      <a href="./index.html"><img
+        class="header__logo"
+        src="./assets/images/favicon-nat-beige.png"
+        alt="Logo Natalia Migallón"
+      /></a>
+      <a href="./index.html"><h1 class="header__title">Natalia Migallón</h1></a>
+      <div class="hamburger">
+        <div class="_layer -top"></div>
+        <div class="_layer -mid"></div>
+        <div class="_layer -bottom"></div>
+      </div>
+      <nav class="header__nav">
+        <ul>
+          <li>
+            <a class="header__nav--home" href="./index.html" title="home">Home</a>
+          </li>
+          <li>
+            <a class="header__nav--about" href="./about.html" title="Sobre mí"
+              >Sobre mí</a
+            >
+          </li>
+          <li>
+            <a
+              class="header__nav--projects"
+              href="./projects.html"
+              title="Proyectos"
+              >Proyectos</a
+            >
+          </li>
+          <li>
+            <a class="header__nav--contact" href="./contact.html" title="Contacto"
+              >Contacto</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <nav class="header-navbar">
+        <ul class="navbar">
+          <li class="navbar__element">
+            <a class="navbar__element--text" href="./index.html" title="home"
+              >Home</a
+            >
+          </li>
+          <li class="navbar__element">
+            <a class="navbar__element--text" href="./about.html" title="Sobre mí"
+              >Sobre mí</a
+            >
+          </li>
+          <li class="navbar__element">
+            <a
+              class="navbar__element--text"
+              href="./projects.html"
+              title="Proyectos"
+              >Proyectos</a
+            >
+          </li>
+          <li class="navbar__element">
+            <a class="navbar__element--text" href="./contact.html" title="Contacto"
+              >Contacto</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="contact">
+      <div class="contact__title">
+        <h1 class="contact__title--h1">Contacto</h1>
+        <span class="contact__title--icon">( )</span>
+      </div>
+      <span class="icons__wrapper">
+        <a
+          href="https://www.linkedin.com/in/nataliamigallon/"
+          target="_blank"
+          class="icons icon__linkedin"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a
+          href="https://github.com/NataliaMigallon"
+          target="_blank"
+          class="icons icon__github"
+          ><i class="icon__github fab fa-github"></i
+        ></a>
+        <a
+          href="mailto:natmigallon@gmail.com"
+          target="_blank"
+          class="icons icon__email"
+          ><i class="fas fa-envelope"></i
+        ></a>
+      </span>
+      <form
+        autocomplete="off"
+        action="https://formspree.io/f/xleabjdr"
+        method="post"
+      >
+        <div class="contact__wrapper">
+          <div>
+            <label for="firstName" class="contact__label">Nombre</label>
+            <input
+              id="firstName"
+              type="text"
+              name="firstName"
+              placeholder="Ej. María"
+              class="contact__input"
+            />
+            <label for="lastName" class="contact__label">Apellidos</label>
+            <input
+              id="lastName"
+              type="text"
+              name="lastName"
+              placeholder="Ej. García"
+              class="contact__input"
+            />
+            <label for="email" class="contact__label">Email</label>
+            <input
+              id="email"
+              type="email"
+              name="email"
+              placeholder="ejemplo@gmail.com"
+              class="contact__input"
+            />
+            <label for="subject" class="contact__label">Asunto</label>
+            <input
+              id="subject"
+              type="text"
+              name="subject"
+              placeholder="Asunto del mensaje"
+              class="contact__input"
+            />
+          </div>
+          <div class="contact__wrapper--textarea">
+            <label for="message" class="contact__textarea--label"
+              >Mensaje</label
+            >
+            <textarea
+              id="message"
+              name="message"
+              rows="8"
+              cols="80"
+              placeholder="Mensaje"
+              class="contact__textarea"
+            ></textarea>
+            <input type="submit" value="Enviar" class="contact__btn" />
+          </div>
+        </div>
+      </form>
+    </main>
+    <footer id="contact" class="footer">
+      <!-- <span class="footer__contact">Contacto</span> -->
+      <span class="footer__wrapper">
+        <a
+          href="https://www.linkedin.com/in/nataliamigallon/"
+          target="_blank"
+          class="icons icon__linkedin"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a
+          href="https://github.com/NataliaMigallon"
+          target="_blank"
+          class="icons icon__github"
+          ><i class="icon__github fab fa-github"></i
+        ></a>
+        <a
+          href="mailto:natmigallon@gmail.com"
+          target="_blank"
+          class="icons icon__email"
+          ><i class="fas fa-envelope"></i
+        ></a>
+      </span>
+      <small class="footer__copy"> &copy; Natalia Migallón 2021</small>
+    </footer>
+
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
