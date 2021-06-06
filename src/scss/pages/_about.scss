@@ -158,36 +158,11 @@
     @media all and (min-width: 1366px) {
       font-size: 18px;
       line-height: 35px;
-      //text-align: justify;
       padding: 0 150px 0 30px;
     }
     @media all and (min-width: 1920px) {
     }
   }
-  // &__hard {
-  //   font-family: "Kiwi Maru", serif;
-  //   font-size: 20px;
-  //   color: rgb(226, 175, 128);
-  //   padding: 15px 5px 8px 13px;
-  //   @media all and (min-width: 600px) {
-  //     font-size: 22px;
-  //     padding: 20px 0 16px 18px;
-  //   }
-  //   @media all and (min-width: 768px) {
-  //     padding: 20px 0 16px 30px;
-  //   }
-  // &--icons {
-  //   font-size: 60px;
-  //   padding: 0 20px 50px 13px;
-  //   align-content: center;
-  //   @media all and (min-width: 600px) {
-  //     padding: 0 0 16px 18px;
-  //   }
-  //   @media all and (min-width: 768px) {
-  //     padding: 0 0 16px 30px;
-  //   }
-  // }
-  // }
   &__soft {
     font-family: "Kiwi Maru", serif;
     font-size: 20px;
@@ -206,8 +181,6 @@
       color: grey;
       padding: 0 45px 8px 13px;
       line-height: 20px;
-      list-style-type: square;
-      list-style-position: inside;
       @media all and (min-width: 600px) {
         padding: 2px 0 16px 18px;
       }
@@ -215,6 +188,45 @@
         font-size: 20px;
         padding: 20px 0 16px 30px;
       }
+    }
+  }
+  &__wishlist {
+    font-family: "Kiwi Maru", serif;
+    font-size: 20px;
+    color: rgb(226, 175, 128);
+    padding: 15px 5px 8px 13px;
+    @media all and (min-width: 600px) {
+      padding: 20px 0 16px 18px;
+    }
+    @media all and (min-width: 768px) {
+      font-size: 22px;
+      padding: 20px 0 16px 30px;
+    }
+  }
+  &__pd {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    color: grey;
+    padding: 0 45px 0 13px;
+    line-height: 30px;
+    &--cv {
+      color: rgb(21, 218, 208);
+      font-weight: 600;
+    }
+    @media all and (min-width: 600px) {
+      padding: 0 0 0 18px;
+    }
+    @media all and (min-width: 768px) {
+      font-size: 20px;
+      line-height: 35px;
+      padding: 0 0 0 30px;
+    }
+    @media all and (min-width: 1366px) {
+      font-size: 18px;
+      line-height: 35px;
+      padding: 0 150px 0 30px;
+    }
+    @media all and (min-width: 1920px) {
     }
   }
   &__arrow {
@@ -252,7 +264,6 @@
   &__title {
     font-family: "Kiwi Maru", serif;
     font-size: 20px;
-    text-transform: uppercase;
     color: rgb(226, 175, 128);
     padding: 10px 5px 8px 13px;
     @media all and (min-width: 600px) {
@@ -276,7 +287,7 @@
     }
     @media all and (min-width: 1366px) {
       display: grid;
-      grid-template-columns: 1fr, 1fr, 1fr, 1fr, 1fr, 1fr;
+      grid-template-columns: 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr;
       grid-template-rows: 1fr, 1fr, 1fr;
       padding: 15px 5px 8px 30px;
       width: 900px;
@@ -286,7 +297,7 @@
     }
     &--layout {
       font-family: "Open Sans", sans-serif;
-      font-size: 15px;
+      font-size: 18px;
       text-transform: uppercase;
       color: grey;
       @media all and (min-width: 600px) {
@@ -305,7 +316,7 @@
     }
     &--languages {
       font-family: "Open Sans", sans-serif;
-      font-size: 15px;
+      font-size: 18px;
       text-transform: uppercase;
       color: grey;
       @media all and (min-width: 600px) {
@@ -328,7 +339,7 @@
     }
     &--framework {
       font-family: "Open Sans", sans-serif;
-      font-size: 15px;
+      font-size: 18px;
       text-transform: uppercase;
       color: grey;
       @media all and (min-width: 600px) {
@@ -351,7 +362,7 @@
     }
     &--version {
       font-family: "Open Sans", sans-serif;
-      font-size: 15px;
+      font-size: 18px;
       text-transform: uppercase;
       color: grey;
       @media all and (min-width: 600px) {
@@ -364,11 +375,11 @@
       }
       @media all and (min-width: 1366px) {
         text-align: center;
-        grid-column: 6 / 7;
+        grid-column: 6 / 8;
         grid-row: 1 / 2;
       }
       @media all and (min-width: 1920px) {
-        grid-column: 6 / 7;
+        grid-column: 6 / 8;
         grid-row: 1 / 2;
       }
     }
@@ -432,6 +443,14 @@
   color: rgb(255, 123, 0);
   grid-column: 6 / 7;
   grid-row: 2 / 3;
+}
+.photoshop {
+  color: black;
+  font-size: 55px;
+  grid-column: 7 / 8;
+  grid-row: 2 / 3;
+  text-align: center;
+  margin-bottom: -10px;
 }
 .about__wrapper {
   display: flex;
