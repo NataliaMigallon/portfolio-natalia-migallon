@@ -1,9 +1,5 @@
 .page-home .footer {
   background-color: transparent;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
   text-align: center;
   color: white;
   padding: 12px;
@@ -12,24 +8,12 @@
   width: 100%;
   @media all and (min-width: 600px) {
     padding: 22px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
   }
-  // @media all and (min-width: 768px) {
-  //   padding: 22px;
-  //   position: absolute;
-  //   bottom: 0;
-  //   width: 100%;
-  // }
   @media all and (min-width: 1366px) {
     padding: 18px;
   }
   &__wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    text-align: center;
+    @include flexRow();
     .icons {
       font-size: 30px;
       color: white;
@@ -68,20 +52,13 @@
 }
 .page-about .footer {
   background-color: rgb(21, 218, 208);
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
   text-align: center;
   padding: 12px;
-  @media all and (min-width: 768px) {
+  @media all and (min-width: 600px) {
     padding: 22px;
   }
   &__wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    @include flexRow();
     color: white;
     .icons {
       font-size: 30px;
@@ -113,19 +90,13 @@
 }
 .page-projects .footer {
   background-color: rgb(21, 218, 208);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   text-align: center;
   padding: 12px;
-  @media all and (min-width: 768px) {
+  @media all and (min-width: 600px) {
     padding: 22px;
   }
   &__wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    @include flexRow();
     color: white;
     .icons {
       font-size: 30px;
@@ -157,12 +128,9 @@
 }
 .page-contact .footer {
   background-color: rgb(255, 255, 255);
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
   text-align: center;
   padding: 12px;
-  @media all and (min-width: 768px) {
+  @media all and (min-width: 600px) {
     padding: 22px;
   }
   @media all and (min-width: 1920px) {
@@ -171,10 +139,7 @@
     width: 100%;
   }
   &__wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    @include flexRow();
     color: white;
     .icons {
       font-size: 30px;

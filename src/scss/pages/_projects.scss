@@ -28,10 +28,7 @@ html {
     margin: 120px 80px 60px 550px;
   }
   &__title {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
+    @include flexRowFlexStart();
     padding: 0 0 0 13px;
     margin-top: -20px;
     @media all and (min-width: 768px) {
@@ -42,7 +39,7 @@ html {
       margin-top: -25px;
     }
     &--h1 {
-      font-family: "Kiwi Maru", serif;
+      font-family: $font-title;
       font-size: 40px;
       color: rgb(21, 218, 208);
       color: rgb(226, 175, 128);
@@ -53,11 +50,12 @@ html {
       }
     }
     &--icon {
-      font-family: "Kiwi Maru", serif;
+      font-family: $font-title;
       font-size: 40px;
       font-weight: 800;
       color: rgb(226, 175, 128);
       -webkit-transform: rotate(90deg);
+      -moz-transform: rotate(90deg);
       padding: 0 7px 7px 0;
       @media all and (min-width: 1366px) {
         font-size: 50px;
@@ -65,10 +63,10 @@ html {
     }
   }
   &__text {
-    font-family: "Open Sans", sans-serif;
+    font-family: $font-text;
     font-size: 18px;
     line-height: 27px;
-    color: grey;
+    color: $color-text;
     padding: 0 45px 10px 15px;
     margin-top: 7px;
     @media all and (min-width: 600px) {
@@ -105,7 +103,7 @@ html {
     }
   }
   &__title-works {
-    font-family: "Kiwi Maru", serif;
+    font-family: $font-title;
     font-size: 20px;
     color: rgb(21, 218, 208);
     padding: 0 25px 0 15px;
@@ -119,7 +117,7 @@ html {
     }
   }
   &__tools {
-    font-family: "Open Sans", sans-serif;
+    font-family: $font-text;
     font-size: 15px;
     font-weight: 700;
     color: rgb(226, 175, 128);
@@ -137,17 +135,15 @@ html {
   &__btn-web {
     width: 50px;
     height: 28px;
-    background-color: grey;
+    background-color: $color-text;
     opacity: 0.87;
     border-radius: 5px;
     border-style: none;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.32);
-    font-family: "Open Sans", sans-serif;
+    font-family: $font-button;
     font-size: 15px;
     text-transform: uppercase;
     color: white;
-    text-decoration: none;
-    list-style-type: none;
     margin: 0 2px 45px 15px;
     &:hover {
       transform: scale(1.07);
@@ -169,17 +165,15 @@ html {
   &__btn-code {
     width: 80px;
     height: 28px;
-    background-color: grey;
+    background-color: $color-text;
     opacity: 0.87;
     border-radius: 5px;
     border-style: none;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.32);
-    font-family: "Open Sans", sans-serif;
+    font-family: $font-button;
     font-size: 15px;
     text-transform: uppercase;
     color: white;
-    text-decoration: none;
-    list-style-type: none;
     margin: 0 5px 55px 5px;
     &:hover {
       transform: scale(1.07);
@@ -209,8 +203,6 @@ html {
     flex-direction: row;
     justify-content: flex-end;
     margin-right: 20px;
-    text-decoration: none;
-    list-style-type: none;
     &:hover {
       transform: scale(1.07);
       color: rgb(226, 175, 128);

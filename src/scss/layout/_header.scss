@@ -1,7 +1,5 @@
 .header {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  @include flexRow();
   @media all and (min-width: 1366px) {
     display: flex;
     flex-direction: row;
@@ -68,7 +66,7 @@
         }
         @media all and (min-width: 600px) {
           padding: 8px 16px;
-          font-family: "Open Sans", sans-serif;
+          font-family: $font-menu;
           font-size: 20px;
           color: rgb(226, 175, 128);
           text-decoration: none;
@@ -82,9 +80,7 @@
   }
 }
 .page-contact .header {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  @include flexRow();
   background-color: white;
   height: 80px;
   @media all and (min-width: 768px) {
@@ -149,7 +145,7 @@
       &--text {
         @media all and (min-width: 1366px) {
           padding: 8px 16px;
-          font-family: "Open Sans", sans-serif;
+          font-family: $font-menu;
           font-size: 25px;
           color: rgb(226, 175, 128);
         }
@@ -246,7 +242,7 @@
   margin-top: 20px;
 }
 .header__nav ul li a {
-  font-family: "Open Sans", sans-serif;
+  font-family: $font-menu;
   font-size: 20px;
   color: rgb(226, 175, 128);
   line-height: 50px;

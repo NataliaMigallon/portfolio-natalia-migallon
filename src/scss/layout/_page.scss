@@ -22,7 +22,7 @@
   }
 }
 .main__title {
-  font-family: $font-titles-home;
+  font-family: $font-title;
   font-size: 30px;
   font-weight: 500;
   color: white;
@@ -39,7 +39,7 @@
     font-size: 43px;
   }
   &--sub {
-    font-family: $font-titles-home;
+    font-family: $font-title;
     font-size: 25px;
     font-weight: 500;
     color: rgb(153, 151, 149);
@@ -216,7 +216,7 @@
         left: 32px;
       }
       &--link {
-        font-family: "Kiwi Maru", serif;
+        font-family: $font-title;
         font-size: 15px;
         color: white;
         text-transform: uppercase;
@@ -318,7 +318,7 @@
   }
 }
 .nose {
-  font-family: "Kiwi Maru", serif;
+  font-family: $font-title;
   display: inline-block;
   font-size: 30px;
   color: white;
@@ -381,7 +381,7 @@
       font-size: 150px;
     }
     &__text {
-      font-family: "Kiwi Maru", serif;
+      font-family: $font-title;
       font-size: 15px;
       color: white;
       text-transform: uppercase;
