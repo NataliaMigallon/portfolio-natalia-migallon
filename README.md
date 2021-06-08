@@ -1,4 +1,4 @@
-![Natalia Migallon](https://github.com/NataliaMigallon/portfolio-natalia-migallon/src/images/home.jpg)
+![image](https://github.com/NataliaMigallon/portfolio-natalia-migallon/src/images/home.jpg)
 
 # Portfolio Natalia Migallón
 
