@@ -23,7 +23,7 @@
   }
 }
 .about {
-  margin: 340px 0 40px 20px;
+  margin: 340px 0 0 20px;
   border-width: 3px;
   border-style: solid;
   border-right: 0;
@@ -362,38 +362,98 @@
   display: flex;
   flex-direction: row;
 }
+.circle-container-tech {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 151px 0 0 52px;
+  font-family: $font-text;
+  font-size: 15px;
+  //color: $color-text;
+  color: rgb(226, 175, 128);
+  line-height: 20px;
+}
+.circle-container-tech p {
+  display: block;
+  position: absolute;
+  top: -4%;
+  left: 19%;
+}
+.center_ {
+  font-family: "Kiwi Maru", serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(150, 149, 149);
+  //color: rgb(21, 218, 208);
+  text-align: center;
+  text-transform: uppercase;
+  transform: translate(3px);
+}
+.deg0_ {
+  transform: translate(-45px);
+}
+.deg40 {
+  transform: rotate(40deg) translate(-119px) rotate(-40deg);
+}
+.deg80 {
+  transform: rotate(58deg) translate(-151px) rotate(-58deg);
+}
+.deg120 {
+  transform: rotate(120deg) translate(-227px) rotate(-120deg);
+}
+.deg160 {
+  transform: rotate(134deg) translate(-189px) rotate(-134deg);
+}
+.deg200 {
+  transform: rotate(141deg) translate(-97px) rotate(-141deg);
+}
+.deg240 {
+  transform: rotate(99deg) translate(-49px) rotate(-99deg);
+}
+.deg280 {
+  transform: rotate(332deg) translate(45px) rotate(-332deg);
+}
+.deg320 {
+  transform: rotate(320deg) translate(82px) rotate(-320deg);
+}
 .circle-container {
   position: relative;
   width: 200px;
   height: 200px;
-  //padding: 2.8em;
-  //border: dashed 1px;
-  border-radius: 50%;
-  margin: 68px 0 47px 76px;
+  margin: 0 0 47px 76px;
+  font-family: $font-text;
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(226, 175, 128);
+  line-height: 20px;
 }
 .circle-container p {
   display: block;
   position: absolute;
   top: 39%;
   left: 25%;
+
   // width: 4em;
   // height: 4em;
   // margin: -2em;
 }
 .center {
   font-family: "Kiwi Maru", serif;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 600;
-  color: rgb(226, 175, 128);
+  //color: rgb(226, 175, 128);
+  color: rgb(21, 218, 208);
+  text-align: center;
+  text-transform: uppercase;
 }
 .deg0 {
   transform: translate(109px);
 }
 .deg45 {
-  transform: rotate(45deg) translate(-91px) rotate(-45deg);
+  transform: rotate(45deg) translate(-106px) rotate(-45deg);
 }
 .deg135 {
-  transform: rotate(135deg) translate(-93px) rotate(-135deg);
+  transform: rotate(135deg) translate(-85px) rotate(-135deg);
 }
 .deg180 {
   transform: translate(-110px);
@@ -402,5 +462,5 @@
   transform: rotate(225deg) translate(-109px) rotate(-225deg);
 }
 .deg315 {
-  transform: rotate(315deg) translate(-87px) rotate(-315deg);
+  transform: rotate(315deg) translate(-125px) rotate(-315deg);
 }
