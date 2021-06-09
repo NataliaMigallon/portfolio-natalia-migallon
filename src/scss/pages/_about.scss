@@ -1,15 +1,10 @@
 .page-about {
-  // background-image: linear-gradient(
-  //     rgba(255, 255, 255, 0.4),
-  //     rgba(255, 255, 255, 0.4)
-  //   ),
-  //   url("../images/nat-about.png");
   background-image: linear-gradient(
       rgba(255, 255, 255, 0.4),
       rgba(255, 255, 255, 0.4)
     ),
     url("../images/nat-about-max.png");
-  background-color: rgb(253, 250, 250);
+  background-color: $color-background-white;
   background-size: 80%;
   background-repeat: no-repeat;
   @media all and (min-width: 600px) {
@@ -59,7 +54,7 @@
     &--h1 {
       font-family: "Kiwi Maru", serif;
       font-size: 40px;
-      color: rgb(21, 218, 208);
+      color: $color-title-about;
       text-transform: lowercase;
       padding: 0 5px 19px 0;
       @media all and (min-width: 768px) {
@@ -76,7 +71,7 @@
       font-family: "Kiwi Maru", serif;
       font-size: 40px;
       font-weight: 800;
-      color: rgb(21, 218, 208);
+      color: $color-title-about;
       -webkit-transform: rotate(90deg);
       -moz-transform: rotate(90deg);
       padding: 0 7px 7px 0;
@@ -94,16 +89,9 @@
     color: $color-text;
     padding: 0 45px 0 13px;
     line-height: 30px;
-    &--adaLink {
-      color: rgb(21, 218, 208);
-      font-weight: 600;
-    }
-    &--cv {
-      color: rgb(21, 218, 208);
-      font-weight: 600;
-    }
     @media all and (min-width: 600px) {
       padding: 0 0 0 18px;
+      text-align: justify;
     }
     @media all and (min-width: 768px) {
       font-size: 20px;
@@ -115,6 +103,25 @@
       line-height: 35px;
       padding: 0 150px 0 30px;
     }
+    &--adaLink {
+      color: $color-links;
+      font-weight: 600;
+    }
+    &--cv {
+      color: $color-links;
+      font-weight: 600;
+      &:hover {
+        color: $color-links-hover;
+      }
+    }
+    &--cv-icon {
+      color: $color-links;
+      font-size: 27px;
+      &:hover {
+        transform: scale(1.07);
+        color: $color-links-hover;
+      }
+    }
   }
   &__tech {
     position: relative;
@@ -123,7 +130,6 @@
     margin: 151px 0 0 52px;
     font-family: $font-text;
     font-size: 15px;
-    color: rgb(226, 175, 128);
     line-height: 20px;
     @media all and (min-width: 600px) {
       margin: 180px 0 0 120px;
@@ -138,11 +144,7 @@
       margin: 168px 150px 0 100px;
     }
     .deg0_ {
-      transform: rotate(30deg) translate(-45px) rotate(-30deg);
-      @media all and (min-width: 600px) {
-      }
-      @media all and (min-width: 768px) {
-      }
+      transform: rotate(1deg) translate(-30px) rotate(-1deg);
       @media all and (min-width: 1366px) {
         transform: rotate(3deg) translate(-37px) rotate(-3deg);
       }
@@ -151,105 +153,49 @@
       }
     }
     .deg40 {
-      transform: rotate(40deg) translate(-119px) rotate(-40deg);
-      @media all and (min-width: 600px) {
-      }
-      @media all and (min-width: 768px) {
-      }
-      @media all and (min-width: 1366px) {
-        //font-size: 70px;
-      }
+      transform: rotate(40deg) translate(-110px) rotate(-40deg);
       @media all and (min-width: 1920px) {
         transform: rotate(50deg) translate(-120px) rotate(-50deg);
       }
     }
     .deg80 {
       transform: rotate(58deg) translate(-151px) rotate(-58deg);
-      @media all and (min-width: 600px) {
-      }
-      @media all and (min-width: 768px) {
-      }
-      @media all and (min-width: 1366px) {
-        //font-size: 70px;
-      }
       @media all and (min-width: 1920px) {
         transform: rotate(70deg) translate(-135px) rotate(-70deg);
       }
     }
     .deg120 {
       transform: rotate(120deg) translate(-227px) rotate(-120deg);
-      @media all and (min-width: 600px) {
-      }
-      @media all and (min-width: 768px) {
-      }
-      @media all and (min-width: 1366px) {
-        //font-size: 70px;
-      }
       @media all and (min-width: 1920px) {
         transform: rotate(135deg) translate(-240px) rotate(-135deg);
       }
     }
     .deg160 {
       transform: rotate(134deg) translate(-189px) rotate(-134deg);
-      @media all and (min-width: 600px) {
-      }
-      @media all and (min-width: 768px) {
-      }
-      @media all and (min-width: 1366px) {
-        //font-size: 70px;
-      }
       @media all and (min-width: 1920px) {
         transform: rotate(145deg) translate(-170px) rotate(-145deg);
       }
     }
     .deg200 {
       transform: rotate(141deg) translate(-97px) rotate(-141deg);
-      @media all and (min-width: 600px) {
-      }
-      @media all and (min-width: 768px) {
-      }
-      @media all and (min-width: 1366px) {
-        //font-size: 70px;
-      }
       @media all and (min-width: 1920px) {
         transform: rotate(155deg) translate(-225px) rotate(-155deg);
       }
     }
     .deg240 {
       transform: rotate(99deg) translate(-49px) rotate(-99deg);
-      @media all and (min-width: 600px) {
-      }
-      @media all and (min-width: 768px) {
-      }
-      @media all and (min-width: 1366px) {
-        //font-size: 70px;
-      }
       @media all and (min-width: 1920px) {
         transform: rotate(140deg) translate(-85px) rotate(-140deg);
       }
     }
     .deg280 {
       transform: rotate(332deg) translate(45px) rotate(-332deg);
-      @media all and (min-width: 600px) {
-      }
-      @media all and (min-width: 768px) {
-      }
-      @media all and (min-width: 1366px) {
-        //font-size: 70px;
-      }
       @media all and (min-width: 1920px) {
         transform: rotate(90deg) translate(-145px) rotate(-90deg);
       }
     }
     .deg320 {
       transform: rotate(320deg) translate(82px) rotate(-320deg);
-      @media all and (min-width: 600px) {
-      }
-      @media all and (min-width: 768px) {
-      }
-      @media all and (min-width: 1366px) {
-        //font-size: 70px;
-      }
       @media all and (min-width: 1920px) {
         transform: rotate(87deg) translate(-115px) rotate(-87deg);
       }
@@ -265,7 +211,6 @@
       font-size: 20px;
       font-weight: 600;
       color: $color-text;
-      //color: rgb(21, 218, 208);
       text-align: center;
       text-transform: uppercase;
       transform: translate(15px);
@@ -276,13 +221,6 @@
       padding: 10px;
       align-content: center;
       text-align: center;
-      @media all and (min-width: 600px) {
-      }
-      @media all and (min-width: 768px) {
-      }
-      @media all and (min-width: 1366px) {
-        //font-size: 70px;
-      }
       @media all and (min-width: 1920px) {
         font-size: 50px;
       }
@@ -355,14 +293,8 @@
     }
     .deg315 {
       transform: rotate(315deg) translate(-125px) rotate(-315deg);
-      @media all and (min-width: 600px) {
-      }
-      @media all and (min-width: 768px) {
-      }
       @media all and (min-width: 1366px) {
         transform: rotate(315deg) translate(-106px) rotate(-315deg);
-      }
-      @media all and (min-width: 1920px) {
       }
     }
     &.about__soft p {
@@ -386,14 +318,14 @@
     bottom: 120px;
     right: -8px;
     font-size: 30px;
-    color: rgb(21, 218, 208);
+    color: $color-links;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     margin-right: 20px;
     &:hover {
       transform: scale(1.07);
-      color: rgb(226, 175, 128);
+      color: $color-links-hover;
     }
     @media all and (min-width: 768px) {
       font-size: 40px;
@@ -417,11 +349,9 @@
   @media all and (min-width: 1366px) {
     display: flex;
     flex-direction: row;
-    //justify-content: center;
   }
   @media all and (min-width: 1920px) {
     display: flex;
     flex-direction: row;
-    //justify-content: center;
   }
 }

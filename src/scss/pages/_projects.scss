@@ -2,8 +2,8 @@ html {
   scroll-behavior: smooth;
 }
 .page-projects {
-  background-color: #fff;
-  background-image: linear-gradient(#f6f6f6 0.1em, transparent 0.1em);
+  background-color: $color-background-white;
+  background-image: linear-gradient(rgb(246, 246, 246) 2px, transparent 2px);
   background-size: 100% 25px;
 }
 .projects {
@@ -41,8 +41,7 @@ html {
     &--h1 {
       font-family: $font-title;
       font-size: 40px;
-      color: rgb(21, 218, 208);
-      color: rgb(226, 175, 128);
+      color: $color-title-projects;
       text-transform: lowercase;
       padding: 0 5px 19px 0;
       @media all and (min-width: 1366px) {
@@ -56,7 +55,7 @@ html {
       font-family: $font-title;
       font-size: 40px;
       font-weight: 800;
-      color: rgb(226, 175, 128);
+      color: $color-title-projects;
       -webkit-transform: rotate(90deg);
       -moz-transform: rotate(90deg);
       padding: 0 7px 7px 0;
@@ -79,6 +78,7 @@ html {
       padding: 0 0 17px 30px;
       font-size: 22px;
       line-height: 40px;
+      text-align: justify;
     }
     @media all and (min-width: 768px) {
       padding: 0 0 17px 30px;
@@ -86,23 +86,25 @@ html {
       line-height: 40px;
     }
     @media all and (min-width: 1366px) {
+      padding: 0 400px 17px 30px;
       font-size: 18px;
       line-height: 40px;
       text-align: justify;
-      padding: 0 400px 17px 30px;
     }
   }
   &__image {
     width: 200px;
     padding: 0 25px 0 15px;
     filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+    &:hover {
+      transform: scale(1.03);
+    }
     @media all and (min-width: 600px) {
       width: 320px;
       padding: 30px 25px 10px 30px;
     }
     @media all and (min-width: 768px) {
       width: 350px;
-      padding: 30px 25px 10px 30px;
     }
     @media all and (min-width: 1366px) {
       width: 300px;
@@ -114,7 +116,7 @@ html {
   &__title-works {
     font-family: $font-title;
     font-size: 20px;
-    color: rgb(21, 218, 208);
+    color: $color-links;
     padding: 0 25px 0 15px;
     @media all and (min-width: 600px) {
       font-size: 35px;
@@ -132,7 +134,7 @@ html {
     font-family: $font-text;
     font-size: 15px;
     font-weight: 700;
-    color: rgb(226, 175, 128);
+    color: $color-title-projects;
     padding: 0 40px 0 15px;
     margin-top: 5px;
     @media all and (min-width: 600px) {
@@ -160,10 +162,11 @@ html {
     font-family: $font-button;
     font-size: 15px;
     text-transform: uppercase;
-    color: white;
+    color: $color-font-white;
     margin: 0 2px 45px 15px;
     &:hover {
       transform: scale(1.07);
+      color: $color-links;
     }
     @media all and (min-width: 600px) {
       border-radius: 7px;
@@ -190,10 +193,11 @@ html {
     font-family: $font-button;
     font-size: 15px;
     text-transform: uppercase;
-    color: white;
+    color: $color-font-white;
     margin: 0 5px 55px 5px;
     &:hover {
       transform: scale(1.07);
+      color: $color-links;
     }
     @media all and (min-width: 600px) {
       border-radius: 7px;
@@ -215,14 +219,14 @@ html {
     bottom: 120px;
     right: -8px;
     font-size: 30px;
-    color: rgb(21, 218, 208);
+    color: $color-links;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     margin-right: 20px;
     &:hover {
       transform: scale(1.07);
-      color: rgb(226, 175, 128);
+      color: $color-links-hover;
     }
     @media all and (min-width: 768px) {
       font-size: 40px;

@@ -1,7 +1,7 @@
 .page-home .footer {
   background-color: transparent;
   text-align: center;
-  color: white;
+  color: $color-footer-white;
   padding: 12px;
   position: absolute;
   bottom: 0;
@@ -16,7 +16,7 @@
     @include flexRow();
     .icons {
       font-size: 30px;
-      color: white;
+      color: $color-footer-white;
       padding: 0 10px 10px 10px;
       &:hover {
         transform: scale(1.07);
@@ -31,13 +31,14 @@
       }
       @media all and (min-width: 1920px) {
         font-size: 33px;
+        padding: 0 12px 10px 12px;
       }
     }
   }
   &__copy {
     font-family: $font-footer;
     font-size: 13px;
-    color: white;
+    color: $color-footer-white;
     @media all and (min-width: 768px) {
       font-size: 20px;
     }
@@ -51,18 +52,18 @@
   }
 }
 .page-about .footer {
-  background-color: rgb(21, 218, 208);
+  background-color: $color-footer-blue;
   text-align: center;
-  padding: 12px;
+  padding: 12px 0 12px 0;
   @media all and (min-width: 600px) {
     padding: 22px;
   }
   &__wrapper {
     @include flexRow();
-    color: white;
+    color: $color-footer-white;
     .icons {
       font-size: 30px;
-      color: white;
+      color: $color-footer-white;
       padding: 0 10px 10px 10px;
       &:hover {
         transform: scale(1.07);
@@ -73,13 +74,14 @@
       }
       @media all and (min-width: 1366px) {
         font-size: 33px;
+        padding: 0 12px 10px 12px;
       }
     }
   }
   &__copy {
     font-family: $font-footer;
     font-size: 13px;
-    color: white;
+    color: $color-footer-white;
     @media all and (min-width: 768px) {
       font-size: 20px;
     }
@@ -89,18 +91,18 @@
   }
 }
 .page-projects .footer {
-  background-color: rgb(21, 218, 208);
+  background-color: $color-footer-blue;
   text-align: center;
-  padding: 12px;
+  padding: 12px 0 12px 0;
   @media all and (min-width: 600px) {
     padding: 22px;
   }
   &__wrapper {
     @include flexRow();
-    color: white;
+    color: $color-footer-white;
     .icons {
       font-size: 30px;
-      color: white;
+      color: $color-footer-white;
       padding: 0 10px 10px 10px;
       &:hover {
         transform: scale(1.07);
@@ -111,13 +113,14 @@
       }
       @media all and (min-width: 1366px) {
         font-size: 33px;
+        padding: 0 12px 10px 12px;
       }
     }
   }
   &__copy {
     font-family: $font-footer;
     font-size: 13px;
-    color: white;
+    color: $color-footer-white;
     @media all and (min-width: 768px) {
       font-size: 20px;
     }
@@ -127,9 +130,9 @@
   }
 }
 .page-contact .footer {
-  background-color: rgb(255, 255, 255);
+  background-color: $color-footer-white;
   text-align: center;
-  padding: 12px;
+  padding: 12px 0 12px 0;
   @media all and (min-width: 600px) {
     padding: 22px;
   }
@@ -140,10 +143,10 @@
   }
   &__wrapper {
     @include flexRow();
-    color: white;
+    color: $color-footer-white;
     .icons {
       font-size: 30px;
-      color: rgb(21, 218, 208);
+      color: $color-footer-blue;
       padding: 0 10px 10px 10px;
       &:hover {
         transform: scale(1.07);
@@ -154,6 +157,7 @@
       }
       @media all and (min-width: 1366px) {
         font-size: 33px;
+        padding: 0 12px 10px 12px;
       }
     }
   }

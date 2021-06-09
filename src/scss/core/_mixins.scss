@@ -12,3 +12,10 @@
   justify-content: center;
 }
 //@include flexRow();
+
+@mixin flexRowFlexEnd {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+//@include flexRowFlexEnd();
