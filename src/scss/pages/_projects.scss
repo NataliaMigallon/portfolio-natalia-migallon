@@ -18,7 +18,7 @@ html {
     border-width: 5px;
   }
   @media all and (min-width: 768px) {
-    margin: 170px 80px 80px 80px;
+    margin: 110px 80px 80px 80px;
     border-width: 5px;
   }
   @media all and (min-width: 1366px) {
@@ -46,6 +46,9 @@ html {
       text-transform: lowercase;
       padding: 0 5px 19px 0;
       @media all and (min-width: 1366px) {
+        font-size: 45px;
+      }
+      @media all and (min-width: 1920px) {
         font-size: 50px;
       }
     }
@@ -58,6 +61,9 @@ html {
       -moz-transform: rotate(90deg);
       padding: 0 7px 7px 0;
       @media all and (min-width: 1366px) {
+        font-size: 45px;
+      }
+      @media all and (min-width: 1920px) {
         font-size: 50px;
       }
     }
@@ -99,7 +105,10 @@ html {
       padding: 30px 25px 10px 30px;
     }
     @media all and (min-width: 1366px) {
-      //width: 350px;
+      width: 300px;
+    }
+    @media all and (min-width: 1920px) {
+      width: 350px;
     }
   }
   &__title-works {
@@ -113,6 +122,9 @@ html {
       padding: 0 0 0 30px;
     }
     @media all and (min-width: 1366px) {
+      font-size: 30px;
+    }
+    @media all and (min-width: 1920px) {
       font-size: 35px;
     }
   }
@@ -129,7 +141,12 @@ html {
       padding: 0 0 0 30px;
     }
     @media all and (min-width: 1366px) {
+      font-size: 20px;
       padding: 0 250px 0 30px;
+    }
+    @media all and (min-width: 1920px) {
+      font-size: 23px;
+      line-height: 55px;
     }
   }
   &__btn-web {

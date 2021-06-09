@@ -42,7 +42,7 @@
     font-family: $font-title;
     font-size: 25px;
     font-weight: 500;
-    color: rgb(153, 151, 149);
+    color: $color-text;
     padding-bottom: 50px;
     @media all and (min-width: 600px) {
       font-size: 30px;

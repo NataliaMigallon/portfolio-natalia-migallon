@@ -40,6 +40,9 @@
       text-transform: lowercase;
       padding: 0 5px 19px 0;
       @media all and (min-width: 1366px) {
+        font-size: 45px;
+      }
+      @media all and (min-width: 1920px) {
         font-size: 50px;
       }
     }
@@ -52,6 +55,9 @@
       -moz-transform: rotate(90deg);
       padding: 0 7px 7px 0;
       @media all and (min-width: 1366px) {
+        font-size: 45px;
+      }
+      @media all and (min-width: 1920px) {
         font-size: 50px;
       }
     }
