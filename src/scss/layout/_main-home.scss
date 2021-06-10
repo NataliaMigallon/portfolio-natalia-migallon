@@ -312,11 +312,11 @@
     }
   }
 }
-.js-collapsed {
-  > :not(.js-toggle) {
-    display: none !important;
-  }
-}
+// .js-collapsed {
+//   > :not(.js-toggle) {
+//     display: none !important;
+//   }
+// }
 .nose {
   font-family: $font-title;
   display: inline-block;

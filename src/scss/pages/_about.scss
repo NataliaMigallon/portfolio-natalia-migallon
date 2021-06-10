@@ -106,6 +106,10 @@
     &--adaLink {
       color: $color-links;
       font-weight: 600;
+      &:hover {
+        color: $color-links-hover;
+        text-decoration: underline;
+      }
     }
     &--cv {
       color: $color-links;
@@ -117,6 +121,29 @@
     &--cv-icon {
       color: $color-links;
       font-size: 27px;
+      &:hover {
+        transform: scale(1.07);
+        color: $color-links-hover;
+      }
+    }
+    &--form {
+      color: $color-links;
+      font-weight: 600;
+      &:hover {
+        color: $color-links-hover;
+      }
+    }
+    &--email {
+      color: $color-links;
+      font-weight: 600;
+      &:hover {
+        color: $color-links-hover;
+      }
+    }
+    &--email-icon {
+      color: $color-links;
+      font-size: 22px;
+      font-weight: 600;
       &:hover {
         transform: scale(1.07);
         color: $color-links-hover;
