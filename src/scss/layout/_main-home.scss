@@ -110,36 +110,36 @@
       -webkit-transform: rotate(90deg);
       -moz-transform: rotate(90deg);
       cursor: pointer;
-      animation-name: textSize;
-      animation-duration: 2s;
-      animation-iteration-count: 2s;
-      animation-timing-function: linear;
-      @keyframes textSize {
-        0% {
-          color: $color-font-white;
-          opacity: 0;
-        }
-        15% {
-          color: $color-font-white;
-          opacity: 0.15;
-        }
-        25% {
-          color: $color-font-white;
-          opacity: 0.3;
-        }
-        50% {
-          color: $color-font-white;
-          opacity: 0.5;
-        }
-        75% {
-          color: $color-font-white;
-          opacity: 0.85;
-        }
-        100% {
-          color: $color-font-white;
-          opacity: 1;
-        }
-      }
+      // animation-name: textSize;
+      // animation-duration: 2s;
+      // animation-iteration-count: 2s;
+      // animation-timing-function: linear;
+      // @keyframes textSize {
+      //   0% {
+      //     color: $color-font-white;
+      //     opacity: 0;
+      //   }
+      //   15% {
+      //     color: $color-font-white;
+      //     opacity: 0.15;
+      //   }
+      //   25% {
+      //     color: $color-font-white;
+      //     opacity: 0.3;
+      //   }
+      //   50% {
+      //     color: $color-font-white;
+      //     opacity: 0.5;
+      //   }
+      //   75% {
+      //     color: $color-font-white;
+      //     opacity: 0.85;
+      //   }
+      //   100% {
+      //     color: $color-font-white;
+      //     opacity: 1;
+      //   }
+      // }
       @media all and (min-width: 600px) {
         top: -76px;
         font-size: 113px;
@@ -168,36 +168,36 @@
       width: 95px;
       top: 20px;
       left: -28px;
-      animation-name: showText;
-      animation-duration: 2s;
-      animation-iteration-count: 2s;
-      animation-timing-function: linear;
-      @keyframes showText {
-        0% {
-          color: $color-font-white;
-          opacity: 0;
-        }
-        15% {
-          color: $color-font-white;
-          opacity: 0.15;
-        }
-        25% {
-          color: $color-font-white;
-          opacity: 0.3;
-        }
-        50% {
-          color: $color-font-white;
-          opacity: 0.5;
-        }
-        75% {
-          color: $color-font-white;
-          opacity: 0.85;
-        }
-        100% {
-          color: $color-font-white;
-          opacity: 1;
-        }
-      }
+      // animation-name: showText;
+      // animation-duration: 2s;
+      // animation-iteration-count: 2s;
+      // animation-timing-function: linear;
+      // @keyframes showText {
+      //   0% {
+      //     color: $color-font-white;
+      //     opacity: 0;
+      //   }
+      //   15% {
+      //     color: $color-font-white;
+      //     opacity: 0.15;
+      //   }
+      //   25% {
+      //     color: $color-font-white;
+      //     opacity: 0.3;
+      //   }
+      //   50% {
+      //     color: $color-font-white;
+      //     opacity: 0.5;
+      //   }
+      //   75% {
+      //     color: $color-font-white;
+      //     opacity: 0.85;
+      //   }
+      //   100% {
+      //     color: $color-font-white;
+      //     opacity: 1;
+      //   }
+      // }
       @media all and (min-width: 600px) {
         top: 24px;
         left: -39px;
@@ -218,6 +218,7 @@
       &--link {
         font-family: $font-title;
         font-size: 15px;
+        font-weight: 500;
         color: $color-font-white;
         text-transform: uppercase;
         text-decoration: none;
@@ -236,87 +237,150 @@
         }
       }
     }
-    &.js-collapsed {
-      .eye__down {
-        animation-name: borderEyes;
-        animation-duration: 4s;
-        animation-iteration-count: infinite;
-        animation-timing-function: linear;
-        @keyframes borderEyes {
-          0% {
-            -webkit-text-stroke: 2px rgb(255, 255, 255);
-            -moz-text-stroke: 2px rgb(255, 255, 255);
-          }
-          15% {
-            -webkit-text-stroke: 2px rgb(174, 240, 236);
-            -moz-text-stroke: 2px rgb(174, 240, 236);
-          }
-          25% {
-            -webkit-text-stroke: 2px rgb(128, 226, 221);
-            -moz-text-stroke: 2px rgb(128, 226, 221);
-          }
-          50% {
-            -webkit-text-stroke: 2px rgb(21, 218, 208);
-            -moz-text-stroke: 2px rgb(21, 218, 208);
-          }
-          75% {
-            -webkit-text-stroke: 2px rgb(128, 226, 221);
-            -moz-text-stroke: 2px rgb(128, 226, 221);
-          }
-          88% {
-            -webkit-text-stroke: 2px rgb(174, 240, 236);
-            -moz-text-stroke: 2px rgb(174, 240, 236);
-          }
-          100% {
-            -webkit-text-stroke: 2px rgb(255, 255, 255);
-            -moz-text-stroke: 2px rgb(255, 255, 255);
-          }
-        }
-      }
-      .mouth {
-        animation-name: borderMouth;
-        animation-duration: 4s;
-        animation-iteration-count: infinite;
-        animation-timing-function: linear;
-        @keyframes borderMouth {
-          0% {
-            -webkit-text-stroke: 2px rgb(255, 255, 255);
-            -moz-text-stroke: 2px rgb(255, 255, 255);
-          }
-          15% {
-            -webkit-text-stroke: 2px rgb(174, 240, 236);
-            -moz-text-stroke: 2px rgb(174, 240, 236);
-          }
-          25% {
-            -webkit-text-stroke: 2px rgb(128, 226, 221);
-            -moz-text-stroke: 2px rgb(128, 226, 221);
-          }
-          50% {
-            -webkit-text-stroke: 2px rgb(21, 218, 208);
-            -moz-text-stroke: 2px rgb(21, 218, 208);
-          }
-          75% {
-            -webkit-text-stroke: 2px rgb(128, 226, 221);
-            -moz-text-stroke: 2px rgb(128, 226, 221);
-          }
-          88% {
-            -webkit-text-stroke: 2px rgb(174, 240, 236);
-            -moz-text-stroke: 2px rgb(174, 240, 236);
-          }
-          100% {
-            -webkit-text-stroke: 2px rgb(255, 255, 255);
-            -moz-text-stroke: 2px rgb(255, 255, 255);
-          }
-        }
-      }
-    }
+    //&.js-collapsed {
+    //   .eye__down {
+    //     animation-name: borderEyes;
+    //     animation-duration: 4s;
+    //     animation-iteration-count: infinite;
+    //     animation-timing-function: linear;
+    //     @keyframes borderEyes {
+    //       0% {
+    //         -webkit-text-stroke: 2px rgb(255, 255, 255);
+    //         -moz-text-stroke: 2px rgb(255, 255, 255);
+    //       }
+    //       15% {
+    //         -webkit-text-stroke: 2px rgb(174, 240, 236);
+    //         -moz-text-stroke: 2px rgb(174, 240, 236);
+    //       }
+    //       25% {
+    //         -webkit-text-stroke: 2px rgb(128, 226, 221);
+    //         -moz-text-stroke: 2px rgb(128, 226, 221);
+    //       }
+    //       50% {
+    //         -webkit-text-stroke: 2px rgb(21, 218, 208);
+    //         -moz-text-stroke: 2px rgb(21, 218, 208);
+    //       }
+    //       75% {
+    //         -webkit-text-stroke: 2px rgb(128, 226, 221);
+    //         -moz-text-stroke: 2px rgb(128, 226, 221);
+    //       }
+    //       88% {
+    //         -webkit-text-stroke: 2px rgb(174, 240, 236);
+    //         -moz-text-stroke: 2px rgb(174, 240, 236);
+    //       }
+    //       100% {
+    //         -webkit-text-stroke: 2px rgb(255, 255, 255);
+    //         -moz-text-stroke: 2px rgb(255, 255, 255);
+    //       }
+    //     }
+    //   }
+    //   // .mouth {
+    //   //   animation-name: borderMouth;
+    //   //   animation-duration: 4s;
+    //   //   animation-iteration-count: infinite;
+    //   //   animation-timing-function: linear;
+    //   //   @keyframes borderMouth {
+    //   //     0% {
+    //   //       -webkit-text-stroke: 2px rgb(255, 255, 255);
+    //   //       -moz-text-stroke: 2px rgb(255, 255, 255);
+    //   //     }
+    //   //     15% {
+    //   //       -webkit-text-stroke: 2px rgb(174, 240, 236);
+    //   //       -moz-text-stroke: 2px rgb(174, 240, 236);
+    //   //     }
+    //   //     25% {
+    //   //       -webkit-text-stroke: 2px rgb(128, 226, 221);
+    //   //       -moz-text-stroke: 2px rgb(128, 226, 221);
+    //   //     }
+    //   //     50% {
+    //   //       -webkit-text-stroke: 2px rgb(21, 218, 208);
+    //   //       -moz-text-stroke: 2px rgb(21, 218, 208);
+    //   //     }
+    //   //     75% {
+    //   //       -webkit-text-stroke: 2px rgb(128, 226, 221);
+    //   //       -moz-text-stroke: 2px rgb(128, 226, 221);
+    //   //     }
+    //   //     88% {
+    //   //       -webkit-text-stroke: 2px rgb(174, 240, 236);
+    //   //       -moz-text-stroke: 2px rgb(174, 240, 236);
+    //   //     }
+    //   //     100% {
+    //   //       -webkit-text-stroke: 2px rgb(255, 255, 255);
+    //   //       -moz-text-stroke: 2px rgb(255, 255, 255);
+    //   //     }
+    //   //   }
+    //   // }
+    // }
+    //}
   }
+  // .js-collapsed {
+  //   > :not(.js-toggle) {
+  //     display: none !important;
+  //   }
+  // }
+
+  // &.js-collapsed {
+  //   .mouth {
+  //     animation-name: borderEyes;
+  //     animation-duration: 4s;
+  //     animation-iteration-count: infinite;
+  //     animation-timing-function: linear;
+  //     @keyframes borderEyes {
+  //       0% {
+  //         -webkit-text-stroke: 2px rgb(255, 255, 255);
+  //         -moz-text-stroke: 2px rgb(255, 255, 255);
+  //       }
+  //       15% {
+  //         -webkit-text-stroke: 2px rgb(174, 240, 236);
+  //         -moz-text-stroke: 2px rgb(174, 240, 236);
+  //       }
+  //       25% {
+  //         -webkit-text-stroke: 2px rgb(128, 226, 221);
+  //         -moz-text-stroke: 2px rgb(128, 226, 221);
+  //       }
+  //       50% {
+  //         -webkit-text-stroke: 2px rgb(21, 218, 208);
+  //         -moz-text-stroke: 2px rgb(21, 218, 208);
+  //       }
+  //       75% {
+  //         -webkit-text-stroke: 2px rgb(128, 226, 221);
+  //         -moz-text-stroke: 2px rgb(128, 226, 221);
+  //       }
+  //       88% {
+  //         -webkit-text-stroke: 2px rgb(174, 240, 236);
+  //         -moz-text-stroke: 2px rgb(174, 240, 236);
+  //       }
+  //       100% {
+  //         -webkit-text-stroke: 2px rgb(255, 255, 255);
+  //         -moz-text-stroke: 2px rgb(255, 255, 255);
+  //       }
+  //     }
+  //     @keyframes borderEyes {
+  //       0% {
+  //         color: rgb(255, 255, 255);
+  //       }
+  //       15% {
+  //         color: rgb(174, 240, 236);
+  //       }
+  //       25% {
+  //         color: rgb(128, 226, 221);
+  //       }
+  //       50% {
+  //         color: rgb(21, 218, 208);
+  //       }
+  //       75% {
+  //         color: rgb(128, 226, 221);
+  //       }
+  //       88% {
+  //         color: rgb(174, 240, 236);
+  //       }
+  //       100% {
+  //         color: rgb(255, 255, 255);
+  //       }
+  //     }
+  //   }
+  // }
 }
-// .js-collapsed {
-//   > :not(.js-toggle) {
-//     display: none !important;
-//   }
-// }
 .nose {
   font-family: $font-title;
   display: inline-block;
@@ -342,20 +406,158 @@
     margin-right: 10px;
   }
 }
+.up__left {
+  animation-name: up-left;
+  animation-duration: 4s;
+  animation-iteration-count: 2s;
+  animation-timing-function: linear;
+  @keyframes up-left {
+    0% {
+      color: $color-font-white;
+      opacity: 0;
+    }
+    15% {
+      color: $color-font-white;
+      opacity: 0;
+    }
+    25% {
+      color: $color-font-white;
+      opacity: 0.4;
+    }
+    35% {
+      color: $color-font-white;
+      opacity: 0.6;
+    }
+    55% {
+      color: $color-font-white;
+      opacity: 0.7;
+    }
+    65% {
+      color: $color-font-white;
+      opacity: 0.8;
+    }
+    100% {
+      color: $color-font-white;
+      opacity: 1;
+    }
+  }
+}
+.text__left {
+  animation-name: text-left;
+  animation-duration: 5s;
+  animation-iteration-count: 2s;
+  animation-timing-function: linear;
+  @keyframes text-left {
+    0% {
+      color: $color-font-white;
+      opacity: 0;
+    }
+    15% {
+      color: $color-font-white;
+      opacity: 0;
+    }
+    25% {
+      color: $color-font-white;
+      opacity: 0.4;
+    }
+    35% {
+      color: $color-font-white;
+      opacity: 0.6;
+    }
+    55% {
+      color: $color-font-white;
+      opacity: 0.7;
+    }
+    65% {
+      color: $color-font-white;
+      opacity: 0.8;
+    }
+    100% {
+      color: $color-font-white;
+      opacity: 1;
+    }
+  }
+  &:hover {
+    color: $main-color-blue;
+  }
+}
+.up__right {
+  animation-name: up-right;
+  animation-duration: 8s;
+  animation-iteration-count: 2s;
+  animation-timing-function: linear;
+  @keyframes up-right {
+    0% {
+      color: $color-font-white;
+      opacity: 0;
+    }
+    15% {
+      color: $color-font-white;
+      opacity: 0;
+    }
+    25% {
+      color: $color-font-white;
+      opacity: 0.4;
+    }
+    35% {
+      color: $color-font-white;
+      opacity: 0.6;
+    }
+    55% {
+      color: $color-font-white;
+      opacity: 0.7;
+    }
+    65% {
+      color: $color-font-white;
+      opacity: 0.8;
+    }
+    100% {
+      color: $color-font-white;
+      opacity: 1;
+    }
+  }
+}
+.text__right {
+  animation-name: text-right;
+  animation-duration: 8s;
+  animation-iteration-count: 2s;
+  animation-timing-function: linear;
+  @keyframes text-right {
+    0% {
+      color: $color-font-white;
+      opacity: 0;
+    }
+    15% {
+      color: $color-font-white;
+      opacity: 0;
+    }
+    25% {
+      color: $color-font-white;
+      opacity: 0.4;
+    }
+    35% {
+      color: $color-font-white;
+      opacity: 0.6;
+    }
+    55% {
+      color: $color-font-white;
+      opacity: 0.7;
+    }
+    65% {
+      color: $color-font-white;
+      opacity: 0.8;
+    }
+    100% {
+      color: $color-font-white;
+      opacity: 1;
+    }
+  }
+}
 .mouth-section {
   position: relative;
   text-align: center;
   top: -17px;
   left: 0;
-  @media all and (min-width: 600px) {
-    //font-size: 125px;
-  }
-  @media all and (min-width: 768px) {
-    //margin-left: 7px;
-  }
-  @media all and (min-width: 1366px) {
-    //font-size: 106px;
-  }
   @media all and (min-width: 1920px) {
     top: -50px;
     left: -5px;
@@ -364,7 +566,6 @@
     font-family: $font-home;
     font-size: 110px;
     color: $color-font-white;
-    //top: 20px;
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     display: inline-block;
@@ -385,6 +586,7 @@
     &__text {
       font-family: $font-title;
       font-size: 15px;
+      font-weight: 500;
       color: $color-font-white;
       text-transform: uppercase;
       position: absolute;
@@ -395,7 +597,7 @@
       text-decoration: none;
       list-style-type: none;
       animation-name: showText;
-      animation-duration: 2s;
+      animation-duration: 10s;
       animation-iteration-count: 2s;
       animation-timing-function: linear;
       @keyframes showText {
@@ -405,24 +607,31 @@
         }
         15% {
           color: $color-font-white;
-          opacity: 0.15;
+          opacity: 0;
         }
         25% {
           color: $color-font-white;
-          opacity: 0.3;
+          opacity: 0.4;
         }
-        50% {
+        35% {
           color: $color-font-white;
-          opacity: 0.5;
+          opacity: 0.6;
         }
-        75% {
+        55% {
           color: $color-font-white;
-          opacity: 0.85;
+          opacity: 0.7;
+        }
+        65% {
+          color: $color-font-white;
+          opacity: 0.8;
         }
         100% {
           color: $color-font-white;
           opacity: 1;
         }
+      }
+      &:hover {
+        color: $main-color-blue;
       }
       @media all and (min-width: 600px) {
         left: -6px;
@@ -452,67 +661,6 @@
         }
         @media all and (min-width: 1920px) {
           font-size: 18px;
-        }
-      }
-    }
-  }
-  &.js-collapsed {
-    .mouth {
-      animation-name: borderEyes;
-      animation-duration: 4s;
-      animation-iteration-count: infinite;
-      animation-timing-function: linear;
-      // @keyframes borderEyes {
-      //   0% {
-      //     -webkit-text-stroke: 2px rgb(255, 255, 255);
-      //     -moz-text-stroke: 2px rgb(255, 255, 255);
-      //   }
-      //   15% {
-      //     -webkit-text-stroke: 2px rgb(174, 240, 236);
-      //     -moz-text-stroke: 2px rgb(174, 240, 236);
-      //   }
-      //   25% {
-      //     -webkit-text-stroke: 2px rgb(128, 226, 221);
-      //     -moz-text-stroke: 2px rgb(128, 226, 221);
-      //   }
-      //   50% {
-      //     -webkit-text-stroke: 2px rgb(21, 218, 208);
-      //     -moz-text-stroke: 2px rgb(21, 218, 208);
-      //   }
-      //   75% {
-      //     -webkit-text-stroke: 2px rgb(128, 226, 221);
-      //     -moz-text-stroke: 2px rgb(128, 226, 221);
-      //   }
-      //   88% {
-      //     -webkit-text-stroke: 2px rgb(174, 240, 236);
-      //     -moz-text-stroke: 2px rgb(174, 240, 236);
-      //   }
-      //   100% {
-      //     -webkit-text-stroke: 2px rgb(255, 255, 255);
-      //     -moz-text-stroke: 2px rgb(255, 255, 255);
-      //   }
-      // }
-      @keyframes borderEyes {
-        0% {
-          color: rgb(255, 255, 255);
-        }
-        15% {
-          color: rgb(174, 240, 236);
-        }
-        25% {
-          color: rgb(128, 226, 221);
-        }
-        50% {
-          color: rgb(21, 218, 208);
-        }
-        75% {
-          color: rgb(128, 226, 221);
-        }
-        88% {
-          color: rgb(174, 240, 236);
-        }
-        100% {
-          color: rgb(255, 255, 255);
         }
       }
     }
