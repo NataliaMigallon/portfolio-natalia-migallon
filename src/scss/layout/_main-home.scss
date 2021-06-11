@@ -223,6 +223,9 @@
         text-transform: uppercase;
         text-decoration: none;
         list-style-type: none;
+        &:hover {
+          color: $main-color-blue;
+        }
         @media all and (min-width: 600px) {
           font-size: 17px;
         }
@@ -476,9 +479,6 @@
       color: $color-font-white;
       opacity: 1;
     }
-  }
-  &:hover {
-    color: $main-color-blue;
   }
 }
 .up__right {
