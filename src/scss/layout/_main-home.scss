@@ -83,6 +83,7 @@
       margin: 0 10px 0 10px;
       -webkit-transform: rotate(90deg);
       -moz-transform: rotate(90deg);
+      transform: rotate(90deg);
       cursor: pointer;
       @media all and (min-width: 600px) {
         font-size: 113px;
@@ -109,6 +110,7 @@
       color: $color-font-white;
       -webkit-transform: rotate(90deg);
       -moz-transform: rotate(90deg);
+      transform: rotate(90deg);
       cursor: pointer;
       // animation-name: textSize;
       // animation-duration: 2s;
@@ -224,7 +226,7 @@
         text-decoration: none;
         list-style-type: none;
         &:hover {
-          color: $main-color-blue;
+          color: $color-text;
         }
         @media all and (min-width: 600px) {
           font-size: 17px;
@@ -393,6 +395,7 @@
   margin-top: -18px;
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
+  transform: rotate(90deg);
   @media all and (min-width: 600px) {
     font-size: 40px;
   }
@@ -425,11 +428,11 @@
     }
     25% {
       color: $color-font-white;
-      opacity: 0.4;
+      opacity: 0;
     }
     35% {
       color: $color-font-white;
-      opacity: 0.6;
+      opacity: 0;
     }
     55% {
       color: $color-font-white;
@@ -461,21 +464,18 @@
     }
     25% {
       color: $color-font-white;
-      opacity: 0.4;
+      opacity: 0;
     }
     35% {
       color: $color-font-white;
-      opacity: 0.6;
+      opacity: 0;
     }
     55% {
       color: $color-font-white;
       opacity: 0.7;
     }
-    65% {
-      color: $color-font-white;
-      opacity: 0.8;
-    }
-    100% {
+
+    70% {
       color: $color-font-white;
       opacity: 1;
     }
@@ -483,7 +483,7 @@
 }
 .up__right {
   animation-name: up-right;
-  animation-duration: 8s;
+  animation-duration: 7s;
   animation-iteration-count: 2s;
   animation-timing-function: linear;
   @keyframes up-right {
@@ -497,11 +497,11 @@
     }
     25% {
       color: $color-font-white;
-      opacity: 0.4;
+      opacity: 0;
     }
     35% {
       color: $color-font-white;
-      opacity: 0.6;
+      opacity: 0;
     }
     55% {
       color: $color-font-white;
@@ -533,21 +533,17 @@
     }
     25% {
       color: $color-font-white;
-      opacity: 0.4;
+      opacity: 0;
     }
     35% {
       color: $color-font-white;
-      opacity: 0.6;
+      opacity: 0;
     }
     55% {
       color: $color-font-white;
       opacity: 0.7;
     }
-    65% {
-      color: $color-font-white;
-      opacity: 0.8;
-    }
-    100% {
+    70% {
       color: $color-font-white;
       opacity: 1;
     }
@@ -568,6 +564,7 @@
     color: $color-font-white;
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
+    transform: rotate(90deg);
     display: inline-block;
     cursor: pointer;
     @media all and (min-width: 600px) {
@@ -597,7 +594,7 @@
       text-decoration: none;
       list-style-type: none;
       animation-name: showText;
-      animation-duration: 10s;
+      animation-duration: 8s;
       animation-iteration-count: 2s;
       animation-timing-function: linear;
       @keyframes showText {
@@ -611,27 +608,23 @@
         }
         25% {
           color: $color-font-white;
-          opacity: 0.4;
-        }
-        35% {
-          color: $color-font-white;
-          opacity: 0.6;
+          opacity: 0;
         }
         55% {
           color: $color-font-white;
-          opacity: 0.7;
+          opacity: 0;
         }
         65% {
           color: $color-font-white;
           opacity: 0.8;
         }
-        100% {
+        80% {
           color: $color-font-white;
           opacity: 1;
         }
       }
       &:hover {
-        color: $main-color-blue;
+        color: $color-text;
       }
       @media all and (min-width: 600px) {
         left: -6px;

@@ -58,6 +58,7 @@ html {
       color: $color-title-projects;
       -webkit-transform: rotate(90deg);
       -moz-transform: rotate(90deg);
+      transform: rotate(90deg);
       padding: 0 7px 7px 0;
       @media all and (min-width: 1366px) {
         font-size: 45px;

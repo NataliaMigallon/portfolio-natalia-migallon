@@ -74,6 +74,7 @@
       color: $color-title-about;
       -webkit-transform: rotate(90deg);
       -moz-transform: rotate(90deg);
+      transform: rotate(90deg);
       padding: 0 7px 7px 0;
       @media all and (min-width: 1366px) {
         font-size: 45px;
@@ -288,7 +289,7 @@
     font-family: $font-text;
     font-size: 15px;
     font-weight: 600;
-    color: rgb(226, 175, 128);
+    color: $color-text;
     line-height: 20px;
     @media all and (min-width: 600px) {
       margin: 0 0 0 150px;
@@ -305,21 +306,27 @@
     }
     .deg0 {
       transform: translate(109px);
+      @include markerSoftSkills();
     }
     .deg45 {
       transform: rotate(45deg) translate(-106px) rotate(-45deg);
+      @include markerSoftSkills();
     }
     .deg135 {
       transform: rotate(135deg) translate(-85px) rotate(-135deg);
+      @include markerSoftSkills();
     }
     .deg180 {
       transform: translate(-110px);
+      @include markerSoftSkills();
     }
     .deg225 {
       transform: rotate(225deg) translate(-109px) rotate(-225deg);
+      @include markerSoftSkills();
     }
     .deg315 {
       transform: rotate(315deg) translate(-125px) rotate(-315deg);
+      @include markerSoftSkills();
       @media all and (min-width: 1366px) {
         transform: rotate(315deg) translate(-106px) rotate(-315deg);
       }
