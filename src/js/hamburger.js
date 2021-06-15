@@ -7,7 +7,6 @@
   function toggleMenu() {
     this.classList.toggle("is-active");
     nav.classList.toggle("is_active");
-    // document.querySelector(".header__nav").classList.toggle("is_active");
   }
   if (menu) {
     menu.addEventListener("click", toggleMenu);
