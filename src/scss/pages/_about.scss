@@ -325,7 +325,7 @@
       @include markerSoftSkills();
     }
     .deg315 {
-      transform: rotate(315deg) translate(-125px) rotate(-315deg);
+      transform: rotate(315deg) translate(-100px) rotate(-315deg);
       @include markerSoftSkills();
       @media all and (min-width: 1366px) {
         transform: rotate(315deg) translate(-106px) rotate(-315deg);
@@ -341,7 +341,7 @@
       font-family: "Kiwi Maru", serif;
       font-size: 20px;
       font-weight: 600;
-      color: rgb(21, 218, 208);
+      color: $main-color-orange;
       text-align: center;
       text-transform: uppercase;
     }
