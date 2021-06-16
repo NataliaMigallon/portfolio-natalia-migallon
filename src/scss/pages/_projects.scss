@@ -21,6 +21,9 @@ html {
     margin: 110px 80px 80px 80px;
     border-width: 5px;
   }
+  @media all and (min-width: 1200px) {
+    margin: 120px 80px 60px 200px;
+  }
   @media all and (min-width: 1366px) {
     margin: 120px 80px 60px 310px;
   }
@@ -86,6 +89,12 @@ html {
       font-size: 25px;
       line-height: 40px;
     }
+    @media all and (min-width: 1200px) {
+      padding: 0 400px 17px 30px;
+      font-size: 18px;
+      line-height: 40px;
+      text-align: justify;
+    }
     @media all and (min-width: 1366px) {
       padding: 0 400px 17px 30px;
       font-size: 18px;
@@ -107,7 +116,7 @@ html {
     @media all and (min-width: 768px) {
       width: 350px;
     }
-    @media all and (min-width: 1366px) {
+    @media all and (min-width: 1200px) {
       width: 300px;
     }
     @media all and (min-width: 1920px) {
@@ -124,7 +133,7 @@ html {
       line-height: 55px;
       padding: 0 0 0 30px;
     }
-    @media all and (min-width: 1366px) {
+    @media all and (min-width: 1200px) {
       font-size: 30px;
     }
     @media all and (min-width: 1920px) {
@@ -143,8 +152,10 @@ html {
       line-height: 55px;
       padding: 0 0 0 30px;
     }
-    @media all and (min-width: 1366px) {
+    @media all and (min-width: 1200px) {
       font-size: 20px;
+    }
+    @media all and (min-width: 1366px) {
       padding: 0 250px 0 30px;
     }
     @media all and (min-width: 1920px) {
@@ -177,7 +188,7 @@ html {
       letter-spacing: 2px;
       margin: 0 12px 45px 30px;
     }
-    @media all and (min-width: 1366px) {
+    @media all and (min-width: 1200px) {
       width: 67px;
       height: 37px;
       font-size: 20px;
@@ -207,7 +218,7 @@ html {
       font-size: 23px;
       letter-spacing: 1px;
     }
-    @media all and (min-width: 1366px) {
+    @media all and (min-width: 1200px) {
       width: 110px;
       height: 37px;
       font-size: 20px;
@@ -233,6 +244,10 @@ html {
       font-size: 40px;
       margin-right: 35px;
       bottom: 165px;
+    }
+    @media all and (min-width: 1200px) {
+      margin-right: 120px;
+      bottom: 180px;
     }
     @media all and (min-width: 1366px) {
       margin-right: 260px;

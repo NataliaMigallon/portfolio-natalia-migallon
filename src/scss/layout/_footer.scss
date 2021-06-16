@@ -25,6 +25,10 @@
         font-size: 40px;
         padding: 0 17px 10px 17px;
       }
+      @media all and (min-width: 1200px) {
+        font-size: 27px;
+        padding: 0 12px 10px 12px;
+      }
       @media all and (min-width: 1366px) {
         font-size: 27px;
         padding: 0 12px 10px 12px;
@@ -41,6 +45,10 @@
     color: $color-footer-white;
     @media all and (min-width: 768px) {
       font-size: 20px;
+    }
+    @media all and (min-width: 1200px) {
+      font-size: 13px;
+      padding: 0 12px 5px 12px;
     }
     @media all and (min-width: 1366px) {
       font-size: 13px;
@@ -72,6 +80,10 @@
         font-size: 40px;
         padding: 0 17px 10px 17px;
       }
+      @media all and (min-width: 1200px) {
+        font-size: 27px;
+        padding: 0 12px 10px 12px;
+      }
       @media all and (min-width: 1366px) {
         font-size: 33px;
         padding: 0 12px 10px 12px;
@@ -84,6 +96,10 @@
     color: $color-footer-white;
     @media all and (min-width: 768px) {
       font-size: 20px;
+    }
+    @media all and (min-width: 1200px) {
+      font-size: 13px;
+      padding: 0 12px 5px 12px;
     }
     @media all and (min-width: 1366px) {
       font-size: 16px;
@@ -111,6 +127,10 @@
         font-size: 40px;
         padding: 0 17px 10px 17px;
       }
+      @media all and (min-width: 1200px) {
+        font-size: 27px;
+        padding: 0 12px 10px 12px;
+      }
       @media all and (min-width: 1366px) {
         font-size: 33px;
         padding: 0 12px 10px 12px;
@@ -123,6 +143,10 @@
     color: $color-footer-white;
     @media all and (min-width: 768px) {
       font-size: 20px;
+    }
+    @media all and (min-width: 1200px) {
+      font-size: 13px;
+      padding: 0 12px 5px 12px;
     }
     @media all and (min-width: 1366px) {
       font-size: 16px;
@@ -155,6 +179,10 @@
         font-size: 40px;
         padding: 0 17px 10px 17px;
       }
+      @media all and (min-width: 1200px) {
+        font-size: 27px;
+        padding: 0 12px 10px 12px;
+      }
       @media all and (min-width: 1366px) {
         font-size: 33px;
         padding: 0 12px 10px 12px;
@@ -167,6 +195,10 @@
     color: rgb(226, 175, 128);
     @media all and (min-width: 768px) {
       font-size: 20px;
+    }
+    @media all and (min-width: 1200px) {
+      font-size: 13px;
+      padding: 0 12px 5px 12px;
     }
     @media all and (min-width: 1366px) {
       font-size: 16px;
